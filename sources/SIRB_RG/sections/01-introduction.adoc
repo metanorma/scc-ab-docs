@@ -1,0 +1,54 @@
+
+== Introduction
+
+This document specifies the requirements and guidance for the accreditation
+of Standards Development Organizations (SDOs). For the purposes of
+expediency, the acronym R&G -- SDO Accreditation will be used.
+
+The SDO accreditation requirements are in line with accepted international
+standards best practices derived from the World Trade Organization,
+Technical Barriers to Trade (WTO/TBT), Annex 3 provisions, ISO/IEC
+Guide 59 _Code of good practice for standardization_, and the following
+Canadian principles: consensus; equal access and effective participation
+by concerned interests; respect for diverse interests and identification
+of those who should be afforded access to provide the needed balance
+of interests; mechanism for duplication resolution; openness and transparency;
+open access by interested parties to the procedures guiding the standards
+development process; clarity with respect to the processes; safeguarding
+Canadian interest as the basis for the development of standards by
+SDOs; and avoiding duplication of standards or overlap with the work
+of other SDOs or with the work of relevant international or regional
+SDOs.
+
+SCC accreditation of an SDO grants the responsibility for the development,
+publication, and maintenance of National Standards of Canada and adoptions
+in compliance with SCC's Requirements & Guidance for SDOs (R&Gs for
+SDOs which are described in two documents: the R&G -- SDO Accreditation,
+and the _Requirements & Guidance - National Adoptions of International/Regional
+Standards and Other Deliverables_). Note that Consensus SDO Standards
+published by SDOs which are compliant to SCC requirements are expected
+to be transitioned under the NSC branding utilizing their established
+maintenance cycles.
+
+A new clause 8 is included outlining the requirements and guidance
+to maintain SCC accreditation. This section includes direction to
+ensure SDOs transition to SCC's requirements as they are updated and
+that they align their procedures to remain compliant. It highlights
+the assessment process used by SCC to verify compliance. As well,
+that the accredited SDO process delivers published NSCs.
+
+A new clause 9 is included outlining the requirements and guidance
+to obtain self-declaration status. This section includes specific
+criteria for SDOs to meet to successfully achieve and maintain this
+status. SCC's evaluation of compliance to these criteria may involve
+specific assessments of affected SDO processes, which may be in addition
+to the normal accreditation assessments. Non-compliance of the self-declaration
+criteria may lead to withdrawal of the self- declaration status. Note
+that self-declaration status is voluntary and an SCC-accredited SDO
+may remain in good accreditation standing without having achieved
+self-declaration status or if this status is withdrawn.
+
+This document was prepared for, and approved by, the Governing Council
+of the Standards Council of Canada (SCC) on 2019-06-13. It replaces
+the 2017 edition of the _Requirements & Guidance -- Accreditation
+of Standards Development Organizations_.
