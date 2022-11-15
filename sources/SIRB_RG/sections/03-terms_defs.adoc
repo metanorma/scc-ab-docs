@@ -1,0 +1,280 @@
+
+== Terms and definitions
+
+=== Accreditation
+
+The formal recognition of the competence of an organization to carry
+out specific functions in accordance with established criteria. When
+such accreditation has been accorded by SCC, the SDO is a component
+of Canada's standardization network.
+
+=== Action Plan
+
+Next steps and timelines to be followed as a result of SCC's Duplication
+Resolution Mechanism (DRM) decision.
+
+=== Balanced representation
+
+A representation of interest groups in a technical committee such
+that no single category of interest can dominate the voting procedures.
+Commonly used interest categories may include, but are not limited
+to, general interest, producers, regulators and users.
+
+=== Canada's standardization network
+
+The people and organizations involved in the development, promotion
+and implementation of standards.
+
+=== Centralized Notification System (CNS)
+
+Public notice portal on SCC's corporate website of SDO Notices of
+Intent (NOI) to develop or adopt a new standard or other deliverable;
+new edition; amendment; revision; reaffirmation or withdrawal of an
+already published standard; Work Program; and a listing of published
+standards under SCC's accreditation.
+
+=== Complaint
+
+Expression of dissatisfaction, other than an appeal, by any person
+or organization, against SCC, SCC's Service Delivery Partner or an
+accredited or applicant organization, when a response is expected.
+
+=== Conflict of interest
+
+Is a situation in which a person or organization is involved in multiple
+interests (financial or otherwise), one of which could possibly corrupt
+the motivation of the individual or organization.
+
+=== Conformity assessment
+
+Demonstration that specified requirements of a particular standard
+relating to a product, service, process, system, person or body are
+fulfilled.
+
+=== Consensus
+
+General agreement characterized by the absence of sustained opposition
+to substantial issues by a concerned interest, and by a process that
+takes into account the views of all parties concerned, and reconciles
+any conflicting arguments.
+
+=== Duplication Resolution Mechanism (DRM)
+
+SCC's process to manage duplications of standards and effort that
+have been raised. This involves an SCC-facilitated discussion between
+affected SDOs to reach a timely outcome that is responsive to Canadian
+stakeholder needs.
+
+=== General interest
+
+An interest category of those on a technical committee with a demonstrated
+interest and relevant expertise not associated with the production,
+distribution, direct use, or regulation of the product(s), material(s)
+or service(s).
+
+=== Harmonization
+
+The integration of work related to standards development involving
+the preparation of standards, regional standards, and International
+Standards with the objective of achieving the greatest practicable
+degree of commonality in accordance with policies and procedures of
+SCC and the applicable SDO.
+
+=== International Electrotechnical Commission (IEC)
+
+A non-governmental organization whose membership is composed of National
+Committees and which is responsible for preparing and publishing International
+Standards for the electrical, electronic and related technologies.
+
+=== International Organization for Standardization (ISO)
+
+A non-governmental organization whose membership is composed of national
+standards bodies and which is responsible for preparing and publishing
+International Standards in fields other than electrical, electronic
+and telecommunication.
+
+=== international standard
+
+An international standard published by any international standardizing/standards
+organization and made available to the public.
+
+=== International Standard
+
+An International Standard published by ISO or IEC.
+
+=== International standardizing/standards development organization
+
+An organization that develops consensus standards through a process
+that adheres to a set of globally accepted principles for standards
+development including Transparency, Openness, Impartiality, Effectiveness
+and Relevance, Consensus, Performance Based, Coherence, Due Process
+and Technical Assistance.
+
+=== ISONET
+
+The ISO Information Network is an agreement between standardizing
+bodies to combine their efforts in order to make information on standards,
+technical regulations and related matters readily available whenever
+it is required.
+
+=== Maintenance
+
+The action by the technical committee of reviewing a National Standard
+of Canada and adoptions; International Standard, regional standard,
+or other international/regional deliverable which results in its revision/amendment, reaffirmation, publication as a new edition, or withdrawal.
+
+=== National Standard of Canada (NSC)
+
+A standard developed by an SDO compliant to SCC's Requirements & Guidance
+for a) accreditation of SDOs and for b) adoptions.
+
+=== New edition
+
+A standard that has been revised and is issued with the same designation
+number as its predecessor, but with a new publication date, and incorporates
+previous revisions and other changes.
+
+=== Performance requirements
+
+Requirements that concern the behaviour of a product, process or service
+in or related to use.
+
+=== Producer
+
+An interest category of those on a technical committee who are predominantly
+involved in production (i.e., manufacture), promotion, retailing,
+or distribution of the subject product(s), material(s) or service(s).
+
+=== Public review
+
+An opportunity for the public to comment on a draft standard before
+final approval by the technical committee.
+
+=== Reaffirmation
+
+The declaration by the SDO that the technical committee confirms that
+the standard continues to be valid without necessitating any technical
+change and that it is still in conformance with applicable requirements.
+
+=== Regional standard
+
+A standard that is developed or adopted by a regional SDO and made
+available to the public.
+
+=== Regional standards development organization
+
+An organization whose membership is open to the relevant national
+standards body from each country within one geographical, political
+or economic area.
+
+=== Regulation
+
+A document specifying mandatory rules created by an authority having
+jurisdiction (AHJ).
+
+=== Regulator
+
+An interest category of those on a technical committee representing
+any federal, provincial, municipal, other government body, or body/authority
+designated by a government responsible for regulating the acceptability,
+sale or use of the subject product(s), material(s) or service(s),
+and those bodies that enforce these rules and regulations.
+
+=== Safety marking
+
+Text or graphical symbol instruction on a product designed to prevent
+unacceptable risk.
+
+=== SCC Mirror Committee (SMC)
+
+A national technical committee established by SCC which mirrors an
+international committee that facilitates Canadian participation within
+international standardization activities.
+
+=== Second level review
+
+Verification conducted by the SDO at the end of the technical approval
+stage to ensure compliance with SCC's Requirements & Guidance for
+SDOs.
+
+=== Self-declaration status
+
+The status granted to an SCC-accredited SDO, allowing them the ability
+to declare compliance with SCC's Requirements & Guidance for SDOs
+for the publication of their NSCs.
+
+=== Stakeholder
+
+A party that has an interest in a standard, and can either affect
+or be affected by the standard. Commonly identified Canadian stakeholders
+may include, but are not limited to: key company/market leaders, industry
+associations, regulatory bodies, governments, associations, NGOs,
+academics, and/or consumers expressing the need for the standard.
+
+=== Standard
+
+A document, established by consensus and approved by a recognized
+body that provides for common and repeated use, rules, guidelines
+or characteristics for activities or their results, aimed at achievement
+of the optimum degree of order in a given context. For the purpose
+of this document this includes, National Standards of Canada, adoptions
+and Consensus SDO Standards.
+
+=== Standardization
+
+The processes of formulating, issuing, and implementing standards
+to establish provisions for common and repeated use, aimed at the
+achievement of the optimum degree of order in a given context to address
+actual or potential needs.
+
+=== Standards development
+
+Process based on the requirements of the Canadian standards development
+system which includes the policies and procedures of an SCC-accredited
+SDO for the preparation, self- declaration of compliance with SCC's
+Requirements & Guidance for SDOs, publication and maintenance of standards.
+
+=== Standards Development Organization (SDO)
+
+An organization, or part thereof, accredited by SCC, that accepts
+responsibility for the development, self-declaration of compliance
+with SCC's Requirements & Guidance for SDOs, publication and maintenance
+of standards.
+
+=== Technical committee
+
+A committee responsible for developing, approving and maintaining
+the technical content of a draft or published standard in accordance
+with the policies and procedures of the SDO.
+
+=== Technical regulation
+
+A regulation that provides technical requirements, either directly
+or by referring to or incorporating the content of a standard, technical
+specification or code of practice. The technical regulation may be
+supplemented by technical guidance that outlines some means of compliance
+with the requirements of the regulation (i.e., deemed-to-satisfy provision).
+
+=== User
+
+An interest category of those on a technical committee who predominantly
+represent end users of the subject product(s), material(s), or service(s)
+and who are not involved in any way in production and/or distribution
+of the subject product(s), material(s) or service(s). Consumers are
+one type of end user, and may be defined as, individual members of
+the general public, or consumer organizations, purchasing or using
+property, products or services for private purposes.
+
+=== Withdrawn standard
+
+A standard discontinued by an SDO and its responsible technical committee
+as it is no longer valid, and/or no longer represents the most current,
+reliable, and/or available information.
+
+=== Work Program
+
+A document that meets the requirements of the WTO/TBT _Code of Good
+Practice for the Preparation, Adoption and Application of Standards_.
+The Work Program is published by the SDO. Requirements for the content
+and notice of the existence of the Work Program are included in the
+WTO/TBT Annex 3.
