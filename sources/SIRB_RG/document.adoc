@@ -1,0 +1,24 @@
+= Accreditation of Standards Development Organizations
+:docnumber:
+:edition: 4
+:copyright-year: 2019
+:date: 2019-06-13
+:uri:
+:title-intro-en: Requirements & Guidance
+:title-main-en: Accreditation of Standards Development Organizations
+:title-intro-fr: Exigences et lignes directrices
+:title-main-fr: Accréditation des organismes d'élaboration de normes
+:doctype: international-standard
+:secretariat: CANADIAN STANDARDS DEVELOPMENT
+:mn-document-class: scc
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:imagesdir: images
+
+include::sections/01-introduction.adoc[]
+
+include::sections/02-norm_refs.adoc[]
+
+include::sections/03-terms_defs.adoc[]
+
+include::sections/04-reqs_and_guidance.adoc[]
