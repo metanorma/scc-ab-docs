@@ -1,0 +1,14 @@
+= SCCAB document samples in Metanorma
+
+This repository contains samples of SCC AB standards encoded in Metanorma.
+
+* `reference-docs` folder contains the original samples,
+* `source` folder contains the Metanorma documents encoded in AsciiDoc.
+
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://github.com/metanorma/scc-ab-docs.git
+----
