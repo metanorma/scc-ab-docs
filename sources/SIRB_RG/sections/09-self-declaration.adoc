@@ -1,0 +1,107 @@
+
+== Self-Declaration
+
+[[sec_9.1]]
+=== Eligibility for Self-Declaration Status
+
+Before an SCC-accredited SDO can be considered for self-declaration
+status, the organization shall:
+
+. Complete an application for self- declaration and submit it to SCC
+with associated fee;
+. Have participated in accreditation assessments for a minimum of
+one accreditation cycle (3 years) before applying; and
+. The SDO has been assessed within the last 12 months.
+
+NOTE: Self-declaration status is voluntary and dependent on an SDO achieving
+the criteria outlined in <<sec_9.2>>.
+
+[[sec_9.2]]
+=== Criteria for Approval of SDO Self- Declaration Status
+
+The following shall be satisfied by the SDO:
+
+NOTE: No guidance
+
+[[sec_9.2.1]]
+==== {blank}
+
+SCC has approved at least five distinct standards as NSCs.
+
+NOTE: No guidance
+
+[[sec_9.2.2]]
+==== {blank}
+
+The NSCs shall be representative of the SDOs scope of work.
+
+NOTE: The five distinct standards should be representative of the technical
+work areas where the SDO normally conducts its standards development.
+
+[[sec_9.2.3]]
+==== {blank}
+
+No standard submitted by the SDO during the three year period was
+denied the NSC designation by SCC, due to a failure to comply with
+the Requirements & Guidance for SDOs.
+
+NOTE: No guidance
+
+[[sec_9.2.4]]
+==== {blank}
+
+The SDO is not in arrears with respect to any fees invoiced.
+
+NOTE: No guidance
+
+[[sec_9.2.5]]
+==== {blank}
+
+The SDO does not have any open non- conformities from the last assessment
+activity.
+
+NOTE: No guidance
+
+[[sec_9.2.6]]
+==== {blank}
+
+The SDO does not have any open complaint (whether expressed as a
+complaint or appeal) against any NSC.
+
+NOTE: No guidance
+
+[[sec_9.3]]
+=== Maintenance of Self-Declaration Status
+
+NOTE: No guidance
+
+[[sec_9.3.1]]
+==== Self- Declaration Agreement
+
+Upon decision to grant self-declaration status, the SDO shall enter
+into a written agreement with SCC, which shall include commitments
+by the SDO to meet the requirements listed in the sub-clause below:
+
+. The agreement shall be for a term aligned with the accreditation
+cycle; and
+. Any additional terms included in the agreement may be modified as
+circumstances require with prior approval of SCC and the SDO (as long
+as such additional term(s) do not conflict with any of SCC's existing
+policies and procedures).
+
+NOTE: No guidance
+
+[[sec_9.4]]
+=== Suspension of Self-Declaration Status
+
+NOTE: No guidance
+
+[[sec_9.4.1]]
+==== {blank}
+
+The SDO shall immediately cease to apply the NSC designation to
+any standard without obtaining SCC approval after the SDO has been
+notified by SCC that its self- declaration status has been suspended
+and/or withdrawn.
+
+NOTE: No guidance

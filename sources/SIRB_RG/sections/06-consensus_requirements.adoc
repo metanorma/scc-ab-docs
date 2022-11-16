@@ -1,0 +1,403 @@
+
+
+== Consensus Requirements
+
+[[sec_6.1]]
+=== Documented Processes Based on Consensus
+
+The SDO shall have documented policies and procedures for the development,
+publication, distribution, and maintenance of its standards. Upon
+request, copies of policies and procedures shall be available to interested
+parties in a timely manner.
+
+The SDO shall inform SCC when their policies and procedures have been
+changed.
+
+NOTE: No guidance
+
+[[sec_6.2]]
+=== Proposals for Development of Standards
+
+The SDO shall consider proposals for the development of new or revised
+standards following their established procedures and appropriate timelines.
+
+NOTE: No guidance
+
+[[sec_6.3]]
+=== Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests
+
+The SDO shall ensure that:
+
+. participation in standards development is accessible to affected
+stakeholders; and
+. there is appropriate Canadian participation on technical committees.
+
+The SDO shall provide evidence of best efforts to address the challenges
+of finding resources for participation.
+
+NOTE: No guidance
+
+[[sec_6.4]]
+=== Balance of Interests
+
+The SDO shall provide for balanced representation of interest categories
+in the development of standards. This representation shall reflect
+the Canadian interest.
+
+When consumer or public interest representation would provide the
+needed balance of interests, the SDO shall identify and make efforts
+to secure support for equal access and effective participation of
+such interests.
+
+NOTE: The commonly used interest categories may include, but are not limited
+to, general interest, producers, regulators and users.
+
+NOTE: Securing support for consumer or public interest participation does
+not require the SDO to provide financial support from their operating
+budgets.
+
+[[sec_6.5]]
+=== Use of ISONET: International harmonized stage codes and International Classification for Standards
+
+The SDO shall adhere to the requirements in the latest version of
+the International harmonized stage codes, and of the ICS codes.
+
+NOTE: For the stage code deliverables see the CSD - POV Annex C.
+
+[[sec_6.6]]
+=== Notification Requirements
+
+The SDO shall notify the Canadian public at specific stages in the
+development process. These stages shall be completed following their
+established procedures and appropriate timelines.
+
+NOTE: No guidance
+
+[[sec_6.6.1]]
+==== Notice of Intent (NOI)
+
+The SDO shall inform the Canadian public by providing their NOIs to
+the CNS platform when it has taken the decision to develop or adopt
+a new standard or other deliverable, new edition, revision, amendment,
+reaffirmation or withdrawal of an already published standard.
+
+The content of the NOI shall include:
+
+. designation number
+. title
+. scope
+. project need
+. contact information of the SDO
+. ICS code(s)
+
+The SDO shall issue a new NOI when International harmonized stage
+code 10, Proposal stage, has not been met within a maximum timeframe
+of 12 months.
+
+The SDO shall update the NOI if there are substantive alterations
+to the scope and title of the originally proposed NOI.
+
+NOTE: NOIs may be submitted in either of Canada's official languages.
+
+[[sec_6.6.2]]
+==== Notice of Public Review
+
+The SDO shall notify the Canadian public of standards available for
+public review. The public review shall be a minimum period of 60 calendar
+days when a draft agreed by the technical committee is available,
+and shall be completed before final approval of the technical committee.
+
+The notice shall include the start and end dates of the review period.
+
+The notice shall indicate how to obtain a copy of the draft standard.
+On the request of any interested party the SDO shall promptly provide,
+or arrange to provide, a copy of the draft standard in question. Any
+fees charged for this service shall, apart from the real cost of delivery,
+be the same for foreign and domestic parties.
+
+All comments received, regardless of place of origin, shall be considered
+by the technical committee, and responded to if requested. Such responses
+shall include reasons for deviations from relevant International Standards,
+regional standards, and other deliverables if requested.
+
+NOTE: The minimum period of 60 calendar days may be shortened with appropriate
+rationale and action to proactively inform affected stakeholders.
+Appropriate rationale may involve where urgent problems of safety,
+health or environment arise or threaten to arise.
+
+NOTE: As per <<sec_4.2.2>>, the SDO has to provide a copy of the draft standard
+in question in either of Canada's official languages, as requested
+by the interested party.
+
+[[sec_6.6.2.1]]
+===== Public Review -- 45 Days
+
+The SDO shall determine if a 45-day public review period is appropriate
+when urgent problems of safety, health or environment arise or threaten
+to arise.
+
+The SDO shall proactively notify affected stakeholders.
+
+This notification shall include where the draft standard can be obtained
+and the public review period start and end dates.
+
+The draft standard shall be available in an electronic format, deliverable
+within one day of a request.
+
+NOTE: No guidance
+
+[[sec_6.6.3]]
+==== Notice of Completion
+
+The SDO shall notify the Canadian public that a standard has been
+completed.
+
+Published standards may be commented on at any time, and such comments
+shall be referred to the responsible technical committee for consideration,
+as appropriate.
+
+NOTE: No guidance
+
+[[sec_6.6.4]]
+==== Notice of Withdrawal
+
+The SDO shall notify the Canadian public and SCC when it has decided
+to withdraw a standard.
+
+NOTE: No guidance
+
+[[sec_6.7]]
+=== Technical Committee Approval Process
+
+The approval process shall be based on evidence of consensus reached
+by the technical committee.
+
+The approval process shall not be used to block or obstruct the promulgation
+of standards.
+
+NOTE: No guidance
+
+[[sec_6.7.1]]
+==== Voting Rules
+
+. More than 50 % (simple majority) of the members who are eligible
+to vote cast affirmative votes; and
+. A minimum of 2/3 of the votes cast are affirmative.
+
+NOTE: No guidance
+
+[[sec_6.7.2]]
+==== Negative votes
+
+The SDO shall address negative votes according to its policies and
+procedures. Negative votes without justification, abstentions without
+justification, as well as unreturned and blank ballots, shall be considered
+not cast.
+
+NOTE: In addressing a negative vote, the technical committee should review
+the negative vote for technical merit. If accepted, the required adjustment(s)
+should be made to the applicable requirement(s). If not accepted,
+rationale should be provided. In either case, the comment provider
+should be informed of resolution and decision.
+
+[[sec_6.8]]
+=== Second Level Review
+
+The SDO's procedures shall have at least one level of procedural review
+and approval beyond the final approval by the technical committee.
+The SDO shall retain evidence of the approval of the second level
+review.
+
+NOTE: No guidance
+
+[[sec_6.9]]
+=== Publication Process
+
+Standards shall only be published in compliance with SCC's R&Gs for
+SDOs. They shall be published promptly, and be made available under
+reasonable terms and conditions. Any fees charged for this service
+shall, apart from the real costs of delivery, be the same for foreign
+and domestic parties.
+
+NOTE: No guidance
+
+[[sec_6.10]]
+=== Maintenance of Standards
+
+The SDO shall be responsive to stakeholder needs by keeping all standards
+current and technically relevant through periodic, continuous or stabilized
+maintenance.
+
+The SDO shall establish when it is subject to a technical committee
+review.
+
+The SDO shall initiate and complete the technical committee review
+of each standard within the established timeline.
+
+NOTE: A review may result in a new edition, revision, reaffirmation or
+withdrawal of the standard.
+
+[[sec_6.10.1]]
+==== Periodic Maintenance
+
+Standards shall be kept current and relevant by technical committee
+review of the entire document and the outcome activity completion
+(publication or withdrawal) not to exceed five years from the date
+of publication.
+
+NOTE: No guidance
+
+[[sec_6.10.2]]
+==== Continuous Maintenance
+
+When technical change is required, the SDO shall:
+
+. validate technical changes with the technical committee;
+. take appropriate action in order to address the issue(s); and
+. notify affected stakeholders/public.
+
+In the event that no updates are issued for a period of four years
+from the date of publication, action to update (new edition or revision),
+reaffirm, or withdraw the standard shall be initiated in accordance
+with the SDOs procedures.
+
+NOTE: Standards developed in areas related to health and safety should
+be kept current under continuous maintenance.
+
+[[sec_6.10.3]]
+==== Stabilized Maintenance
+
+A standard under stabilized maintenance shall meet the following:
+
+. addresses mature technology/practices;
+. is not health or safety related; and
+. is a published standard, reaffirmed at least once.
+
+NOTE: No guidance
+
+[[sec_6.11]]
+=== Maintenance Outcomes
+
+The outcome of the SDO maintenance shall be one of the following sub-clauses.
+
+NOTE: No guidance
+
+[[sec_6.11.1]]
+==== New Edition
+
+When the SDO develops a new edition of an existing standard, it shall
+comply with SCC's R&Gs for SDOs.
+
+NOTE: No guidance
+
+[[sec_6.11.2]]
+==== Revision
+
+When the SDO conducts technical changes, it shall comply with the
+following:
+
+. Equal Access and Effective Canadian Participation to the Standards
+Development Process by Concerned Interests, <<sec_6.3>>;
+. Balance of Interests, <<sec_6.4>>;
+. Availability in Both Official Languages, <<sec_4.2.2>>;
+. Geographical Representation, <<sec_4.2.3>>;
+. Avoiding Duplication, <<sec_4.3>>;
+. Notice of Intent, <<sec_6.6.1>>;
+. Work Program, <<sec_4.4>>;
+. Technical Committee Approval, <<sec_6.7>>;
+. Number and Title, <<sec_7.4>>;
+. Front Cover Page, <<sec_7.5>>; and
+. Introductory Pages, <<sec_7.6>>.
+
+NOTE: Note, the term amendment is equivalent to revision.
+
+[[sec_6.11.3]]
+==== Reaffirmation
+
+A reaffirmation shall comply with the following:
+
+. Equal Access and Effective Canadian Participation to the Standards
+Development Process by Concerned Interests, <<sec_6.3>>;
+. Balance of Interests, <<sec_6.4>>;
+. Availability in Both Official Languages, <<sec_4.2.2>>;
+. Geographical Representation, <<sec_4.2.3>>;
+. Avoiding Duplication, <<sec_4.3>>;
+. Notice of Intent, <<sec_6.6.1>>;
+. Work Program, <<sec_4.4>>;
+. Technical Committee Approval, <<sec_6.7>>;
+. Number and Title, <<sec_7.4>>;
+. Front Cover Page, <<sec_7.5>>; and
+. Introductory Pages, <<sec_7.6>>.
+
+NOTE: Normative content in a standard may include the sections starting
+at the scope and ending at the last normative annex.
+
+NOTE: Informative content includes any other sections, such as introductory
+pages.
+
+NOTE: The SDO may determine how to conduct the update of the document to
+be reaffirmed.
+
+[[sec_6.11.4]]
+==== Withdrawal
+
+When considering the withdrawal of a standard, the SDO shall consider
+the impact on Canadian legislation, in particular where a standard
+may be referenced.
+
+If a withdrawn standard is included in the listings of standards for
+sale, it shall be clearly identified as withdrawn. If it is sold,
+the withdrawn status shall be included on the cover of the standard
+itself.
+
+When a standard fails to meet SCC's R&Gs for SDOs, the SDO shall withdraw
+the standard.
+
+NOTE: The SDO should notify the impacted government department(s) in a
+timely manner when a standard referenced in Canadian Legislation is
+withdrawn.
+
+[[sec_6.12]]
+=== International Inquiries on Code of Good Practice
+
+The SDO shall address, in a timely manner, inquiries and complaints
+from another SDO that has accepted the WTO/TBT Annex 3 Code of Good
+Practice for the Preparation, Adoption and Application of Standards.
+
+NOTE: No guidance
+
+[[sec_6.13]]
+=== Information Requests
+
+The SDO shall provide standards development-related information on
+request, within the limits of applicable privacy legislation.
+
+NOTE: No guidance
+
+[[sec_6.14]]
+=== Complaints and Appeals Mechanism
+
+The SDO shall have documented procedures for dealing with complaints
+and appeals.
+
+These procedures shall:
+
+. provide impartial treatment;
+. deal with complaints and appeals promptly;
+. provide accessibility to the process; and
+. identify SCC's role in the appeal process.
+
+NOTE: Complaints may be either of a technical or procedural nature.
+
+NOTE: An appeal against the final SDO decision may be escalated by registering
+an official complaint following the process described in _SCC's Accreditation
+Services -- Accreditation Program Overview_ document.
+
+[[sec_6.15]]
+=== Notification of Suits or Claims
+
+The SDO shall promptly notify SCC of any suit or claim made against
+the SDO arising from a standard designated as an NSC, and provide
+periodic updates to SCC of the status of any such suit or claim.
+
+NOTE: No guidance
