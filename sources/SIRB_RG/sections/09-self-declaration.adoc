@@ -17,7 +17,7 @@ NOTE: Self-declaration status is voluntary and dependent on an SDO achieving
 the criteria outlined in <<sec_9.2>>.
 
 [[sec_9.2]]
-=== Criteria for Approval of SDO Self- Declaration Status
+=== Criteria for Approval of SDO Self-Declaration Status
 
 The following shall be satisfied by the SDO:
 
@@ -57,7 +57,7 @@ NOTE: No guidance
 [[sec_9.2.5]]
 ==== {blank}
 
-The SDO does not have any open non- conformities from the last assessment
+The SDO does not have any open non-conformities from the last assessment
 activity.
 
 NOTE: No guidance
