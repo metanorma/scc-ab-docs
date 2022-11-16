@@ -1,0 +1,83 @@
+
+== Format Requirements
+
+[[sec_7.1]]
+=== Normative Content
+
+The normative section of the standard shall include the scope, normative
+references, technical requirements, and if applicable, normative annexes,
+and terms and definitions. If annexes are included they shall be identified
+"`normative`" or  "`informative`".
+
+NOTE: The informative content may include, but is not limited to, foreword,
+preface, introduction and informative annexes.
+
+[[sec_7.2]]
+=== Units of Measurement
+
+The SDO shall include in the standard the international system of
+units (SI), and if applicable, equivalent Imperial/U.S. units or other
+units of measurement.
+
+ISO 80000 series of standards shall be used to ensure clear and concise
+application of SI units, including conversions to and from other systems
+of measurement.
+
+It is the responsibility of the user of the standard to determine
+the unit of measurement appropriate for the user's needs.
+
+NOTE: Conversions expressed in the standard should be approved by the
+technical committee.
+
+NOTE: When no SI unit equivalent exists, such as trade sizes used in Canada,
+the trade size unit may be used.
+
+[[sec_7.3]]
+=== Date and Time
+
+All-numeric date and time units shall comply with ISO 8601.
+
+NOTE: No guidance
+
+[[sec_7.4]]
+=== Number and Title
+
+The SDO shall use the  "`CAN`" descriptor preceding the standard designation,
+based on the identified strategic need in <<sec_4.2.1>>.
+
+NOTE: No guidance
+
+[[sec_7.5]]
+=== Front Cover Page
+
+The following items shall be included on the front cover page of the
+NSC:
+
+. The bilingual SCC logo, placed with other organizational logos,
+if any, or at the bottom of the page; and
+. The bilingual National Standard of Canada Symbol (NSC Symbol) placed
+with other identifying symbols, if any, or near the top of the page.
+
+NOTE: No guidance
+
+[[sec_7.6]]
+=== Introductory Pages
+
+The NSC shall have introductory pages with the following content in
+the language(s) appropriate to the standard:
+
+. the established timeline for review of the standard;
+. SCC foreword (CSD - POV, Annex A);
+. statement indicating the standard was developed in compliance with
+SCC's R&Gs for SDOs;
+. the names of the technical committee members or the number of technical
+committee members representing the interest categories described in 
+the R&G --SDO Accreditation, clause 6.4;
+. statement of availability of the NSC, English text in the French
+version, French text in the English version (CSD - POV, Annex B);
+. statement indicating it is the responsibility of the user of the
+standard to judge the suitability of the NSC for the user's purpose;
+and
+. ICS code(s).
+
+NOTE: No guidance

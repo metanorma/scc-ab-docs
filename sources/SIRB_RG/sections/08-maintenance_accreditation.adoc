@@ -1,0 +1,40 @@
+
+
+== Maintenance of Accreditation
+
+[[sec_8.1]]
+=== Maintenance of Accreditation
+
+In order to maintain accreditation by SCC, an SDO shall continue to
+maintain procedures complying with the Requirements & Guidance for
+SDOs for the publication and withdrawal of standards contained herein.
+
+If an SDO does not maintain one or more approved NSCs within the accreditation
+cycle, the SDO shall submit written justification from the head of
+the SDO at the reaccreditation as to why they have not submitted any
+NSCs to SCC for approval and why their accreditation remains relevant.
+
+NOTE: If written justification is not provided or is otherwise unsatisfactory,
+the Accreditation Services Branch may suspend or withdraw the accreditation.
+
+[[sec_8.2]]
+=== Assessments
+
+SCC's Accreditation Services Branch shall arrange for assessments
+of accredited SDOs at selected intervals or due to special circumstances
+to confirm adherence to the Requirements & Guidance for SDOs and to
+confirm that the procedures and practices of the accredited SDO continue
+to be consistent with those which formed the basis for accreditation.
+
+NOTE: No guidance
+
+[[sec_8.3]]
+=== SCC Requirements Updates
+
+SDOs shall submit to a regular assessment in accordance with the Accreditation
+Policy and SDO Accreditation Agreement. When SCC issues revised or
+additional Requirements & Guidance for SDOs, the accredited SDO shall
+comply with them within a reasonable time period designated by the
+SCC's Accreditation Services Branch in order to maintain accreditation.
+
+NOTE: No guidance

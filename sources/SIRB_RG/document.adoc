@@ -21,4 +21,14 @@ include::sections/02-norm_refs.adoc[]
 
 include::sections/03-terms_defs.adoc[]
 
-include::sections/04-reqs_and_guidance.adoc[]
+include::sections/04-general_requirements.adoc[]
+
+include::sections/05-resource_requirements.adoc[]
+
+include::sections/06-consensus_requirements.adoc[]
+
+include::sections/07-format_requirements.adoc[]
+
+include::sections/08-maintenance_accreditation.adoc[]
+
+include::sections/09-self-declaration.adoc[]
