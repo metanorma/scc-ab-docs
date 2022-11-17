@@ -21,14 +21,14 @@ the criteria outlined in <<sec_9.2>>.
 
 The following shall be satisfied by the SDO:
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.2.1]]
 ==== {blank}
 
 SCC has approved at least five distinct standards as NSCs.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.2.2]]
 ==== {blank}
@@ -45,14 +45,14 @@ No standard submitted by the SDO during the three year period was
 denied the NSC designation by SCC, due to a failure to comply with
 the Requirements & Guidance for SDOs.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.2.4]]
 ==== {blank}
 
 The SDO is not in arrears with respect to any fees invoiced.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.2.5]]
 ==== {blank}
@@ -60,7 +60,7 @@ NOTE: No guidance
 The SDO does not have any open non-conformities from the last assessment
 activity.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.2.6]]
 ==== {blank}
@@ -68,12 +68,12 @@ NOTE: No guidance
 The SDO does not have any open complaint (whether expressed as a
 complaint or appeal) against any NSC.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.3]]
 === Maintenance of Self-Declaration Status
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.3.1]]
 ==== Self-Declaration Agreement
@@ -89,12 +89,12 @@ circumstances require with prior approval of SCC and the SDO (as long
 as such additional term(s) do not conflict with any of SCC's existing
 policies and procedures).
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.4]]
 === Suspension of Self-Declaration Status
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_9.4.1]]
 ==== {blank}
@@ -104,4 +104,4 @@ any standard without obtaining SCC approval after the SDO has been
 notified by SCC that its self-declaration status has been suspended
 and/or withdrawn.
 
-NOTE: No guidance
+NOTE: No guidance.

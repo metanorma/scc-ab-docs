@@ -13,7 +13,7 @@ parties in a timely manner.
 The SDO shall inform SCC when their policies and procedures have been
 changed.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.2]]
 === Proposals for Development of Standards
@@ -21,7 +21,7 @@ NOTE: No guidance
 The SDO shall consider proposals for the development of new or revised
 standards following their established procedures and appropriate timelines.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.3]]
 === Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests
@@ -35,7 +35,7 @@ stakeholders; and
 The SDO shall provide evidence of best efforts to address the challenges
 of finding resources for participation.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.4]]
 === Balance of Interests
@@ -71,7 +71,7 @@ The SDO shall notify the Canadian public at specific stages in the
 development process. These stages shall be completed following their
 established procedures and appropriate timelines.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.6.1]]
 ==== Notice of Intent (NOI)
@@ -144,7 +144,7 @@ and the public review period start and end dates.
 The draft standard shall be available in an electronic format, deliverable
 within one day of a request.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.6.3]]
 ==== Notice of Completion
@@ -156,7 +156,7 @@ Published standards may be commented on at any time, and such comments
 shall be referred to the responsible technical committee for consideration,
 as appropriate.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.6.4]]
 ==== Notice of Withdrawal
@@ -164,7 +164,7 @@ NOTE: No guidance
 The SDO shall notify the Canadian public and SCC when it has decided
 to withdraw a standard.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.7]]
 === Technical Committee Approval Process
@@ -175,7 +175,7 @@ by the technical committee.
 The approval process shall not be used to block or obstruct the promulgation
 of standards.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.7.1]]
 ==== Voting Rules
@@ -184,7 +184,7 @@ NOTE: No guidance
 to vote cast affirmative votes; and
 . A minimum of 2/3 of the votes cast are affirmative.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.7.2]]
 ==== Negative votes
@@ -208,7 +208,7 @@ and approval beyond the final approval by the technical committee.
 The SDO shall retain evidence of the approval of the second level
 review.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.9]]
 === Publication Process
@@ -219,7 +219,7 @@ reasonable terms and conditions. Any fees charged for this service
 shall, apart from the real costs of delivery, be the same for foreign
 and domestic parties.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.10]]
 === Maintenance of Standards
@@ -245,7 +245,7 @@ review of the entire document and the outcome activity completion
 (publication or withdrawal) not to exceed five years from the date
 of publication.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.10.2]]
 ==== Continuous Maintenance
@@ -273,14 +273,14 @@ A standard under stabilized maintenance shall meet the following:
 . is not health or safety related; and
 . is a published standard, reaffirmed at least once.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.11]]
 === Maintenance Outcomes
 
 The outcome of the SDO maintenance shall be one of the following sub-clauses.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.11.1]]
 ==== New Edition
@@ -288,7 +288,7 @@ NOTE: No guidance
 When the SDO develops a new edition of an existing standard, it shall
 comply with SCC's R&Gs for SDOs.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.11.2]]
 ==== Revision
@@ -364,7 +364,7 @@ The SDO shall address, in a timely manner, inquiries and complaints
 from another SDO that has accepted the WTO/TBT Annex 3 Code of Good
 Practice for the Preparation, Adoption and Application of Standards.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.13]]
 === Information Requests
@@ -372,7 +372,7 @@ NOTE: No guidance
 The SDO shall provide standards development-related information on
 request, within the limits of applicable privacy legislation.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_6.14]]
 === Complaints and Appeals Mechanism
@@ -400,4 +400,4 @@ The SDO shall promptly notify SCC of any suit or claim made against
 the SDO arising from a standard designated as an NSC, and provide
 periodic updates to SCC of the status of any such suit or claim.
 
-NOTE: No guidance
+NOTE: No guidance.
