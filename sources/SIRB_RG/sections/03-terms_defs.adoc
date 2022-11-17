@@ -231,7 +231,7 @@ actual or potential needs.
 
 Process based on the requirements of the Canadian standards development
 system which includes the policies and procedures of an SCC-accredited
-SDO for the preparation, self- declaration of compliance with SCC's
+SDO for the preparation, self-declaration of compliance with SCC's
 Requirements & Guidance for SDOs, publication and maintenance of standards.
 
 === Standards Development Organization (SDO)

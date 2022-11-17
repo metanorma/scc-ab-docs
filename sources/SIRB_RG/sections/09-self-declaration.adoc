@@ -7,7 +7,7 @@
 Before an SCC-accredited SDO can be considered for self-declaration
 status, the organization shall:
 
-. Complete an application for self- declaration and submit it to SCC
+. Complete an application for self-declaration and submit it to SCC
 with associated fee;
 . Have participated in accreditation assessments for a minimum of
 one accreditation cycle (3 years) before applying; and
@@ -76,7 +76,7 @@ NOTE: No guidance
 NOTE: No guidance
 
 [[sec_9.3.1]]
-==== Self- Declaration Agreement
+==== Self-Declaration Agreement
 
 Upon decision to grant self-declaration status, the SDO shall enter
 into a written agreement with SCC, which shall include commitments
@@ -101,7 +101,7 @@ NOTE: No guidance
 
 The SDO shall immediately cease to apply the NSC designation to
 any standard without obtaining SCC approval after the SDO has been
-notified by SCC that its self- declaration status has been suspended
+notified by SCC that its self-declaration status has been suspended
 and/or withdrawn.
 
 NOTE: No guidance
