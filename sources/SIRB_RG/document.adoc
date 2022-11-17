@@ -10,7 +10,7 @@
 :title-main-fr: Accréditation des organismes d'élaboration de normes
 :doctype: international-standard
 :secretariat: CANADIAN STANDARDS DEVELOPMENT
-:mn-document-class: scc
+:mn-document-class: iso
 :mn-output-extensions: xml,html,doc,pdf,rxl
 :local-cache-only:
 :imagesdir: images
