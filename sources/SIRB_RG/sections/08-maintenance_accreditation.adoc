@@ -26,7 +26,7 @@ to confirm adherence to the Requirements & Guidance for SDOs and to
 confirm that the procedures and practices of the accredited SDO continue
 to be consistent with those which formed the basis for accreditation.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_8.3]]
 === SCC Requirements Updates
@@ -37,4 +37,4 @@ additional Requirements & Guidance for SDOs, the accredited SDO shall
 comply with them within a reasonable time period designated by the
 SCC's Accreditation Services Branch in order to maintain accreditation.
 
-NOTE: No guidance
+NOTE: No guidance.

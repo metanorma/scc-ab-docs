@@ -19,7 +19,7 @@ The SDO shall consider the following sub-clauses at the beginning
 of the development process of a standard, prior to the publication
 of the Notice of Intent (NOI) for a new standard or new edition.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.2.1]]
 ==== Strategic Need
@@ -43,7 +43,7 @@ programs;
 date); and
 . use of  "`CAN`" descriptor.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.2.2]]
 ==== Availability in Both Official Languages
@@ -88,7 +88,7 @@ SDOs shall make every effort to address the need of the Canadian stakeholder(s)
 and to not duplicate or overlap with the work of other SCC-accredited
 SDOs, or relevant international or regional SDOs.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.3.1]]
 ==== Identification of Duplication
@@ -97,7 +97,7 @@ The SDO shall monitor the Centralized Notification System (CNS) platform.
 When a duplication complaint is raised, the SDO shall use the Duplication
 Resolution Mechanism (DRM), as described in the CSD - POV.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.3.2]]
 ==== Action Plan - Decision Impact
@@ -105,7 +105,7 @@ NOTE: No guidance
 The SDO shall comply with the Action Plan resulting from the DRM process,
 defined under the CSD-POV.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.4]]
 === Work Program
@@ -113,14 +113,14 @@ NOTE: No guidance
 The SDO shall provide the Work Program content to SCC to be published
 on SCC's CNS platform.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.4.1]]
 ==== Frequency of Publication
 
 The SDO shall publish their Work Program at least once every six months.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.4.2]]
 ==== Content
@@ -160,7 +160,7 @@ Program upon request. Any fees charged for this service shall, apart
 from the real costs of delivery, be the same for foreign and domestic
 parties.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.5]]
 === International/Regional/National Harmonization
@@ -193,7 +193,7 @@ the _Requirements & Guidance -- National Adoptions of International/Regional
 Standards and Other Deliverables_ when adopting an ISO, IEC, or regional
 standard as a NSC.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.8]]
 === Performance Based Standards
@@ -243,7 +243,7 @@ what is necessary to meet requirements of relevant technical regulations,
 or other legitimate sectoral or local requirements for compatibility,
 environmental protection, health and safety.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.12]]
 === Protection Against Misleading Standards
@@ -314,7 +314,7 @@ The SDO shall ensure that technical committee members and SDO staff
 involved in standards development have no conflict of interest in
 carrying out their roles and responsibilities on the technical committee.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.18]]
 === Declaration of Compliance with Accreditation Requirements
@@ -323,7 +323,7 @@ The SDO shall include a statement in the introductory pages of a standard
 indicating the standard was developed in compliance with SCC's R&Gs
 for SDOs.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_4.19]]
 === Provision of Published Standards
@@ -332,4 +332,4 @@ Upon publication, the SDO shall submit to SCC electronic copies of
 new standards, new editions, revisions, reaffirmations and the underlying
 metadata.
 
-NOTE: No guidance
+NOTE: No guidance.

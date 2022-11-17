@@ -37,7 +37,7 @@ the trade size unit may be used.
 
 All-numeric date and time units shall comply with ISO 8601.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_7.4]]
 === Number and Title
@@ -45,7 +45,7 @@ NOTE: No guidance
 The SDO shall use the  "`CAN`" descriptor preceding the standard designation,
 based on the identified strategic need in <<sec_4.2.1>>.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_7.5]]
 === Front Cover Page
@@ -58,7 +58,7 @@ if any, or at the bottom of the page; and
 . The bilingual National Standard of Canada Symbol (NSC Symbol) placed
 with other identifying symbols, if any, or near the top of the page.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_7.6]]
 === Introductory Pages
@@ -71,7 +71,7 @@ the language(s) appropriate to the standard:
 . statement indicating the standard was developed in compliance with
 SCC's R&Gs for SDOs;
 . the names of the technical committee members or the number of technical
-committee members representing the interest categories described in 
+committee members representing the interest categories described in
 the R&G --SDO Accreditation, clause 6.4;
 . statement of availability of the NSC, English text in the French
 version, French text in the English version (CSD - POV, Annex B);
@@ -80,4 +80,4 @@ standard to judge the suitability of the NSC for the user's purpose;
 and
 . ICS code(s).
 
-NOTE: No guidance
+NOTE: No guidance.

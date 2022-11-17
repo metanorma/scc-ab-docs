@@ -16,7 +16,7 @@ and
 . facilities in Canada with sufficient resources to meet requirements
 relevant to its standards development activities.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.2]]
 === Legal Responsibility
@@ -25,7 +25,7 @@ The SDO shall be a legal entity, or a defined part of a legal entity,
 such that it can be held legally responsible for all its standards
 development activities.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.3]]
 === Separation of Management Activities
@@ -38,7 +38,7 @@ those of standards development.
 The SDO shall demonstrate compliance by reference to their policy,
 organizational structure and procedural documents.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.4]]
 === Continuity of Operations
@@ -51,7 +51,7 @@ the stability and continuity of its operations;
 and maintenance of standards; and
 . maintain expertise for the development and the maintenance of standards.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.5]]
 === Staff Competence
@@ -60,7 +60,7 @@ The SDO shall have sufficient and competent staff to manage its standardization
 program and activities. Staff shall be knowledgeable about standardization,
 including related matters of principles, policies and techniques.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.6]]
 === Facilities
@@ -69,7 +69,7 @@ The SDO shall have appropriate facilities in Canada with sufficient
 resources to meet the requirements relevant to its standards development
 activities.
 
-NOTE: No guidance
+NOTE: No guidance.
 
 [[sec_5.7]]
 === Record Keeping
@@ -77,4 +77,4 @@ NOTE: No guidance
 The SDO shall prepare and maintain adequate records of its standards
 development activities.
 
-NOTE: No guidance
+NOTE: No guidance.
