@@ -15,7 +15,7 @@ one stakeholder.
 [[sec_4.2]]
 === Identification of Canadian Interest & Need
 
-The SDO shall consider the following sub- clauses at the beginning
+The SDO shall consider the following sub-clauses at the beginning
 of the development process of a standard, prior to the publication
 of the Notice of Intent (NOI) for a new standard or new edition.
 
@@ -208,7 +208,7 @@ in terms of performance, a rationale should be identified.
 === Trade
 
 The SDO shall ensure that standards developed do not create unnecessary
-obstacles to international and/or inter- provincial trade.
+obstacles to international and/or inter-provincial trade.
 
 The SDO shall take action to resolve identified impediments or inhibitions
 to trade.
@@ -277,7 +277,7 @@ clause 2.14 and Annex I, Reference to patented items.
 NOTE: No requirement.
 
 Administrative requirements relating to conformity assessment, marks
-of conformity, or other non- technical issues should be presented
+of conformity, or other non-technical issues should be presented
 separately from technical requirements.
 
 [[sec_4.15]]
