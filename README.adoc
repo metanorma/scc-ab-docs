@@ -1,14 +1,57 @@
-= SCCAB document samples in Metanorma
+= Standards Council of Canada: SCC Accreditation Program Requirements & Guidance
 
-This repository contains samples of SCC AB standards encoded in Metanorma.
+image:https://github.com/metanorma/scc-ab-docs/workflows/generate/badge.svg["Build Status", link="https://github.com/metanorma/scc-ab-docs/actions?query=workflow%3Agenerate"]
 
-* `reference-docs` folder contains the original samples,
-* `source` folder contains the Metanorma documents encoded in AsciiDoc.
+//These documents are available in its rendered forms here:
+//
+//* https://metanorma.github.io/scc-ab-docs/[ISO 19135 in Metanorma (HTML)]
+
+== General
+
+This repository contains documents related to the SCC Accreditation Program.
+
+== Structure
+
+`sources/`::
+source of documents
+
+`site/`::
+(automatically generated, in the `gh-pages` branch) published document.
 
 
-== Fetching the document
+== Usage
+
+This repository uses `metanorma` to run these processes.
+
+
+== Installing build tools
+
+See https://www.metanorma.org/install/
+
+
+== Building the document
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you use a locally installed Metanorma, run:
 
 [source,sh]
 ----
-git clone https://github.com/metanorma/scc-ab-docs.git
+metanorma site generate
 ----
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+docker run -v "$(pwd)":/metanorma -w /metanorma -it metanorma/mn metanorma site generate
+----
+
+
+== License
+
+Copyright SCC.
+
+All other code and information, copyright Ribose.

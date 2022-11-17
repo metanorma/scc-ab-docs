@@ -1,0 +1,9 @@
+---
+metanorma:
+  source:
+    files:
+      - sources/SIRB_RG/document.adoc
+
+  collection:
+    organization: "Standards Council of Canada"
+    name: "SCC Accreditation Program Requirements & Guidance"
