@@ -274,10 +274,10 @@ clause 2.14 and Annex I, Reference to patented items.
 [[sec_4.14]]
 === References to Certification or Administrative Requirements
 
-NOTE: No requirement.
+No requirement.
 
-Administrative requirements relating to conformity assessment, marks
-of conformity, or other non-technical issues should be presented
+NOTE: Administrative requirements relating to conformity assessment,
+marks of conformity, or other non-technical issues should be presented
 separately from technical requirements.
 
 [[sec_4.15]]
