@@ -1,0 +1,77 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>SCC Accreditation Program Requirements & Guidance</title><contributor><role type='author'/><organization><name>Standards Council of Canada</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" language="en">Requirements &amp; Guidance — Accreditation of Standards Development Organizations</title>
+  <title type="title-intro" language="en">Requirements &amp; Guidance</title>
+  <title type="title-main" language="en">Accreditation of Standards Development Organizations</title>
+  <title type="main" language="fr">Exigences et lignes directrices — Accréditation des organismes d’élaboration de normes</title>
+  <title type="title-intro" language="fr">Exigences et lignes directrices</title>
+  <title type="title-main" language="fr">Accréditation des organismes d’élaboration de normes</title>
+  <uri type="xml">./documents/SIRB_RG/document.xml</uri>
+  <uri type="pdf">./documents/SIRB_RG/document.pdf</uri>
+  <uri type="doc">./documents/SIRB_RG/document.doc</uri>
+  <uri type="html">./documents/SIRB_RG/document.html</uri>
+  <uri type="rxl">./documents/SIRB_RG/document.rxl</uri>
+  <docidentifier type="ISO" primary="true">ISO :2019</docidentifier>
+  <docidentifier type="iso-reference">ISO :2019(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso::stage-60.60:en</docidentifier>
+  <docidentifier type="iso-undated">ISO </docidentifier>
+  <docidentifier type="iso-with-lang">ISO :2019(en)</docidentifier>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="authorizer">
+      <description>Agency</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>secretariat</description>
+    </role>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <subdivision>
+CANADIAN STANDARDS DEVELOPMENT
+</subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>4</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="IS">60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>International Organization for Standardization</name>
+        <abbreviation>ISO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext schema-version="v1.0.3">
+    <doctype>international-standard</doctype>
+    <structuredidentifier>
+      <project-number>ISO </project-number>
+    </structuredidentifier>
+    <stagename>International Standard</stagename>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
