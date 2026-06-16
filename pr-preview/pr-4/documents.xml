@@ -1,10 +1,10 @@
-<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>SCC Accreditation Program Requirements & Guidance</title><contributor><role type='author'/><organization><name>Standards Council of Canada</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" language="en">Requirements &amp; Guidance — Accreditation of Standards Development Organizations</title>
-  <title type="title-intro" language="en">Requirements &amp; Guidance</title>
-  <title type="title-main" language="en">Accreditation of Standards Development Organizations</title>
-  <title type="main" language="fr">Exigences et lignes directrices — Accréditation des organismes d’élaboration de normes</title>
-  <title type="title-intro" language="fr">Exigences et lignes directrices</title>
-  <title type="title-main" language="fr">Accréditation des organismes d’élaboration de normes</title>
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>SCC Accreditation Program Requirements & Guidance</title><contributor><role type='author'/><organization><name>Standards Council of Canada</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">Requirements &amp; Guidance — Accreditation of Standards Development Organizations</title>
+  <title language="en" type="title-intro">Requirements &amp; Guidance</title>
+  <title language="en" type="title-main">Accreditation of Standards Development Organizations</title>
+  <title language="fr" type="main">Exigences et lignes directrices — Accréditation des organismes d’élaboration de normes</title>
+  <title language="fr" type="title-intro">Exigences et lignes directrices</title>
+  <title language="fr" type="title-main">Accréditation des organismes d’élaboration de normes</title>
   <uri type="xml">./documents/SIRB_RG/document.xml</uri>
   <uri type="pdf">./documents/SIRB_RG/document.pdf</uri>
   <uri type="doc">./documents/SIRB_RG/document.doc</uri>
@@ -15,6 +15,7 @@
   <docidentifier type="URN">urn:iso:std:iso::stage-60.60:en</docidentifier>
   <docidentifier type="iso-undated">ISO </docidentifier>
   <docidentifier type="iso-with-lang">ISO :2019(en)</docidentifier>
+  <date type="2019-06-13"/>
   <contributor>
     <role type="author"/>
     <organization>
@@ -37,9 +38,9 @@
     </role>
     <organization>
       <name>International Organization for Standardization</name>
-      <subdivision>
-CANADIAN STANDARDS DEVELOPMENT
-</subdivision>
+      <subdivision type="Secretariat">
+        <name>CANADIAN STANDARDS DEVELOPMENT</name>
+      </subdivision>
       <abbreviation>ISO</abbreviation>
     </organization>
   </contributor>
@@ -66,12 +67,13 @@ CANADIAN STANDARDS DEVELOPMENT
       </organization>
     </owner>
   </copyright>
-  <ext schema-version="v1.0.3">
+  <ext schema-version="v1.1.2">
     <doctype>international-standard</doctype>
+    <flavor>iso</flavor>
     <structuredidentifier>
       <project-number>ISO </project-number>
     </structuredidentifier>
-    <stagename>International Standard</stagename>
+    <stagename abbreviation="IS">International Standard</stagename>
   </ext>
 </bibdata></relation>
 </relaton-collection>

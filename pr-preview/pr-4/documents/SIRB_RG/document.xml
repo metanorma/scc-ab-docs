@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.3.4" schema-version="v2.1.5" flavor="iso">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.4.3" schema-version="v2.1.6" flavor="iso">
 <bibdata type="standard">
 <title language="en" type="main">Requirements &amp; Guidance — Accreditation of Standards Development Organizations</title>
 
@@ -1451,33 +1451,46 @@ and/or withdrawn.<note id="_22e7fec5-f5ee-ea85-6acc-29687a5ed3a5"><p id="_5acbef
 </clause>
 </clause>
 </clause>
-</sections><bibliography><references id="_36ff0348-9477-98b9-600e-1943fd299445" normative="true" obligation="informative">
+</sections><bibliography><references id="_83298b1a-dcda-0326-b354-7b6cd07f56d5" normative="true" obligation="informative">
 <title id="_461cd77a-5cfe-f57e-70ab-04e5c4142c2b">Normative references</title><p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
 <bibitem anchor="csd_pov" id="_8f06fce9-fafc-b601-cb47-c45bf27b5408"><formattedref format="application/x-isodoc+xml">Canadian Standards Development — Program Overview (CSD — POV)</formattedref><docidentifier>CSD — POV</docidentifier><language>en</language><script>Latn</script></bibitem>
 <bibitem anchor="ICS_2015" id="_a1105d36-89cf-86fa-20a1-98729217946d"><formattedref format="application/x-isodoc+xml">International Classification for Standards, 2015</formattedref><docidentifier>ICS_2015</docidentifier><docnumber>2015</docnumber><language>en</language><script>Latn</script></bibitem>
 <bibitem anchor="codes" id="_7f26753b-3827-790d-d359-8e1a3f98c0a4"><formattedref format="application/x-isodoc+xml">International harmonized stage codes</formattedref><docidentifier>codes</docidentifier><language>en</language><script>Latn</script></bibitem>
-<bibitem id="_bbcbb823-ed5d-e0ff-c2f8-87df1d068b63" type="standard" schema-version="v1.2.9" anchor="ISO_8601_2004">
-  <fetched>2026-04-16</fetched>
+<bibitem id="_b2096a97-2fc1-0cdd-09bf-a36d85c4d728" type="standard" schema-version="v1.5.6" anchor="ISO_8601_2004">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-intro" format="text/plain" language="en" script="Latn">Data elements and interchange formats</title>
+<title language="en" script="Latn" type="title-intro">Data elements and interchange formats</title>
 
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Information interchange</title>
+<title language="en" script="Latn" type="title-main">Information interchange</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Representation of dates and times</title>
+<title language="en" script="Latn" type="title-part">Representation of dates and times</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Data elements and interchange formats — Information interchange — Representation of dates and times</title>
+<title language="en" script="Latn" type="main">Data elements and interchange formats — Information interchange — Representation of dates and times</title>
+
+  
+<title language="fr" script="Latn" type="title-intro">Éléments de données et formats d’échange</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Échange d’information</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Représentation de la date et de l’heure</title>
+
+  
+<title language="fr" script="Latn" type="main">Éléments de données et formats d’échange — Échange d’information — Représentation de la date et de l’heure</title>
 
   <uri type="src">https://www.iso.org/standard/40874.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:40874:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/08/40874.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 8601:2004</docidentifier>
   <docidentifier type="iso-reference">ISO 8601:2004(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso:8601:stage-95.99</docidentifier>
   <docnumber>8601</docnumber>
   <date type="published">
-    <on>2004-12</on>
+    <on>2004-12-03</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -1489,22 +1502,27 @@ and/or withdrawn.<note id="_22e7fec5-f5ee-ea85-6acc-29687a5ed3a5"><p id="_5acbef
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Processes, data elements and documents in commerce, industry and administration</name>
+
+        <identifier>ISO/TC 154</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>3</edition>
-  <note type="Unpublished-Status"><p id="_c56edfc0-bdd1-afe3-9b15-2b1fc2bbc672">Cancelled and replaced by ISO 8601-1:2019.</p></note><language>en</language>
-  <language>fr</language>
+  <note type="Unpublished-Status"><p id="_396890fb-8435-0a98-c5ed-46dd828add83">Withdrawn.</p></note><language>en</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">ISO 8601:2004 is applicable whenever representation of dates in the Gregorian calendar, times in the 24-hour timekeeping system, time intervals and recurring time intervals or of the formats of these representations are included in information interchange. It includes
-- calendar dates expressed in terms of calendar year, calendar month and calendar day of the month;
-- ordinal dates expressed in terms of calendar year and calendar day of the year;
-- week dates expressed in terms of calendar year, calendar week number and calendar day of the week;
-- local time based upon the 24-hour timekeeping system;
-- Coordinated Universal Time of day;
-- local time and the difference from Coordinated Universal Time;
-- combination of date and time of day;
-- time intervals;
-- recurring time intervals.
-ISO 8601:2004 does not cover dates and times where words are used in the representation and dates and times where characters are not used in the representation.
-ISO 8601:2004 does not assign any particular meaning or interpretation to any data element that uses representations in accordance with ISO 8601:2004. Such meaning will be determined by the context of the application.</abstract>
+  <abstract language="en" script="Latn">ISO 8601:2004 is applicable whenever representation of dates in the Gregorian calendar, times in the 24-hour timekeeping system, time intervals and recurring time intervals or of the formats of these representations are included in information interchange. It includes calendar dates expressed in terms of calendar year, calendar month and calendar day of the month;ordinal dates expressed in terms of calendar year and calendar day of the year;week dates expressed in terms of calendar year, calendar week number and calendar day of the week;local time based upon the 24-hour timekeeping system;Coordinated Universal Time of day;local time and the difference from Coordinated Universal Time;combination of date and time of day;time intervals;recurring time intervals. ISO 8601:2004 does not cover dates and times where words are used in the representation and dates and times where characters are not used in the representation. ISO 8601:2004 does not assign any particular meaning or interpretation to any data element that uses representations in accordance with ISO 8601:2004. Such meaning will be determined by the context of the application.</abstract>
   <status>
     <stage>95</stage>
     <substage>99</substage>
@@ -1520,27 +1538,30 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 8601:2000</formattedref>
+    <bibitem>
+      <formattedref>ISO 8601:2000</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8601:2000</docidentifier>
+      <date type="published">
+        <on>2000-12-21</on>
+      </date>
     </bibitem>
 
   </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 8601-1:2019</formattedref>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO 8601-1:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8601-1:2019</docidentifier>
-      <date type="circulated">
+      <date type="published">
         <on>2019-02-25</on>
       </date>
     </bibitem>
 
   </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 8601-2:2019</formattedref>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO 8601-2:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO 8601-2:2019</docidentifier>
-      <date type="circulated">
+      <date type="published">
         <on>2019-02-25</on>
       </date>
     </bibitem>
@@ -1550,25 +1571,35 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
     <city>Geneva</city>
   </place>
 </bibitem>
-<bibitem id="_61d8cfc9-ba64-17f7-7008-9e8c2d5756ab" type="standard" schema-version="v1.2.9" anchor="ISO_80000-1_2009">
-  <fetched>2026-04-16</fetched>
+<bibitem id="_482fab7e-a455-1506-b840-30678f64e519" type="standard" schema-version="v1.5.6" anchor="ISO_80000-1_2009">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Quantities and units</title>
+<title language="en" script="Latn" type="title-main">Quantities and units</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General</title>
+<title language="en" script="Latn" type="title-part">Part 1: General</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Quantities and units — Part 1: General</title>
+<title language="en" script="Latn" type="main">Quantities and units — Part 1: General</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Grandeurs et unités</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 1: Généralités</title>
+
+  
+<title language="fr" script="Latn" type="main">Grandeurs et unités — Partie 1: Généralités</title>
 
   <uri type="src">https://www.iso.org/standard/30669.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:30669:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/06/30669.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO 80000-1:2009</docidentifier>
   <docidentifier type="iso-reference">ISO 80000-1:2009(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso:80000:-1:stage-95.99</docidentifier>
   <docnumber>80000</docnumber>
   <date type="published">
-    <on>2009-11</on>
+    <on>2009-11-17</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -1580,13 +1611,28 @@ ISO 8601:2004 does not assign any particular meaning or interpretation to any da
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Quantities and units</name>
+
+        <identifier>ISO/TC 12</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
-  <note type="Unpublished-Status"><p id="_baaae955-e08e-3aaf-949a-60871f0a1a3f">Cancelled and replaced by ISO 80000-1:2022.</p></note><language>en</language>
+  <note type="Unpublished-Status"><p id="_abbaf604-0155-144a-8e4c-11343446dad1">Withdrawn.</p></note><language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">ISO 80000-1:2009 gives general information and definitions concerning quantities, systems of quantities, units, quantity and unit symbols, and coherent unit systems, especially the International System of Quantities, ISQ, and the International System of Units, SI.
-The principles laid down in ISO 80000-1:2009 are intended for general use within the various fields of science and technology and as an introduction to other parts of the Quantities and units series.
-Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2009.</abstract>
+  <abstract language="en" script="Latn">ISO 80000-1:2009 gives general information and definitions concerning quantities, systems of quantities, units, quantity and unit symbols, and coherent unit systems, especially the International System of Quantities, ISQ, and the International System of Units, SI. The principles laid down in ISO 80000-1:2009 are intended for general use within the various fields of science and technology and as an introduction to other parts of the Quantities and units series. Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2009.</abstract>
   <status>
     <stage>95</stage>
     <substage>99</substage>
@@ -1602,56 +1648,68 @@ Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 31-0:1992</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 31-0:1992</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 31-0:1992/Amd 1:1998</formattedref>
+    <bibitem>
+      <formattedref>ISO 31-0:1992/Amd 1:1998</formattedref>
       <docidentifier type="ISO" primary="true">ISO 31-0:1992/Amd 1:1998</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 31-0:1992/Amd 2:2005</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 31-0:1992/Amd 2:2005</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 1000:1992</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 1000:1992</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 1000:1992/Amd 1:1998</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 1000:1992/Amd 1:1998</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 80000-1:2022</formattedref>
-      <docidentifier type="ISO" primary="true">ISO 80000-1:2022</docidentifier>
-      <date type="circulated">
-        <on>2022-12-06</on>
+      <date type="published">
+        <on>1998-12-20</on>
       </date>
     </bibitem>
 
   </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 80000-1:2009/Cor 1:2011</formattedref>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31-0:1992</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 31-0:1992</docidentifier>
+      <date type="published">
+        <on>1992-07-23</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 1000:1992/Amd 1:1998</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 1000:1992/Amd 1:1998</docidentifier>
+      <date type="published">
+        <on>1998-11-19</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31-0:1992/Amd 2:2005</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 31-0:1992/Amd 2:2005</docidentifier>
+      <date type="published">
+        <on>2005-10-05</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 1000:1992</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 1000:1992</docidentifier>
+      <date type="published">
+        <on>1992-11-12</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/DIS 80000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/DIS 80000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="updatedBy">
+    <bibitem>
+      <formattedref>ISO 80000-1:2009/Cor 1:2011</formattedref>
       <docidentifier type="ISO" primary="true">ISO 80000-1:2009/Cor 1:2011</docidentifier>
-      <date type="circulated">
-        <on>2022-12-06</on>
+      <date type="published">
+        <on>2011-09-22</on>
       </date>
     </bibitem>
 
@@ -1660,27 +1718,35 @@ Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2
     <city>Geneva</city>
   </place>
 </bibitem>
-<bibitem id="_d6580451-81c1-e763-fab1-17da44c09bdc" type="standard" schema-version="v1.2.9" anchor="ISO_IEC_Guide_21-1_2005">
-  <fetched>2026-04-16</fetched>
+<bibitem id="_996b221f-f03e-bd0c-43b4-14dc12c3d3f0" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_21-1_2005">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Regional or national adoption of International Standards and other International Deliverables</title>
+<title language="en" script="Latn" type="title-main">Regional or national adoption of International Standards and other International Deliverables</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Adoption of International Standards</title>
+<title language="en" script="Latn" type="title-part">Part 1: Adoption of International Standards</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Regional or national adoption of International Standards and other International Deliverables — Part 1: Adoption of International Standards</title>
+<title language="en" script="Latn" type="main">Regional or national adoption of International Standards and other International Deliverables — Part 1: Adoption of International Standards</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 1: Adoption de Normes internationales</title>
+
+  
+<title language="fr" script="Latn" type="main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif — Partie 1: Adoption de Normes internationales</title>
 
   <uri type="src">https://www.iso.org/standard/39799.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:39799:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/97/39799.detail.rss</uri>
-  <uri type="pub">https://isotc.iso.org/livelink/livelink/Open/8389141</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC Guide 21-1:2005</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC Guide 21-1:2005(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:guide:21:-1:stage-90.93</docidentifier>
   <docnumber>21</docnumber>
   <date type="published">
-    <on>2005-05</on>
+    <on>2005-05-12</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -1702,12 +1768,28 @@ Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2
       <uri>www.iec.ch</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">ISO/IEC Guide 21-1:2005 provides methods for: determination of the degree of correspondence between regional or national standards and relevant International Standards; adoption of International Standards as regional or national standards; indication of technical deviations which would facilitate immediate recognition of any deviation; numbering of regional or national standards that are identical adoptions of International Standards; indication of the degree of correspondence between the regional or national standard and the International Standard.
-ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an International Standard in production, trade, legislation or similar activities. It also does not deal with: the adoption of regional or national standards as International Standards; adoption of regional or national standards as other regional or national standards; adoption of regional standards as national standards; or adoption in or of technical regulations.</abstract>
+  <abstract language="en" script="Latn">ISO/IEC Guide 21-1:2005 provides methods for: determination of the degree of correspondence between regional or national standards and relevant International Standards; adoption of International Standards as regional or national standards; indication of technical deviations which would facilitate immediate recognition of any deviation; numbering of regional or national standards that are identical adoptions of International Standards; indication of the degree of correspondence between the regional or national standard and the International Standard. ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an International Standard in production, trade, legislation or similar activities. It also does not deal with: the adoption of regional or national standards as International Standards; adoption of regional or national standards as other regional or national standards; adoption of regional standards as national standards; or adoption in or of technical regulations.</abstract>
   <status>
     <stage>90</stage>
     <substage>93</substage>
@@ -1723,9 +1805,12 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO/IEC Guide 21:1999</formattedref>
+    <bibitem>
+      <formattedref>ISO/IEC Guide 21:1999</formattedref>
       <docidentifier type="ISO" primary="true">ISO/IEC Guide 21:1999</docidentifier>
+      <date type="published">
+        <on>1999-02-11</on>
+      </date>
     </bibitem>
 
   </relation>
@@ -1733,27 +1818,35 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
     <city>Geneva</city>
   </place>
 </bibitem>
-<bibitem id="_32cde203-45ca-10be-4fa6-2f289f8befde" type="standard" schema-version="v1.2.9" anchor="ISO_IEC_Guide_21-2_2005">
-  <fetched>2026-04-16</fetched>
+<bibitem id="_c7e2536e-d6f7-e1dc-77ff-479b782bb29f" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_21-2_2005">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Regional or national adoption of International Standards and other International Deliverables</title>
+<title language="en" script="Latn" type="title-main">Regional or national adoption of International Standards and other International Deliverables</title>
 
   
-<title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Adoption of International Deliverables other than International Standards</title>
+<title language="en" script="Latn" type="title-part">Part 2: Adoption of International Deliverables other than International Standards</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Regional or national adoption of International Standards and other International Deliverables — Part 2: Adoption of International Deliverables other than International Standards</title>
+<title language="en" script="Latn" type="main">Regional or national adoption of International Standards and other International Deliverables — Part 2: Adoption of International Deliverables other than International Standards</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 2: Adoption de documents internationaux autres que les Normes internationales</title>
+
+  
+<title language="fr" script="Latn" type="main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif — Partie 2: Adoption de documents internationaux autres que les Normes internationales</title>
 
   <uri type="src">https://www.iso.org/standard/39800.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:39800:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/98/39800.detail.rss</uri>
-  <uri type="pub">https://isotc.iso.org/livelink/livelink/Open/8389141</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC Guide 21-2:2005</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC Guide 21-2:2005(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:guide:21:-2:stage-90.93</docidentifier>
   <docnumber>21</docnumber>
   <date type="published">
-    <on>2005-05</on>
+    <on>2005-05-12</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -1775,11 +1868,28 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
       <uri>www.iec.ch</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">ISO/IEC Guide 21-2:2005 provides methods for the following: the adoption of International Deliverables other than International Standards as regional or national deliverables; numbering of regional or national deliverables that are adoptions of International Deliverables other than International Standards.</abstract>
+  <abstract language="en" script="Latn">ISO/IEC Guide 21-2:2005 provides methods for the following: the adoption of International Deliverables other than International Standards as regional or national deliverables; numbering of regional or national deliverables that are adoptions of International Deliverables other than International Standards.</abstract>
   <status>
     <stage>90</stage>
     <substage>93</substage>
@@ -1795,9 +1905,12 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
     </owner>
   </copyright>
   <relation type="obsoletes">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO/IEC Guide 21:1999</formattedref>
+    <bibitem>
+      <formattedref>ISO/IEC Guide 21:1999</formattedref>
       <docidentifier type="ISO" primary="true">ISO/IEC Guide 21:1999</docidentifier>
+      <date type="published">
+        <on>1999-02-11</on>
+      </date>
     </bibitem>
 
   </relation>
@@ -1805,22 +1918,29 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
     <city>Geneva</city>
   </place>
 </bibitem>
-<bibitem id="_b28375be-8a31-7e8d-35bf-da754a48de3f" type="standard" schema-version="v1.2.9" anchor="ISO_IEC_Guide_59_1994">
-  <fetched>2026-04-16</fetched>
+<bibitem id="_605243d7-b59f-af50-70b2-677603b6643a" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_59_1994">
+  <fetched>2026-06-16</fetched>
   
-<title type="title-main" format="text/plain" language="en" script="Latn">Code of good practice for standardization</title>
+<title language="en" script="Latn" type="title-main">Code of good practice for standardization</title>
 
   
-<title type="main" format="text/plain" language="en" script="Latn">Code of good practice for standardization</title>
+<title language="en" script="Latn" type="main">Code of good practice for standardization</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Code de bonne pratique pour la normalisation</title>
+
+  
+<title language="fr" script="Latn" type="main">Code de bonne pratique pour la normalisation</title>
 
   <uri type="src">https://www.iso.org/standard/23390.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:23390:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/33/23390.detail.rss</uri>
   <docidentifier type="ISO" primary="true">ISO/IEC Guide 59:1994</docidentifier>
   <docidentifier type="iso-reference">ISO/IEC Guide 59:1994(E)</docidentifier>
   <docidentifier type="URN">urn:iso:std:iso-iec:guide:59:stage-95.99</docidentifier>
   <docnumber>59</docnumber>
   <date type="published">
-    <on>1994-02</on>
+    <on>1994-02-17</on>
   </date>
   <contributor>
     <role type="publisher"/>
@@ -1842,11 +1962,28 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
       <uri>www.iec.ch</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1</edition>
-  <note type="Unpublished-Status"><p id="_9f76e4b8-f59a-413c-c15e-6ffe089e7db9">Cancelled and replaced by ISO/IEC Guide 59:2019.</p></note><language>en</language>
+  <note type="Unpublished-Status"><p id="_b20db9ea-23de-2884-2a95-6974eff8c23c">Withdrawn.</p></note><language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">Standards are developed by many bodies at national and international levels, which in general prepare their documents by consensus processes. Alongside the growth of international trade and technological cooperation, standardizing bodies have developed procedures and modes of cooperation which are commonly considered to constitute good practices for standard development at all levels. These practices are set out in the form of a code, applicable to governmental and non-governmental consensus bodies. The guide deals with procedures for the development of standards, advancement of international trade, participation in the standards development process, coordination and information.</abstract>
+  <abstract language="en" script="Latn">Standards are developed by many bodies at national and international levels, which in general prepare their documents by consensus processes. Alongside the growth of international trade and technological cooperation, standardizing bodies have developed procedures and modes of cooperation which are commonly considered to constitute good practices for standard development at all levels. These practices are set out in the form of a code, applicable to governmental and non-governmental consensus bodies. The guide deals with procedures for the development of standards, advancement of international trade, participation in the standards development process, coordination and information.</abstract>
   <status>
     <stage>95</stage>
     <substage>99</substage>
@@ -1861,11 +1998,11 @@ ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an Internation
       </organization>
     </owner>
   </copyright>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO/IEC Guide 59:2019</formattedref>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/IEC Guide 59:2019</formattedref>
       <docidentifier type="ISO" primary="true">ISO/IEC Guide 59:2019</docidentifier>
-      <date type="circulated">
+      <date type="published">
         <on>2019-08-19</on>
       </date>
     </bibitem>
