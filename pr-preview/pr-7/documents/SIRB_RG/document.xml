@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="3.4.8" schema-version="v2.1.6" flavor="iso">
+<bibdata type="standard">
+<title language="en" type="main">Requirements &amp; Guidance — Accreditation of Standards Development Organizations</title>
+
+<title language="en" type="title-intro">Requirements &amp; Guidance</title>
+
+<title language="en" type="title-main">Accreditation of Standards Development Organizations</title>
+
+<title language="fr" type="main">Exigences et lignes directrices — Accréditation des organismes d’élaboration de normes</title>
+
+<title language="fr" type="title-intro">Exigences et lignes directrices</title>
+
+<title language="fr" type="title-main">Accréditation des organismes d’élaboration de normes</title>
+<docidentifier type="ISO" primary="true">ISO :2019</docidentifier><docidentifier type="iso-reference">ISO :2019(E)</docidentifier><docidentifier type="URN">urn:iso:std:iso::stage-60.60:en</docidentifier><docidentifier type="iso-undated">ISO </docidentifier><docidentifier type="iso-with-lang">ISO :2019(en)</docidentifier><date type="2019-06-13"/><contributor><role type="author"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="authorizer"><description>Agency</description></role><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="author"><description>secretariat</description></role><organization>
+<name>International Organization for Standardization</name>
+<subdivision type="Secretariat">
+<name>CANADIAN STANDARDS DEVELOPMENT</name>
+</subdivision><abbreviation>ISO</abbreviation></organization></contributor><contributor><role type="publisher"/><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></contributor><edition>4</edition><language>en</language><script>Latn</script><status><stage abbreviation="IS">60</stage><substage>60</substage></status><copyright><from>2019</from><owner><organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation></organization></owner></copyright><ext><doctype>international-standard</doctype><flavor>iso</flavor><structuredidentifier><project-number>ISO </project-number></structuredidentifier><stagename abbreviation="IS">International Standard</stagename></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<presentation-metadata><document-scheme>2013</document-scheme><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>3</doc-toc-heading-levels><pdf-toc-heading-levels>3</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_aa705764-de78-2c83-46a4-9e648d4472ef" anchor="boilerplate-copyright-default" inline-header="false" obligation="normative">
+<title id="_129fe8d3-7b32-3da5-a270-59bb0ef8173e">COPYRIGHT PROTECTED DOCUMENT</title>
+<p id="_bd17e37d-7be9-266b-bfab-a8520b16f3bb" anchor="boilerplate-year">© <span class="std_publisher">ISO </span><span class="date">2019</span></p>
+
+<p id="_dcd0efd0-9c2b-bcfd-6dcd-ce36b8143916" anchor="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="_9b279b29-6760-9714-7fb3-2ca2038acedf" anchor="boilerplate-address" align="left">ISO copyright office<br/> CP 401 • Ch. de Blandonnet 8<br/> CH-1214 Vernier, Geneva<br/> Phone: +41 22 749 01 11<br/> Email:  <link target="mailto:copyright@iso.org"/><br/> Website: www.iso.org</p>
+
+<p id="_93a0bcfe-1edb-b952-e8f5-db8ed91f8e23" anchor="boilerplate-place">Published in Switzerland</p>
+</clause>
+</copyright-statement>
+</boilerplate><preface><introduction id="_94050038-8849-bf30-9ccd-30a75baa5786" obligation="informative">
+<title id="_2b2e98d1-114a-3da4-8556-01ae0a724280">Introduction</title>
+<p id="_8138aee4-8a20-d330-8d2b-ca2cd10adc34">This document specifies the requirements and guidance for the accreditation of Standards Development Organizations (SDOs). For the purposes of expediency, the acronym R&amp;G — SDO Accreditation will be used.</p>
+
+<p id="_bf4bfcbf-c700-8456-fea7-dfebe0bad238">The SDO accreditation requirements are in line with accepted international standards best practices derived from the World Trade Organization, Technical Barriers to Trade (WTO/TBT), Annex 3 provisions, ISO/IEC Guide 59  <em>Code of good practice for standardization</em>, and the following Canadian principles: consensus; equal access and effective participation by concerned interests; respect for diverse interests and identification of those who should be afforded access to provide the needed balance of interests; mechanism for duplication resolution; openness and transparency; open access by interested parties to the procedures guiding the standards development process; clarity with respect to the processes; safeguarding Canadian interest as the basis for the development of standards by SDOs; and avoiding duplication of standards or overlap with the work of other SDOs or with the work of relevant international or regional SDOs.</p>
+
+<p id="_e4b4bed8-4aad-31fb-cba9-4a295c448561">SCC accreditation of an SDO grants the responsibility for the development, publication, and maintenance of National Standards of Canada and adoptions in compliance with SCC’s Requirements &amp; Guidance for SDOs (R&amp;Gs for SDOs which are described in two documents: the R&amp;G — SDO Accreditation, and the  <em>Requirements &amp; Guidance — National Adoptions of International/Regional Standards and Other Deliverables</em>). Note that Consensus SDO Standards published by SDOs which are compliant to SCC requirements are expected to be transitioned under the NSC branding utilizing their established maintenance cycles.</p>
+
+<p id="_1565cb33-764f-bc96-a1e4-a6a4f85d62eb">A new clause 8 is included outlining the requirements and guidance to maintain SCC accreditation. This section includes direction to ensure SDOs transition to SCC’s requirements as they are updated and that they align their procedures to remain compliant. It highlights the assessment process used by SCC to verify compliance. As well, that the accredited SDO process delivers published NSCs.</p>
+
+<p id="_4d4e2b0b-0808-1eae-95dd-518d79a05af3">A new clause 9 is included outlining the requirements and guidance to obtain self-declaration status. This section includes specific criteria for SDOs to meet to successfully achieve and maintain this status. SCC’s evaluation of compliance to these criteria may involve specific assessments of affected SDO processes, which may be in addition to the normal accreditation assessments. Non-compliance of the self-declaration criteria may lead to withdrawal of the self-declaration status. Note that self-declaration status is voluntary and an SCC-accredited SDO may remain in good accreditation standing without having achieved self-declaration status or if this status is withdrawn.</p>
+
+<p id="_b621646b-c4f6-6cf6-56b9-8f27335f37bc">This document was prepared for, and approved by, the Governing Council of the Standards Council of Canada (SCC) on 2019-06-13. It replaces the 2017 edition of the  <em>Requirements &amp; Guidance — Accreditation of Standards Development Organizations</em>.</p>
+</introduction></preface><sections>
+
+
+<terms id="_5591e887-14c7-86c5-27bb-e68224b6e5d5" obligation="normative">
+<title id="_dfb2eab2-f980-6365-3c47-81d0eb272962">Terms and definitions</title><p id="_dcc01114-4d03-3550-1347-4ba901bda94c">For the purposes of this document, the following terms and definitions apply.</p><p id="_1df4aedb-297d-0c69-967f-f6a60db009d2">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p>
+
+<ul id="_e6ddc246-88cc-2222-8452-b939a5cefa0e"><li><p id="_93880b15-0e52-9141-f887-d290dce89ffd">ISO Online browsing platform: available at <link target="https://www.iso.org/obp"/></p>
+</li>
+<li><p id="_8a7ecb99-412c-1138-ae9d-76c4ac7b7d43">IEC Electropedia: available at <link target="https://www.electropedia.org"/></p>
+</li>
+</ul>
+<term id="_d22d7775-da4a-03d7-3df4-b475fa93b254" anchor="term-Accreditation"><preferred><expression>
+<name>Accreditation</name>
+</expression>
+</preferred>
+<definition id="_658b5f52-474d-8a6b-f10b-be92d5703676"><verbal-definition id="_37f67f29-74d2-049d-3e0a-398fca1c02f8"><p id="_a7b5d845-b8a7-3881-5ac7-61cd7bc52725">The formal recognition of the competence of an organization to carry out specific functions in accordance with established criteria. When such accreditation has been accorded by SCC, the SDO is a component of Canada’s standardization network.</p></verbal-definition></definition>
+ </term>
+
+<term id="_85af86b8-af51-a06d-09ba-331249612bf6" anchor="term-Action-Plan"><preferred><expression>
+<name>Action Plan</name>
+</expression>
+</preferred>
+<definition id="_b2410c7e-307f-3e8e-709f-78b1d00a12fa"><verbal-definition id="_6b773d6a-bdc7-43d3-14cf-8edea570c8a6"><p id="_fc4ecf22-28cc-ac8b-7058-b328b79c4e23">Next steps and timelines to be followed as a result of SCC’s Duplication Resolution Mechanism (DRM) decision.</p></verbal-definition></definition>
+ </term>
+
+<term id="_4ccb97bb-d43e-c0ff-2612-6fd2bad7c7b7" anchor="term-Balanced-representation"><preferred><expression>
+<name>Balanced representation</name>
+</expression>
+</preferred>
+<definition id="_a5edbd03-e67a-62fb-0450-c423c5aae491"><verbal-definition id="_a108fc65-5f35-97f2-757c-fc2a71276b6c"><p id="_eda689ab-bcc0-c228-d9d8-a2d83a8fb1fd">A representation of interest groups in a technical committee such that no single category of interest can dominate the voting procedures. Commonly used interest categories may include, but are not limited to, general interest, producers, regulators and users.</p></verbal-definition></definition>
+ </term>
+
+<term id="_2397bc14-0f35-7fb1-a09f-25e7a13aa045" anchor="term-Canada_s-standardization-network"><preferred><expression>
+<name>Canada’s standardization network</name>
+</expression>
+</preferred>
+<definition id="_338fb507-e10f-0ca9-9d3b-b9066872fa9e"><verbal-definition id="_32485e51-924f-db25-686e-aa2934cfc0dd"><p id="_84dc45ea-557f-d854-ff42-9f1203a176dc">The people and organizations involved in the development, promotion and implementation of standards.</p></verbal-definition></definition>
+ </term>
+
+<term id="_a8e5a7b5-90af-feb0-a1f3-659ef51b4cf8" anchor="term-Centralized-Notification-System-_CNS_"><preferred><expression>
+<name>Centralized Notification System (CNS)</name>
+</expression>
+</preferred>
+<definition id="_31ca03f5-9e4e-53ea-0697-7a34fbb2ac7f"><verbal-definition id="_de8afc59-f748-55a8-27b4-0476feabe227"><p id="_4d45509c-bef8-abd9-d234-394f50f28feb">Public notice portal on SCC’s corporate website of SDO Notices of Intent (NOI) to develop or adopt a new standard or other deliverable; new edition; amendment; revision; reaffirmation or withdrawal of an already published standard; Work Program; and a listing of published standards under SCC’s accreditation.</p></verbal-definition></definition>
+ </term>
+
+<term id="_fac239b0-b1bc-af51-cb19-fc7873e9c95d" anchor="term-Complaint"><preferred><expression>
+<name>Complaint</name>
+</expression>
+</preferred>
+<definition id="_ee9e7e8d-78f5-06b7-8551-bd3351f0c79f"><verbal-definition id="_e3984737-5d4e-4059-c451-58704390e731"><p id="_fad897fa-afc2-f99d-9049-5c99841dbc08">Expression of dissatisfaction, other than an appeal, by any person or organization, against SCC, SCC’s Service Delivery Partner or an accredited or applicant organization, when a response is expected.</p></verbal-definition></definition>
+ </term>
+
+<term id="_11b046bb-98fb-40bf-66d9-b0d0aa7afcf3" anchor="term-Conflict-of-interest"><preferred><expression>
+<name>Conflict of interest</name>
+</expression>
+</preferred>
+<definition id="_32e2b0af-5694-95f4-d76f-09f34b8c4d13"><verbal-definition id="_4eb5506a-6efc-8097-ed5e-d58fe07f4bf2"><p id="_133a8e89-3ab1-bbd8-0b47-fb45980860ae">Is a situation in which a person or organization is involved in multiple interests (financial or otherwise), one of which could possibly corrupt the motivation of the individual or organization.</p></verbal-definition></definition>
+ </term>
+
+<term id="_bb9d5676-b769-fe16-0ea1-a434aca49323" anchor="term-Conformity-assessment"><preferred><expression>
+<name>Conformity assessment</name>
+</expression>
+</preferred>
+<definition id="_3707206e-1bf2-8a03-a638-df9cf646959d"><verbal-definition id="_b6790a6f-9022-0849-15a1-1c02082151c6"><p id="_e9e83ae1-0edd-2ff6-4f9f-70f66be99d3d">Demonstration that specified requirements of a particular standard relating to a product, service, process, system, person or body are fulfilled.</p></verbal-definition></definition>
+ </term>
+
+<term id="_5754297d-0c47-e368-902f-1bc3dfe716b4" anchor="term-Consensus"><preferred><expression>
+<name>Consensus</name>
+</expression>
+</preferred>
+<definition id="_a5d4c7a1-7e2a-47e3-4386-47768e27c553"><verbal-definition id="_bd804368-0187-6cdc-ad83-2fe585bfd626"><p id="_f982272a-0b62-a1c9-5f3f-607f6a289c6b">General agreement characterized by the absence of sustained opposition to substantial issues by a concerned interest, and by a process that takes into account the views of all parties concerned, and reconciles any conflicting arguments.</p></verbal-definition></definition>
+ </term>
+
+<term id="_88789aa8-db27-9e7a-32ae-04ff47729f2e" anchor="term-Duplication-Resolution-Mechanism-_DRM_"><preferred><expression>
+<name>Duplication Resolution Mechanism (DRM)</name>
+</expression>
+</preferred>
+<definition id="_1e9b39a1-1347-238d-7ef1-a03e29137fab"><verbal-definition id="_c542c752-bf2b-84ef-f286-384a0554d030"><p id="_ba215271-fdbb-e126-501c-8d4a2ba4eea4">SCC’s process to manage duplications of standards and effort that have been raised. This involves an SCC-facilitated discussion between affected SDOs to reach a timely outcome that is responsive to Canadian stakeholder needs.</p></verbal-definition></definition>
+ </term>
+
+<term id="_73156d68-87ee-2a30-ecd1-465b8f4ec4df" anchor="term-General-interest"><preferred><expression>
+<name>General interest</name>
+</expression>
+</preferred>
+<definition id="_4ec9ea1f-6d35-99b4-1575-c2b04cdce90a"><verbal-definition id="_0bb21c4c-ef6a-ba74-b9bc-54176c055dcb"><p id="_da8a35e6-0f9d-fd6c-b324-2464c2d27f91">An interest category of those on a technical committee with a demonstrated interest and relevant expertise not associated with the production, distribution, direct use, or regulation of the product(s), material(s) or service(s).</p></verbal-definition></definition>
+ </term>
+
+<term id="_e22ae075-5ceb-9774-61c2-a0fe3d2abdec" anchor="term-Harmonization"><preferred><expression>
+<name>Harmonization</name>
+</expression>
+</preferred>
+<definition id="_6f74c17c-82c4-a8f5-3700-f2c730f5f2d7"><verbal-definition id="_b7dbdc13-2e6e-0c0b-cb7a-9f473b45063d"><p id="_a42c65ad-7a3f-3221-7b74-3b341ecac17e">The integration of work related to standards development involving the preparation of standards, regional standards, and International Standards with the objective of achieving the greatest practicable degree of commonality in accordance with policies and procedures of SCC and the applicable SDO.</p></verbal-definition></definition>
+ </term>
+
+<term id="_f34e9b7a-f6cd-d15b-8a56-816e780c9751" anchor="term-International-Electrotechnical-Commission-_IEC_"><preferred><expression>
+<name>International Electrotechnical Commission (IEC)</name>
+</expression>
+</preferred>
+<definition id="_d664b39e-d3a3-dd3d-5d47-e336dacec567"><verbal-definition id="_ec540be0-13ae-7c9b-5b7b-da6967c4ded3"><p id="_1c1fdf0f-607d-5ac0-4dfb-356cfaf27621">A non-governmental organization whose membership is composed of National Committees and which is responsible for preparing and publishing International Standards for the electrical, electronic and related technologies.</p></verbal-definition></definition>
+ </term>
+
+<term id="_5516e99c-fa9c-5821-d0f1-c1e06049bb41" anchor="term-International-Organization-for-Standardization-_ISO_"><preferred><expression>
+<name>International Organization for Standardization (ISO)</name>
+</expression>
+</preferred>
+<definition id="_5dc0ae82-6ed4-b31a-97d6-b8930aaaf9d7"><verbal-definition id="_c286c191-4ebb-ba89-5794-5ca718a9f7f9"><p id="_95209fa6-a5b2-02ca-2557-4a0d0ac0e47b">A non-governmental organization whose membership is composed of national standards bodies and which is responsible for preparing and publishing International Standards in fields other than electrical, electronic and telecommunication.</p></verbal-definition></definition>
+ </term>
+
+<term id="_51a92d50-956b-8147-ff31-2deb28d25231" anchor="term-international-standard"><preferred><expression>
+<name>international standard</name>
+</expression>
+</preferred>
+<definition id="_c8d7cfde-676a-6fba-cc8b-00b6643377f5"><verbal-definition id="_116f8665-a6b3-b44c-6f62-996b06d2a689"><p id="_f03b7089-164e-a4ce-0430-81ddf94f023e">An international standard published by any international standardizing/standards organization and made available to the public.</p></verbal-definition></definition>
+ </term>
+
+<term id="_b0746ce0-b74f-9db3-1bbe-b0ebfebf5a37" anchor="term-International-Standard"><preferred><expression>
+<name>International Standard</name>
+</expression>
+</preferred>
+<definition id="_a94a92c6-85c4-49de-12de-6298715e8394"><verbal-definition id="_1bf6d87c-9f07-30fb-993e-fdb4f6f2e78c"><p id="_949d5c47-dbd3-6b09-ef80-f121401bcac4">An International Standard published by ISO or IEC.</p></verbal-definition></definition>
+ </term>
+
+<term id="_464f4bbb-6294-56ff-cb29-e70cea6c5dcf" anchor="term-International-standardizing_standards-development-organization"><preferred><expression>
+<name>International standardizing/standards development organization</name>
+</expression>
+</preferred>
+<definition id="_e5fabdf9-224a-7fc1-fdf8-4d86390f84c9"><verbal-definition id="_9f6103b4-5bfc-cff6-5b9f-5c5fdd46b17c"><p id="_eb359e7f-03bd-e1ed-2f2d-ec3876554059">An organization that develops consensus standards through a process that adheres to a set of globally accepted principles for standards development including Transparency, Openness, Impartiality, Effectiveness and Relevance, Consensus, Performance Based, Coherence, Due Process and Technical Assistance.</p></verbal-definition></definition>
+ </term>
+
+<term id="_5c43e2ea-1d20-f292-9fc7-c62c65cb6d5d" anchor="term-ISONET"><preferred><expression>
+<name>ISONET</name>
+</expression>
+</preferred>
+<definition id="_6e88d6f8-e04c-27df-aa2d-9aa236cb2b17"><verbal-definition id="_3d4a5c87-2256-c57f-8065-4a0dc67433ff"><p id="_3d920261-2ddc-ca3f-19ea-d07c34b5a7cd">The ISO Information Network is an agreement between standardizing bodies to combine their efforts in order to make information on standards, technical regulations and related matters readily available whenever it is required.</p></verbal-definition></definition>
+ </term>
+
+<term id="_4165e978-dffb-054a-91f0-c2b33093650a" anchor="term-Maintenance"><preferred><expression>
+<name>Maintenance</name>
+</expression>
+</preferred>
+<definition id="_a8bf9cb4-0392-24b3-426e-173961da6165"><verbal-definition id="_bc94abb7-9619-8171-43bf-c1e2259819de"><p id="_0b27d5dd-1478-8456-73ff-29471e86e3c4">The action by the technical committee of reviewing a National Standard of Canada and adoptions; International Standard, regional standard, or other international/regional deliverable which results in its revision/amendment, reaffirmation, publication as a new edition, or withdrawal.</p></verbal-definition></definition>
+ </term>
+
+<term id="_0cb60aa6-6b21-6936-2eb3-560e17c68a3f" anchor="term-National-Standard-of-Canada-_NSC_"><preferred><expression>
+<name>National Standard of Canada (NSC)</name>
+</expression>
+</preferred>
+<definition id="_91a63a1a-ae14-b614-9c13-5c5d39419ce6"><verbal-definition id="_71306af2-dfc4-074e-a97c-52c067cccc86"><p id="_59b2563d-4b28-29fa-3d16-9621cb5d78aa">A standard developed by an SDO compliant to SCC’s Requirements &amp; Guidance for a) accreditation of SDOs and for b) adoptions.</p></verbal-definition></definition>
+ </term>
+
+<term id="_1ca000d6-0115-3b07-bb76-cdaf495a182f" anchor="term-New-edition"><preferred><expression>
+<name>New edition</name>
+</expression>
+</preferred>
+<definition id="_5d001717-e2a7-5ae8-ab90-68681404267c"><verbal-definition id="_66effa81-f757-ae23-9432-977bdcd7659c"><p id="_3c34392e-f293-83c6-c0ba-8fe86f9574e3">A standard that has been revised and is issued with the same designation number as its predecessor, but with a new publication date, and incorporates previous revisions and other changes.</p></verbal-definition></definition>
+ </term>
+
+<term id="_b97be3a3-4bd5-1b25-284b-32040ac6a998" anchor="term-Performance-requirements"><preferred><expression>
+<name>Performance requirements</name>
+</expression>
+</preferred>
+<definition id="_bac62ea8-8e8d-b45d-7763-edcac9ac415f"><verbal-definition id="_fffbd5ee-c1c8-42f9-e227-f8c6f0696474"><p id="_c93dd606-ba0a-5094-9260-93a4154b6513">Requirements that concern the behaviour of a product, process or service in or related to use.</p></verbal-definition></definition>
+ </term>
+
+<term id="_c500a74d-d6f7-31ac-1f5f-e95720b7e5e6" anchor="term-Producer"><preferred><expression>
+<name>Producer</name>
+</expression>
+</preferred>
+<definition id="_d0386a58-59d0-f9ef-fa03-ba3bd433662d"><verbal-definition id="_5cf74272-d0fa-4337-5a14-4132b5f5b29f"><p id="_d4300329-41cc-a466-5bd4-1ab5487052cc">An interest category of those on a technical committee who are predominantly involved in production (i.e., manufacture), promotion, retailing, or distribution of the subject product(s), material(s) or service(s).</p></verbal-definition></definition>
+ </term>
+
+<term id="_4c7317e1-37bd-95f2-2581-b7bbd25eaf9d" anchor="term-Public-review"><preferred><expression>
+<name>Public review</name>
+</expression>
+</preferred>
+<definition id="_354d55ea-e790-0583-b4be-f6b9312ba806"><verbal-definition id="_f6740f90-a6b7-1660-aed5-0ac6417e1d94"><p id="_a87838f4-0adb-14e1-37d4-5594f1b770a9">An opportunity for the public to comment on a draft standard before final approval by the technical committee.</p></verbal-definition></definition>
+ </term>
+
+<term id="_b6947d49-6e45-b4ee-e675-b63a9ab8f657" anchor="term-Reaffirmation"><preferred><expression>
+<name>Reaffirmation</name>
+</expression>
+</preferred>
+<definition id="_836234c5-0700-fe73-a163-fb1a6ad3dcf7"><verbal-definition id="_5b5d3d85-eb4e-5716-0bf7-1f1c56bc931f"><p id="_d39fa8bf-c61b-8c0c-8ce4-6acb7f3b7076">The declaration by the SDO that the technical committee confirms that the standard continues to be valid without necessitating any technical change and that it is still in conformance with applicable requirements.</p></verbal-definition></definition>
+ </term>
+
+<term id="_c1a11fae-2ec8-13f4-25bc-b779b3707b5a" anchor="term-Regional-standard"><preferred><expression>
+<name>Regional standard</name>
+</expression>
+</preferred>
+<definition id="_d1a5ba5b-2e37-f4fc-33aa-e2139a173acd"><verbal-definition id="_9d06a62f-d647-bb02-0506-3f2c1e405e22"><p id="_a922e06e-1eaf-bdc0-37bc-6885bec42637">A standard that is developed or adopted by a regional SDO and made available to the public.</p></verbal-definition></definition>
+ </term>
+
+<term id="_c3aebfee-f9af-17ca-f93a-70910dba7bf5" anchor="term-Regional-standards-development-organization"><preferred><expression>
+<name>Regional standards development organization</name>
+</expression>
+</preferred>
+<definition id="_832da76c-3a9f-a72b-a611-12163c5d600b"><verbal-definition id="_b40d5b06-ad49-8f3b-e0d9-c983ccc56382"><p id="_bd0962ad-3128-e7d2-161c-755e3f89f479">An organization whose membership is open to the relevant national standards body from each country within one geographical, political or economic area.</p></verbal-definition></definition>
+ </term>
+
+<term id="_48e00065-8f27-8378-05fd-7b0cafd402e3" anchor="term-Regulation"><preferred><expression>
+<name>Regulation</name>
+</expression>
+</preferred>
+<definition id="_42634a5f-a177-587a-2eca-561c71ecdcaa"><verbal-definition id="_6d53e1fb-a3a8-3f92-020a-82d7c60512d7"><p id="_72fd363e-2ab2-1e70-02ee-6f8fe569044c">A document specifying mandatory rules created by an authority having jurisdiction (AHJ).</p></verbal-definition></definition>
+ </term>
+
+<term id="_1e9b5dae-9a73-6a2b-f6c9-75a28bb527c8" anchor="term-Regulator"><preferred><expression>
+<name>Regulator</name>
+</expression>
+</preferred>
+<definition id="_ea08aa6b-a1ab-b5f8-2d72-757976156649"><verbal-definition id="_d76b8253-ae37-94cd-a095-badc25c7cafd"><p id="_2db0dc72-163c-bb25-f674-6808716a7ac9">An interest category of those on a technical committee representing any federal, provincial, municipal, other government body, or body/authority designated by a government responsible for regulating the acceptability, sale or use of the subject product(s), material(s) or service(s), and those bodies that enforce these rules and regulations.</p></verbal-definition></definition>
+ </term>
+
+<term id="_68418780-04d1-59f4-9e7f-51ba5a41417e" anchor="term-Safety-marking"><preferred><expression>
+<name>Safety marking</name>
+</expression>
+</preferred>
+<definition id="_fe1cc402-b268-c09a-1076-cb5d2c2e176d"><verbal-definition id="_60a5215f-5915-f70d-25ac-3e4d7831ceff"><p id="_e94b7c89-97eb-2b02-10df-d6726be4097a">Text or graphical symbol instruction on a product designed to prevent unacceptable risk.</p></verbal-definition></definition>
+ </term>
+
+<term id="_2a38d250-cc9c-b47e-fae1-2e2a5045611c" anchor="term-SCC-Mirror-Committee-_SMC_"><preferred><expression>
+<name>SCC Mirror Committee (SMC)</name>
+</expression>
+</preferred>
+<definition id="_05fdcb94-c163-d1b5-8c3b-3617f9d48ba0"><verbal-definition id="_8c669966-0e4e-244f-7e81-e0356f6f9919"><p id="_a7c3748e-b2cd-cb63-a943-b8b80d3f2c73">A national technical committee established by SCC which mirrors an international committee that facilitates Canadian participation within international standardization activities.</p></verbal-definition></definition>
+ </term>
+
+<term id="_702e4b91-2941-a8f0-8fb5-bfb54f3f8ebf" anchor="term-Second-level-review"><preferred><expression>
+<name>Second level review</name>
+</expression>
+</preferred>
+<definition id="_ed7d766d-29ef-fea5-5c11-5ec226ecaa58"><verbal-definition id="_c62110bb-b0d6-a300-b9b8-2ac29f195c6a"><p id="_e03056ae-b078-10f4-040a-8ab924f9f965">Verification conducted by the SDO at the end of the technical approval stage to ensure compliance with SCC’s Requirements &amp; Guidance for SDOs.</p></verbal-definition></definition>
+ </term>
+
+<term id="_58e57347-6333-be25-dcf9-cf6803be58ce" anchor="term-Self-declaration-status"><preferred><expression>
+<name>Self-declaration status</name>
+</expression>
+</preferred>
+<definition id="_5d07b416-38fa-a691-4691-12bc1eea362d"><verbal-definition id="_520de886-1135-52a2-70ec-354c6b5d86d5"><p id="_fa25f9b5-958c-5118-eac0-69018b37d0cd">The status granted to an SCC-accredited SDO, allowing them the ability to declare compliance with SCC’s Requirements &amp; Guidance for SDOs for the publication of their NSCs.</p></verbal-definition></definition>
+ </term>
+
+<term id="_559718d1-91d7-6874-80ef-b03ae10f138a" anchor="term-Stakeholder"><preferred><expression>
+<name>Stakeholder</name>
+</expression>
+</preferred>
+<definition id="_d21473f8-0242-f210-28f2-8a94558dce23"><verbal-definition id="_8c0597fb-9377-ce8f-e17c-bca581a4a5e9"><p id="_93c56abc-9efa-9a10-e6cd-9488a9f6d7a5">A party that has an interest in a standard, and can either affect or be affected by the standard. Commonly identified Canadian stakeholders may include, but are not limited to: key company/market leaders, industry associations, regulatory bodies, governments, associations, NGOs, academics, and/or consumers expressing the need for the standard.</p></verbal-definition></definition>
+ </term>
+
+<term id="_49f24c50-b9b8-b7d1-f8e5-26b5901e7bb2" anchor="term-Standard"><preferred><expression>
+<name>Standard</name>
+</expression>
+</preferred>
+<definition id="_539d7506-311f-19a7-53e7-26e8a3e5fd65"><verbal-definition id="_76c90bc6-ece1-5e0a-b8ff-a687fa08efc8"><p id="_0e7595a9-b06c-30ea-bdc4-7146f0032138">A document, established by consensus and approved by a recognized body that provides for common and repeated use, rules, guidelines or characteristics for activities or their results, aimed at achievement of the optimum degree of order in a given context. For the purpose of this document this includes, National Standards of Canada, adoptions and Consensus SDO Standards.</p></verbal-definition></definition>
+ </term>
+
+<term id="_ec277aa5-9c19-166b-ecea-6e73e94948a2" anchor="term-Standardization"><preferred><expression>
+<name>Standardization</name>
+</expression>
+</preferred>
+<definition id="_bc99a7ce-db51-e32a-60c6-e12580dcb715"><verbal-definition id="_d175ec36-ecb4-d89f-cf9e-14249a931c9e"><p id="_cdfb2592-0f75-2a00-0e67-cf87b0206207">The processes of formulating, issuing, and implementing standards to establish provisions for common and repeated use, aimed at the achievement of the optimum degree of order in a given context to address actual or potential needs.</p></verbal-definition></definition>
+ </term>
+
+<term id="_b57b2a51-9786-d9e0-95bc-4dc961f42c9d" anchor="term-Standards-development"><preferred><expression>
+<name>Standards development</name>
+</expression>
+</preferred>
+<definition id="_1a2a0c03-9ed6-82b1-3826-024f22a0919a"><verbal-definition id="_0c083f62-676e-efac-3395-df7336e2da84"><p id="_77191bed-8eab-c1db-3420-2271cd5a8a9a">Process based on the requirements of the Canadian standards development system which includes the policies and procedures of an SCC-accredited SDO for the preparation, self-declaration of compliance with SCC’s Requirements &amp; Guidance for SDOs, publication and maintenance of standards.</p></verbal-definition></definition>
+ </term>
+
+<term id="_172c581a-66b1-450d-876f-6d3154da0933" anchor="term-Standards-Development-Organization-_SDO_"><preferred><expression>
+<name>Standards Development Organization (SDO)</name>
+</expression>
+</preferred>
+<definition id="_70266ef8-bc18-7c4b-c4ba-283ed066cc50"><verbal-definition id="_8e516c98-10ae-6bd8-fd92-7ef2e26e500f"><p id="_97de0c3e-82ef-abba-5ffb-fba9a2c9c258">An organization, or part thereof, accredited by SCC, that accepts responsibility for the development, self-declaration of compliance with SCC’s Requirements &amp; Guidance for SDOs, publication and maintenance of standards.</p></verbal-definition></definition>
+ </term>
+
+<term id="_1a69c8cc-dabe-ae53-9a31-98ccee7f775d" anchor="term-Technical-committee"><preferred><expression>
+<name>Technical committee</name>
+</expression>
+</preferred>
+<definition id="_408a4b4f-c213-7441-65c8-a775c683c616"><verbal-definition id="_4bb67699-ac8e-6d0c-f38f-99052d00f208"><p id="_8005987a-250e-038f-65b8-66cf95f7a212">A committee responsible for developing, approving and maintaining the technical content of a draft or published standard in accordance with the policies and procedures of the SDO.</p></verbal-definition></definition>
+ </term>
+
+<term id="_ce68ef9b-1726-3acc-a4ce-f81d1ecd35ad" anchor="term-Technical-regulation"><preferred><expression>
+<name>Technical regulation</name>
+</expression>
+</preferred>
+<definition id="_139adc0b-157a-c397-0fba-772ddc5c957a"><verbal-definition id="_760260e2-14e4-a38c-3217-902b0d163508"><p id="_4df5536e-27f8-e377-0098-118b10c67cb2">A regulation that provides technical requirements, either directly or by referring to or incorporating the content of a standard, technical specification or code of practice. The technical regulation may be supplemented by technical guidance that outlines some means of compliance with the requirements of the regulation (i.e., deemed-to-satisfy provision).</p></verbal-definition></definition>
+ </term>
+
+<term id="_a2d7420b-8bee-4686-e657-040d6dfe43ec" anchor="term-User"><preferred><expression>
+<name>User</name>
+</expression>
+</preferred>
+<definition id="_10d463b7-8ea1-9b98-d5f2-1e4ebb68bd60"><verbal-definition id="_a242daca-ed0c-57f3-e022-f508756e6e10"><p id="_919b9a2e-c46b-b1e6-7239-90319de6e9e5">An interest category of those on a technical committee who predominantly represent end users of the subject product(s), material(s), or service(s) and who are not involved in any way in production and/or distribution of the subject product(s), material(s) or service(s). Consumers are one type of end user, and may be defined as, individual members of the general public, or consumer organizations, purchasing or using property, products or services for private purposes.</p></verbal-definition></definition>
+ </term>
+
+<term id="_4d5dabf3-e9b4-be09-1377-7a343da8e7d3" anchor="term-Withdrawn-standard"><preferred><expression>
+<name>Withdrawn standard</name>
+</expression>
+</preferred>
+<definition id="_4db855da-4e9c-3056-cf63-5ff0f93bd4c5"><verbal-definition id="_47fba3e4-836b-d880-fd4d-8b779ac572a4"><p id="_2bf8ce03-0336-e72d-3822-970744f0c081">A standard discontinued by an SDO and its responsible technical committee as it is no longer valid, and/or no longer represents the most current, reliable, and/or available information.</p></verbal-definition></definition>
+ </term>
+
+<term id="_24ab4d98-9f51-e35c-478d-e217755037e4" anchor="term-Work-Program"><preferred><expression>
+<name>Work Program</name>
+</expression>
+</preferred>
+<definition id="_4d82233a-a877-d7f9-590d-7f71c3cd6ab2"><verbal-definition id="_016913db-d839-1407-c019-a26448b3f82c"><p id="_4afaca76-2f91-7d4f-904d-9ade455a50e0">A document that meets the requirements of the WTO/TBT <em>Code of Good Practice for the Preparation, Adoption and Application of Standards</em>. The Work Program is published by the SDO. Requirements for the content and notice of the existence of the Work Program are included in the WTO/TBT Annex 3.</p></verbal-definition></definition>
+ </term>
+</terms>
+
+<clause id="_a72a947a-c01d-e05f-991b-cdeaa278dd24" inline-header="false" obligation="normative">
+<title id="_bc17c20d-c987-b06a-625b-dea49d034168">General Requirements</title>
+<clause id="_bbc6f9da-5f3d-e316-d488-ff7564eaaca8" anchor="sec_4.1" inline-header="false" obligation="normative">
+<title id="_2117b9f2-bb9f-07eb-e732-e298d4301397">Consensus Process</title>
+<p id="_b4bc6a2c-6fc8-eb1a-2273-8f9c66af8246">The SDO shall provide a process to achieve consensus in the development
+of its standards under SCC’s accreditation.<note id="_1f9f3656-dc1a-f27d-fc5a-171951a7c966"><p id="_f816ee62-7bb7-66c5-d619-67ac36b5fbdb">Consensus does not imply unanimity.</p>
+</note><note id="_92d2738c-f7cf-5648-9c0e-064b96081f5d"><p id="_4be2d3b2-bc99-a02e-629a-8eb316a62882">Sustained opposition is not intended to provide a  “veto” to any one stakeholder.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_d72bad5c-de90-da27-f5e8-56a11f84cf5c" anchor="sec_4.2" inline-header="false" obligation="normative">
+<title id="_7ae56f4c-6876-4e4c-a607-298a2db1b6c6">Identification of Canadian Interest &amp; Need</title>
+<p id="_ef878de2-47ec-3e0f-3eb3-1251dfee5fab">The SDO shall consider the following sub-clauses at the beginning
+of the development process of a standard, prior to the publication
+of the Notice of Intent (NOI) for a new standard or new edition.<note id="_df89fa30-0b56-d534-0192-ef7ee7040ef1"><p id="_3b8c0cda-3085-6caa-1009-7618c4faf0c3">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_ed0f0850-b9e8-2090-f950-b8a3ceb6c564" anchor="sec_4.2.1" inline-header="false" obligation="normative">
+<title id="_f533e391-6661-74e8-2aa3-2b7189915efb">Strategic Need</title>
+<p id="_ab77c9b0-c096-bb8e-86ef-89db9d778d4a">Identify the strategic need of key stakeholders and confirmation expressing the need (e.g. Authority Having Jurisdiction [AHJ], industry, government, consumers).</p>
+
+<p id="_86a70165-f796-9370-8116-b116ae7369ae">This includes:</p>
+
+<ol id="_6c193ada-e30d-c581-68a3-860d9deabe31"><li><p id="_54a618fd-818a-f8d4-afa1-683854978ad6">strategic need of key stakeholder (e.g. legislator, industry, government, consumers);</p>
+</li>
+<li><p id="_79b79d19-e8a6-3ca5-fd0d-3297f3482456">type of standard (international, regional, domestic standards and harmonization need);</p>
+</li>
+<li><p id="_fb02bc53-d869-4323-7da7-680dd62a1fce">up-to-date vs outdated standard to ensure latest innovative/technology/safety features available for businesses;</p>
+</li>
+<li><p id="_159d1e10-d5a4-9fed-0573-a18f0de5d3a3">intended to support national/regional/international certification programs;</p>
+</li>
+<li><p id="_28d562e4-6734-7911-89da-69111420a672">stakeholder intention to transition to different standard;</p>
+</li>
+<li><p id="_132e1b10-4d47-db45-f62e-aec905ecec3c">type of maintenance (periodic, continuous, stabilized, best before date); and</p>
+</li>
+<li><p id="_69c57c5f-672d-743e-e49c-4c20711720f1">use of  “CAN” descriptor.</p>
+</li>
+<note id="_08afce90-f5ab-fc71-803c-cf6e7c160d6d"><p id="_0a59d945-0efb-f51b-8449-d449be29a43a">No guidance.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_e25f8472-14e4-d2ab-de9a-b1ee2bf6b957" anchor="sec_4.2.2" inline-header="false" obligation="normative">
+<title id="_e860b09c-cc55-9722-4748-f40950b43323">Availability in Both Official Languages</title>
+<p id="_eaf3ed62-4e2e-aa5d-4a62-49626a7b18a2">The SDO shall publish the standard in both of Canada’s official languages. The following criteria shall be applied to determine when a bilingual standard is not required:</p>
+
+<ol id="_1b4048c3-fd3d-791e-48d0-184c6a00991e"><li><p id="_549a895b-f1b3-91e5-6fb7-b5dd567797eb">no stakeholders’ need;</p>
+</li>
+<li><p id="_ea7af593-0556-58cf-92df-e91c20a9d208">no user base need;</p>
+</li>
+<li><p id="_163cf589-bdb3-0caf-57be-9bc5af795057">no AHJ need; and</p>
+</li>
+<li><p id="_823555a5-2f4e-830b-0ccb-86c3cb59d48b">no health and safety related needs.</p>
+</li>
+</ol>
+
+<p id="_843bd8e0-e48a-109a-09d1-bb748cf31c04">The SDO shall apply the above criteria (a-d) at any point, when the need is identified.</p>
+
+<p id="_a454a057-9205-1436-ba29-740417cc94a4">For ISO/IEC adoptions where a Canadian need has been identified for
+bilingual publications, SDOs shall use the available ISO/IEC translations.
+Where no French translation is available, SDOs shall conduct a national
+translation and publish the ISO/IEC adopted NSC, with the French translation
+as non official, in alignment with ISO/IEC language policy.<note id="_c7c1d9f7-7d78-b75f-98a9-1432bfaa3bce"><p id="_0f75f324-820c-345d-d993-5413f0bb48ad">When a stakeholder does not require a bilingual standard and no French translation of ISO/IEC is available the English-only adoption is permitted.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_c58fac96-45d9-c79f-53d5-9375ab2191c0" anchor="sec_4.2.3" inline-header="false" obligation="normative">
+<title id="_d201223d-5fe5-eb0a-6972-9be1c7b56bf0">Geographical Representation</title>
+<p id="_b551d771-7bb7-e9da-11dd-43f0ce8e337d">The SDO’s technical committee shall include Canadian representation
+appropriate to the subject area covered by the standard.<note id="_b2a6e04c-9f6c-6007-bef1-9808974a8ea3"><p id="_8a79e088-5462-8815-895d-03882d568b83">Geographic representation may consider factors such as industry location (e.g. petroleum in petroleum producing provinces), reference in regulation (if a regulation exists in a province), commodity characteristics and social impact (e.g. heating oil for northern climates).</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_89460c40-72e0-00d9-a735-93735f00326d" anchor="sec_4.3" inline-header="false" obligation="normative">
+<title id="_2d8e8ddf-c0bc-c052-86e6-8fca3a845f25">Avoiding Duplication</title>
+<p id="_381e2ff1-57c9-743f-7b49-5bbdd9365005">SDOs shall make every effort to address the need of the Canadian stakeholder(s)
+and to not duplicate or overlap with the work of other SCC-accredited
+SDOs, or relevant international or regional SDOs.<note id="_90631484-0055-2c3c-aa7e-eac8a2aee12f"><p id="_1f735c98-e4bc-2097-6578-4edf8f7d8d22">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_fe77c66e-4164-9d35-1d2f-6fea2775963f" anchor="sec_4.3.1" inline-header="false" obligation="normative">
+<title id="_582c2fa9-3477-9468-b5a0-2c17333d2fcc">Identification of Duplication</title>
+<p id="_cebe5948-ce49-1a8f-2a70-e78b5a601114">The SDO shall monitor the Centralized Notification System (CNS) platform.
+When a duplication complaint is raised, the SDO shall use the Duplication
+Resolution Mechanism (DRM), as described in the CSD — POV.<note id="_9316eb20-d627-a3e4-c87a-d8ec74e13eb0"><p id="_47629cd8-2235-c41c-4b3a-4d4d93b969b3">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_e0a92850-5611-760f-4aea-f2bba77048b9" anchor="sec_4.3.2" inline-header="false" obligation="normative">
+<title id="_46813ddc-973b-1185-7b6d-781133697705">Action Plan — Decision Impact</title>
+<p id="_de4885d8-d437-10ad-e763-e842880d8993">The SDO shall comply with the Action Plan resulting from the DRM process,
+defined under the CSD-POV.<note id="_05f9c048-e69e-5c44-3803-869f73748772"><p id="_e95cdeb5-8483-fe2c-c32f-e84ddc6c9627">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_76005abe-9e68-1eff-59f8-ebc9e7aff544" anchor="sec_4.4" inline-header="false" obligation="normative">
+<title id="_52ee7c6f-46e0-32a5-4a05-d000ff017e9f">Work Program</title>
+<p id="_22c47f93-d1aa-fc8a-4b90-d11356f4a5e9">The SDO shall provide the Work Program content to SCC to be published
+on SCC’s CNS platform.<note id="_9c1045d3-6266-b171-4e52-b3945396ab00"><p id="_084422cc-679e-b33b-843a-0d3e68a5d2d4">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_de9996d2-9190-6f93-a409-fdc82bde1a34" anchor="sec_4.4.1" inline-header="false" obligation="normative">
+<title id="_22642ba3-8dd0-3fc9-dda4-4a7dfb5a756c">Frequency of Publication</title>
+<p id="_109466bc-6059-58b3-5ef5-391877fa0b30">The SDO shall publish their Work Program at least once every six months.<note id="_4840205a-5e8a-9751-06c7-0b7a5a1d3650"><p id="_baba555a-d8f6-97d8-0435-e0e02e52c96a">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_e6ad4d3a-2852-cd44-02a4-1ceef97d25b2" anchor="sec_4.4.2" inline-header="false" obligation="normative">
+<title id="_4e559f43-a1db-a9d2-b8c5-a514fd50a3a9">Content</title>
+<p id="_2c49e233-02df-e20f-0c36-83f9ae998646">The Work Program shall include:</p>
+
+<ol id="_3e55cc39-ba8d-d37b-a433-77632c737fd8"><li><p id="_3061962f-b3bd-3706-3c3e-378a7cb0c4bc">the standards the SDO is currently preparing;</p>
+</li>
+<li><p id="_b170cc5b-94f8-7a97-fb89-7480d9be8a5c">the standards the SDO has published in the preceding period;</p>
+</li>
+<li><p id="_f57d9f4d-c9eb-086d-b116-14599b3429f5">the classification relevant to the subject matter of the standard using the International Classification for Standards,  “ICS” code(s);</p>
+</li>
+<li><p id="_b40c2e69-9bf9-33ac-8050-eb40e9305fec">the development-stage code and start date, based on the ISO International harmonized stage codes;</p>
+</li>
+<li><p id="_0a035b6b-9665-f40c-a1f6-d7263db3c22b">the public review comment period start and end dates; and</p>
+</li>
+<li><p id="_2fbfb37a-e035-5e8c-d925-663c9445d06b">references to any International Standards taken as a basis.</p>
+</li>
+</ol>
+
+<p id="_2c12b15a-8009-b20f-8f9c-211be54de64b">The notice shall contain:</p>
+
+<ol id="_1c559892-1ab4-70c1-2083-54b3bfa5b70e"><li><p id="_48a34885-e353-7e19-5efc-23b362d6b146">the name and address of the SDO;</p>
+</li>
+<li><p id="_be0ad1ce-0c4e-6a6a-78a6-cd624fb9e1ee">the name and issue of the publication in which the Work Program is published;</p>
+</li>
+<li><p id="_8e2fa6d8-29c3-d0fc-9bc7-80166b7d1d91">the period to which the Work Program applies;</p>
+</li>
+<li><p id="_bfe7d5b9-5656-eb58-b031-b4fe19400267">the price of the publication (if any); and</p>
+</li>
+<li><p id="_88fde335-ae89-5073-cdac-a211f6fee548">how and where the Work Program can be obtained.</p>
+</li>
+<note id="_f6d25b9a-70bc-965e-f03b-19b90714e1d6"><p id="_f456df8d-4c37-6f51-158b-5d56989633ce">The Work Program content may be submitted in either of Canada’s official languages.</p>
+</note><note id="_a1bc4d8c-0cd1-5723-6790-624fb4e00b35"><p id="_4e4473c7-2d84-fc51-bc0e-09c554f3e5aa">The targeted publication date of standards should be included in the Work Program content.</p>
+</note></ol>
+
+
+
+
+</clause>
+
+<clause id="_d423695c-eae0-5b29-06b6-b4e6f872c9f2" anchor="sec_4.4.3" inline-header="false" obligation="normative">
+<title id="_6607caa5-b5a4-0b9f-b33e-3eaca1485b03">Availability</title>
+<p id="_311ee21d-eb09-0aed-e51a-0d8c4bf233aa">The SDO shall make the Work Program publicly available. The SDO shall
+promptly provide or arrange to provide a copy of its most recent Work
+Program upon request. Any fees charged for this service shall, apart
+from the real costs of delivery, be the same for foreign and domestic
+parties.<note id="_09a65083-3c85-381e-1e76-00883a1b9094"><p id="_2570a76f-4f9f-fbd7-aa39-62278709464a">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_f19917d7-ac2a-6d59-a891-0506a004a022" anchor="sec_4.5" inline-header="false" obligation="normative">
+<title id="_32fa2ead-14a8-f85c-dd76-9e85b125c50a">International/Regional/National Harmonization</title>
+<p id="_bbe6d862-e462-4eaf-eed5-72db2f9d7492">When international/regional standards exist or their completion is
+imminent, they, or their relevant parts, shall be used as the basis
+for corresponding standards developed by SDOs. The SDO shall identify
+and create a list of the standards considered.<note id="_9bfc2d81-b0af-a1d3-0a4e-16c35ad88a41"><p id="_3fcf6c6f-3d9d-401c-683a-0d9306226c00">Except, if the international/regional standard, or relevant parts, are determined to be ineffective or inappropriate; this may include an insufficient level of protection, fundamental climatic, geographical factors or fundamental technological problems.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_7b1dca44-2886-068f-489e-dbf5653f6441" anchor="sec_4.6" inline-header="false" obligation="normative">
+<title id="_65051af2-dfdc-feab-9346-3234ee67b145">Standards Harmonization With International Community — SDO Participation</title>
+<p id="_07d67192-bf05-ff82-7011-b44c088b559a">The SDO shall give priority to participate, within the limits of its
+resources, in the preparation of international and regional standards
+which it expects to develop or adopt.<note id="_feed19a5-f0e8-6b82-5fa7-a0a2ff4dc0d3"><p id="_9cf11057-dff6-91ab-c4dd-8d91324a2094">Harmonization of ISO/IEC SCC Mirror Committees with the technical committee of an SDO is done in accordance with SCC’s policy on harmonization.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_9991361f-ff2a-9244-f8a4-da4c9adfbb51" anchor="sec_4.7" inline-header="false" obligation="normative">
+<title id="_8bb78393-1220-f14a-f9d2-90f700cc639d">National Adoption of International/Regional Standards and Other Deliverables</title>
+<p id="_274988b0-f83f-29dd-509b-5c806efef376">In addition to the R&amp;G — SDO Accreditation, the SDO shall comply with
+the <em>Requirements &amp; Guidance — National Adoptions of International/Regional
+Standards and Other Deliverables</em> when adopting an ISO, IEC, or regional
+standard as a NSC.<note id="_70597801-29e0-de74-fece-4321cbb75b7b"><p id="_48ca2643-34fa-42df-6bcb-64a7bf11886d">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_c49e8b27-29f2-e9fe-68e8-4a5e7170caf0" anchor="sec_4.8" inline-header="false" obligation="normative">
+<title id="_b07893a3-6305-7608-70ef-3664a498886a">Performance Based Standards</title>
+<p id="_dae44b85-c4b4-636f-1e38-6a175043b4a3">The requirements of standards shall be expressed in terms of performance
+rather than design or descriptive characteristics, whenever possible.<note id="_e54258b0-6eee-f66a-7f81-cba524cc11fe"><p id="_197694c0-7eaf-6559-ee16-d4f6ca389f62">When an SDO determines that it is not possible to express the requirements in terms of performance, a rationale should be identified.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_f92aae31-3f98-609e-3550-e5abf27ad571" anchor="sec_4.9" inline-header="false" obligation="normative">
+<title id="_d37ec7ea-8b4a-578d-ea84-18500f483b35">Trade</title>
+<p id="_4646a94e-2bf8-6eb7-35be-9fd4dae5c984">The SDO shall ensure that standards developed do not create unnecessary obstacles to international and/or inter-provincial trade.</p>
+
+<p id="_1fb21dcc-b1d6-32ed-5c9d-2e62fa9e01b0">The SDO shall take action to resolve identified impediments or inhibitions
+to trade.<note id="_7010aa32-79fc-d2f5-5b42-42d7b490aaed"><p id="_dfe2e8f9-62ed-4418-57c6-c0c39f21fa36">Standards should be developed to meet the needs of the marketplace and should contribute to advancing trade in the broadest possible geographical and economic contexts.</p>
+</note><note id="_07170b71-fd3c-f8a8-f882-ec5c70e8e75a"><p id="_129ce23a-195e-6eaa-53cf-5478cd64989b">Standards should not include requirements for third party certification or requirements from authorities having jurisdiction. This type of content may be provided as informative material.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_97d23195-e77c-ae5e-7267-1e0e2e6cd459" anchor="sec_4.10" inline-header="false" obligation="normative">
+<title id="_e4b082b4-f622-bed0-552e-5fbf2bd75e9f">Place of Origin</title>
+<p id="_70c0774a-24ef-5955-f5ca-905bc025d0d3">The SDO shall ensure that standards are not developed to discriminate among products on the basis of the place of origin.</p>
+
+<p id="_c3bfca1f-9a6c-00b8-0177-b77c07fd21c0">The SDO shall take action to resolve identified instances of unjustified
+discrimination, and remove the potential for future instances.<note id="_5cef49e2-196b-e2f1-4162-b2aa5e8921e8"><p id="_27c438e6-8c6b-cbfd-7fed-149f72448b3e">In drafting the requirements of the standard, the SDO should safeguard that the source of the materials for the product of the standard is not prescriptive as to specify one location where they may be obtained.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_5d6424b7-dfdf-ee43-be90-aec359b98275" anchor="sec_4.11" inline-header="false" obligation="normative">
+<title id="_fc2df86a-4101-6318-7265-bce1914f8e26">Price Fixing</title>
+<p id="_fd8c67e1-ffc5-86f5-8b5a-c19a9cf56837">The SDO shall ensure that standards are not developed as a means to
+fix prices, exclude competition, or otherwise inhibit commerce beyond
+what is necessary to meet requirements of relevant technical regulations,
+or other legitimate sectoral or local requirements for compatibility,
+environmental protection, health and safety.<note id="_71a21205-666d-b07d-999b-247e8d2a7b52"><p id="_db1865eb-e40f-e47c-d8bc-6a4573319897">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_0ee7c94b-c12c-4bb4-3f51-8a29c07f6cda" anchor="sec_4.12" inline-header="false" obligation="normative">
+<title id="_4147abdc-e7cd-0ce4-e11e-bffbd8482f28">Protection Against Misleading Standards</title>
+<p id="_912a1c17-fbf1-859b-ba43-b59badc8b039">The SDO shall ensure that the process to develop standards minimizes the possibility that the standards may be used to mislead consumers and other users of a product, process or service addressed by the standard.</p>
+
+<p id="_aa87e3d1-f26d-2d19-db5f-29de153a4a65">The SDO shall take action to resolve identified instances of standards
+being used to mislead.<note id="_10efa8da-7cf5-0029-f9f0-da399c2aaa99"><p id="_1ec37df5-3db7-d83d-9c9c-331552d437aa">In drafting the requirements of the standard, the SDO should safeguard that the end product addresses the intended purpose. For example, that it contains current and accurate technical information.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_554c2084-2e93-465d-edf0-6268a3e38bac" anchor="sec_4.13" inline-header="false" obligation="normative">
+<title id="_5de57e61-0d4d-c82a-2536-11ad8435009e">Patents</title>
+<p id="_f0d309eb-cb5b-606e-a536-95595968bc56">The SDO shall have a patent policy that restricts the inclusion of
+patented items in a standard, unless justifiable for technical reasons,
+and the holder of the rights agrees to negotiate licenses.<note id="_9370069c-784a-8cfa-a589-bc378efd5e8c"><p id="_ceb6b993-3b9d-fea1-e3a9-35f60fb6ec5b">For additional guidance refer to the ISO/IEC Directives, Part 1, — <em>Consolidated ISO Supplement — Procedures specific to ISO, 2019</em>, clause 2.14 and Annex I, Reference to patented items.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_150673ea-a9a1-6fc7-17d7-262ee66b2635" anchor="sec_4.14" inline-header="false" obligation="normative">
+<title id="_9d10468c-35f0-eda8-0975-94d72eb5c102">References to Certification or Administrative Requirements</title>
+<p id="_17ff3f08-a79e-7c81-50ed-1e32bcdb223c">No requirement.<note id="_9ee2ffa1-db90-1855-18b4-d8e1b4a57700"><p id="_aa14ac2b-8b0d-59c7-1156-d5a179e15e03">Administrative requirements relating to conformity assessment, marks of conformity, or other non-technical issues should be presented separately from technical requirements.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_b26df912-c1ad-5fdf-adcd-4b52a00a0b90" anchor="sec_4.15" inline-header="false" obligation="normative">
+<title id="_149a0135-ea87-57ff-02c2-cff574004e38">Standards for Conformity Assessment</title>
+<p id="_90b27d3a-9d95-5645-8631-eaf90217379a">Standards intended for conformity assessment shall contain a clear statement to that effect in the introductory pages.</p>
+
+<p id="_c6c4b464-d8cb-e206-7de4-5f8dea722d2d">Standards requirements shall be based on requirements that are stated,
+to the extent possible, in measurable terms, and the rationale for
+such requirements shall be provided.<note id="_daf911c1-5974-7487-0d49-550b73dcca10"><p id="_a2d91751-3630-fac9-852b-756896f2dbcb">In this context conformity assessment refers to third party certification.</p>
+</note><note id="_32960ddc-1dbd-dc3b-247f-e19e6eae6de4"><p id="_d28c5f3f-2ae8-5570-e801-a5dea0b1bc52">Standards should not include requirements for third party certification or requirements from authorities having jurisdiction. This type of content may be provided as informative material.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_8aac4a4e-9d05-d47c-677e-771d08c5c0ea" anchor="sec_4.16" inline-header="false" obligation="normative">
+<title id="_d445c7ec-18ad-5571-a16f-5029c0783e95">Safety Markings</title>
+<p id="_d6ebeb9b-1373-abec-6584-462a96826870">When the technical committee requires the inclusion of safety markings
+to address safety issues, the appropriate cautionary text shall be
+provided in both of Canada’s official languages.<note id="_7c5c9217-1c71-cec7-c3ba-ff551997c228"><p id="_17554e56-491d-baff-1823-a28c323c1bfc">A safety marking depicting a graphical symbol without supplementary text is acceptable, such as the symbols provided in the International Standards series ISO 3864.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_9e0cc5e7-e47d-82a7-2215-b8944c0a22f0" anchor="sec_4.17" inline-header="false" obligation="normative">
+<title id="_20fd6ef7-a7a6-7650-3d2a-66c39d60412f">Conflict of Interest</title>
+<p id="_30b0b8d0-ef2c-0f68-1dae-f077f147a1f2">The SDO shall ensure that technical committee members and SDO staff
+involved in standards development have no conflict of interest in
+carrying out their roles and responsibilities on the technical committee.<note id="_fe37799c-1ef4-0de1-5940-65af4250a9ae"><p id="_4902f72e-0381-329d-bb97-aacd9d4b9ba7">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_b62a9b4a-062e-7c39-8c26-76a8b8ff59e8" anchor="sec_4.18" inline-header="false" obligation="normative">
+<title id="_7dec311b-f754-fdfb-6d78-507af4493407">Declaration of Compliance with Accreditation Requirements</title>
+<p id="_9c39adcc-be5d-2cb3-c58b-05c0be90c8e2">The SDO shall include a statement in the introductory pages of a standard
+indicating the standard was developed in compliance with SCC’s R&amp;Gs
+for SDOs.<note id="_b89dea49-4e89-56f9-53e4-f647a4fe730a"><p id="_8eed0bd2-518f-dd71-6abb-1394de1a9d6f">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_059ef0f3-4f6b-8877-d264-cb4dac917e4d" anchor="sec_4.19" inline-header="false" obligation="normative">
+<title id="_0a4c09ea-e6ce-7b8c-a5c1-6403e0dfaa31">Provision of Published Standards</title>
+<p id="_feaf5fb1-aef0-e0c5-8426-dd643dfc71f9">Upon publication, the SDO shall submit to SCC electronic copies of
+new standards, new editions, revisions, reaffirmations and the underlying
+metadata.<note id="_294cf0e3-2e0c-947f-39f1-f84bde7686ce"><p id="_31f86ca0-1641-3a40-df24-219b7c266298">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_7719c97c-1406-6136-11cc-a396d65d863c" inline-header="false" obligation="normative">
+<title id="_128d4cb2-8db2-047a-1812-6bfda26bece4">Structural and Resource Requirements</title>
+<clause id="_02a3fd53-756c-4714-1953-c9381097ecd6" anchor="sec_5.1" inline-header="false" obligation="normative">
+<title id="_c4417089-684d-10c6-130b-9164a65468e4">Canadian Relevance</title>
+<p id="_29176b94-43f3-8028-ec8f-bd094293a569">The SDO shall be actively developing and maintaining standards, in a timely manner, and demonstrate a standards interest of relevance to Canada.</p>
+
+<p id="_9b936cdf-2859-733e-8499-7cc90c9c7edd">The SDO shall provide the following evidence to demonstrate Canadian relevance:</p>
+
+<ol id="_4f1b8167-5307-f0ca-64d3-f616fb7d3f38"><li><p id="_b7482283-27e5-0e16-0cf1-53db536ed0f3">appropriate participation of Canadian experts in technical committees; and</p>
+</li>
+<li><p id="_b4dc58bd-7e43-8dd4-7901-43e1895eb3fd">facilities in Canada with sufficient resources to meet requirements relevant to its standards development activities.</p>
+</li>
+<note id="_083e5500-85c3-0878-77a7-ceed420c8dec"><p id="_3cf51098-4fd0-6322-fac3-3a2fdb8ff5a4">No guidance.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_3e86bdb4-2da3-8d00-e630-25dbb09631dd" anchor="sec_5.2" inline-header="false" obligation="normative">
+<title id="_451ea4b5-8df8-6275-23e9-f571a9d4e818">Legal Responsibility</title>
+<p id="_5d4c9017-3ff3-90d3-ae84-fb2936027deb">The SDO shall be a legal entity, or a defined part of a legal entity,
+such that it can be held legally responsible for all its standards
+development activities.<note id="_1a4ed022-b66f-8758-4e6f-f71a181e6422"><p id="_890b6aa9-e08c-2dd6-c62c-27edff4bbcb7">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_66248062-8923-c3dd-0f98-2794069c3457" anchor="sec_5.3" inline-header="false" obligation="normative">
+<title id="_53cbc600-3e34-bb97-08ee-790dc8172f63">Separation of Management Activities</title>
+<p id="_60b86a0f-4035-882c-0e15-b451037a8a60">The SDO, if corporately linked to a certification body, quality system registrar or similar activities, shall demonstrate a clear separation of the management and policy-making functions of such activities from those of standards development.</p>
+
+<p id="_4fccb5f0-8ca0-f6b0-fbdb-5514836e1c33">The SDO shall demonstrate compliance by reference to their policy,
+organizational structure and procedural documents.<note id="_8ccdb630-28b1-54e3-b071-0db0977b03e7"><p id="_4500e909-1ee7-4b01-a3b7-7d416c42fb1d">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_acfe603b-0524-187d-76ea-741cdc4697b5" anchor="sec_5.4" inline-header="false" obligation="normative">
+<title id="_b74e9304-38de-9e20-00ae-e971a7d05b1e">Continuity of Operations</title>
+<p id="_53e207e8-986c-917f-2017-161628439726">The SDO shall:</p>
+
+<ol id="_f2248c7a-ec08-df8c-15a5-b48134cf28e8"><li><p id="_a0144ee2-ddbd-6733-9cc3-445c9e8aef19">have a structure and available resources providing assurance on the stability and continuity of its operations;</p>
+</li>
+<li><p id="_d46d6a0a-3172-29ef-3429-54e42b772b21">have available information on its future plans regarding the development and maintenance of standards; and</p>
+</li>
+<li><p id="_388874d3-b42a-fb10-f288-f4b49a02eed2">maintain expertise for the development and the maintenance of standards.</p>
+</li>
+<note id="_c338d247-af0b-e57d-7f91-ad0dd49e157e"><p id="_cd7aa440-6832-23fa-0da2-5839a0e6d991">No guidance.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_6f035de8-71a5-b86a-3320-4a4baa12f182" anchor="sec_5.5" inline-header="false" obligation="normative">
+<title id="_36dc067c-15b5-446e-3985-922412c8b375">Staff Competence</title>
+<p id="_ef96ad46-8ad8-be27-f944-b7c4bd4f2f00">The SDO shall have sufficient and competent staff to manage its standardization
+program and activities. Staff shall be knowledgeable about standardization,
+including related matters of principles, policies and techniques.<note id="_22f536d8-d4f6-461c-5ef8-8aa3b9df8692"><p id="_dcd75ed2-79f5-5d22-845e-a5ff21ef7684">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_28c9464d-9d97-22f5-4ce5-2e3b6f07607f" anchor="sec_5.6" inline-header="false" obligation="normative">
+<title id="_02d417c6-1d01-fefd-4970-5d2bae1584b2">Facilities</title>
+<p id="_2c2fa3ed-e05e-b996-cbec-0a50ca5bcb3f">The SDO shall have appropriate facilities in Canada with sufficient
+resources to meet the requirements relevant to its standards development
+activities.<note id="_e06afdf5-ea82-2692-5026-bc4a2d1309d8"><p id="_3d99444d-bbe3-fca1-5eda-5dc871757667">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_b8431d11-70a7-afd6-c54d-97071836bd38" anchor="sec_5.7" inline-header="false" obligation="normative">
+<title id="_c0858b29-db96-ef07-ab9d-f41739fdebee">Record Keeping</title>
+<p id="_96e0c076-00d0-99a0-6b41-0273f0128f4c">The SDO shall prepare and maintain adequate records of its standards
+development activities.<note id="_7d79a778-9462-5a72-94c3-96f1122ab8d9"><p id="_1134c931-e5c3-6782-86f1-ecf4cc473723">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_c8044f03-6e17-ace0-17ca-5d7b2360edf2" inline-header="false" obligation="normative">
+<title id="_c25fde64-9396-fa42-1cc3-66ea3a6fc66e">Consensus Requirements</title>
+<clause id="_26e66dc0-fc75-ffba-445b-fa8b17282e72" anchor="sec_6.1" inline-header="false" obligation="normative">
+<title id="_acde8afb-ec08-03d7-a6aa-da1e2972c5f8">Documented Processes Based on Consensus</title>
+<p id="_1ef9912b-d9a1-d91c-6b23-1e42be6a475b">The SDO shall have documented policies and procedures for the development, publication, distribution, and maintenance of its standards. Upon request, copies of policies and procedures shall be available to interested parties in a timely manner.</p>
+
+<p id="_30f63c2d-cf6b-a2ea-928a-32da9362998d">The SDO shall inform SCC when their policies and procedures have been
+changed.<note id="_8cdd1d8c-cf04-aa3d-3758-1928748c52eb"><p id="_9aaba870-e349-1be2-17f9-80796076fd09">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_8fda427d-9fda-fea7-f4f9-6646b5dfd594" anchor="sec_6.2" inline-header="false" obligation="normative">
+<title id="_108cd564-2e48-bc09-63d5-cfb5278354ad">Proposals for Development of Standards</title>
+<p id="_31ed2410-d3c8-1367-95c1-2d92d55f412e">The SDO shall consider proposals for the development of new or revised
+standards following their established procedures and appropriate timelines.<note id="_805b5921-f5c3-f3ec-ad0c-6bbdbd9e4c99"><p id="_97bf72a1-14ec-da47-2f4e-3fe838d78a60">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_87ea8a5d-8073-b04d-f03d-3d08787d7cb9" anchor="sec_6.3" inline-header="false" obligation="normative">
+<title id="_dd3d73fb-7d72-314d-8549-d01305718c01">Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests</title>
+<p id="_ab7c59a5-f022-b038-58c0-9f54cb886336">The SDO shall ensure that:</p>
+
+<ol id="_7cecc799-f233-8e9b-8342-a36445ee88b2"><li><p id="_a670aec6-a650-0c2e-dbe4-37b765d7e103">participation in standards development is accessible to affected stakeholders; and</p>
+</li>
+<li><p id="_d17e4cba-9fb5-7537-8b26-7c97b470f4f3">there is appropriate Canadian participation on technical committees.</p>
+</li>
+</ol>
+
+<p id="_48ddf639-1ef3-50da-df07-1ace9c4a5242">The SDO shall provide evidence of best efforts to address the challenges
+of finding resources for participation.<note id="_8b8a2136-7995-e1da-527f-f40e7b1bcb6f"><p id="_54613f2b-2fe7-655b-90b9-b2f4b0e5279e">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_55ad9559-b71a-49a5-6873-5acde9144b25" anchor="sec_6.4" inline-header="false" obligation="normative">
+<title id="_2a20bb34-2ad4-acce-6d2b-e1df424faeed">Balance of Interests</title>
+<p id="_21c51de5-3265-dc81-a078-90d80b9c64cf">The SDO shall provide for balanced representation of interest categories in the development of standards. This representation shall reflect the Canadian interest.</p>
+
+<p id="_89d1ef02-9799-741a-bced-9719ddd27d88">When consumer or public interest representation would provide the
+needed balance of interests, the SDO shall identify and make efforts
+to secure support for equal access and effective participation of
+such interests.<note id="_0881fd71-7a68-12ef-4ef8-e42ad9b2cd3b"><p id="_0fff2df6-1851-f281-81cf-46cb52c9ac03">The commonly used interest categories may include, but are not limited to, general interest, producers, regulators and users.</p>
+</note><note id="_38bf285b-d40b-b20f-6510-be59e994fb1d"><p id="_1fb8922a-e80c-4425-3f23-63c1c4a40ad9">Securing support for consumer or public interest participation does not require the SDO to provide financial support from their operating budgets.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_7b872687-033a-a686-bf65-0798217187d7" anchor="sec_6.5" inline-header="false" obligation="normative">
+<title id="_255cae87-e7a8-26bc-1747-f649ded3acbc">Use of ISONET: International harmonized stage codes and International Classification for Standards</title>
+<p id="_681c6381-2b2c-38e7-cfbe-d95dd6304909">The SDO shall adhere to the requirements in the latest version of
+the International harmonized stage codes, and of the ICS codes.<note id="_f840555d-9bbf-f0ba-252a-09328e0e45ae"><p id="_48bbaf10-2ac4-6983-a2d3-74c75500e3f1">For the stage code deliverables see the CSD — POV Annex C.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_c9b8324c-cbe7-eb48-380d-8b7c92706564" anchor="sec_6.6" inline-header="false" obligation="normative">
+<title id="_1562ffc6-ff9d-1e2e-215b-a9fd7d2d4891">Notification Requirements</title>
+<p id="_70b2887d-826f-2c93-7f86-f4ea1f697503">The SDO shall notify the Canadian public at specific stages in the
+development process. These stages shall be completed following their
+established procedures and appropriate timelines.<note id="_839c8321-bd03-81b3-87c5-7db419684e08"><p id="_a4ea863c-7a1e-a15c-e8f3-bceed4d68bf3">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_7a2bcced-5650-da3e-58ff-9aeb2ab34102" anchor="sec_6.6.1" inline-header="false" obligation="normative">
+<title id="_e0428c6b-5bb3-2248-60c5-36322e3ef2b8">Notice of Intent (NOI)</title>
+<p id="_f6bb16bb-0b9f-b916-3aea-d1291e3158a5">The SDO shall inform the Canadian public by providing their NOIs to the CNS platform when it has taken the decision to develop or adopt a new standard or other deliverable, new edition, revision, amendment, reaffirmation or withdrawal of an already published standard.</p>
+
+<p id="_69cafa08-f387-eeb6-2937-e4449a2c6075">The content of the NOI shall include:</p>
+
+<ol id="_0144bfc9-1d70-23e6-560a-4769f7b02c8c"><li><p id="_df53af90-e40a-5654-9c5e-d2c52c7e8584">designation number</p>
+</li>
+<li><p id="_ac1ee558-92c7-0fd9-6c91-fc4f47d9c1f2">title</p>
+</li>
+<li><p id="_de5e5df5-2938-f307-ca3f-5c54e07a59fc">scope</p>
+</li>
+<li><p id="_aaf887a9-0cdc-fe2c-a33f-f597ec57c144">project need</p>
+</li>
+<li><p id="_37f19a8c-69e8-ac44-8f29-d593984b4ef3">contact information of the SDO</p>
+</li>
+<li><p id="_8b439326-af27-9055-98e0-44fddc6b2a97">ICS code(s)</p>
+</li>
+</ol>
+
+<p id="_8ccd1aa2-8692-860c-648d-28f5e1e0a193">The SDO shall issue a new NOI when International harmonized stage code 10, Proposal stage, has not been met within a maximum timeframe of 12 months.</p>
+
+<p id="_b5554250-4f91-d688-5018-f42c79def3df">The SDO shall update the NOI if there are substantive alterations
+to the scope and title of the originally proposed NOI.<note id="_c57be581-7134-fcc3-9425-64cc12b15efd"><p id="_552d6797-042f-7530-2ae5-a0ec60ff8b63">NOIs may be submitted in either of Canada’s official languages.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_ae64c2aa-3e47-b4bf-f2b5-2cf9a004615b" anchor="sec_6.6.2" inline-header="false" obligation="normative">
+<title id="_8759def2-7e4e-c6ae-ea4a-e4ab26678b04">Notice of Public Review</title>
+<p id="_c99e30a9-9eb8-18bd-4cfe-9e1f8a0ae52e">The SDO shall notify the Canadian public of standards available for public review. The public review shall be a minimum period of 60 calendar days when a draft agreed by the technical committee is available, and shall be completed before final approval of the technical committee.</p>
+
+<p id="_5d43ebc4-28ac-459b-cb93-b8b146bae012">The notice shall include the start and end dates of the review period.</p>
+
+<p id="_4468afcd-89bb-9748-a2f0-d2ee37281029">The notice shall indicate how to obtain a copy of the draft standard. On the request of any interested party the SDO shall promptly provide, or arrange to provide, a copy of the draft standard in question. Any fees charged for this service shall, apart from the real cost of delivery, be the same for foreign and domestic parties.</p>
+
+<p id="_203a2d7d-17f2-370f-5af8-00b546f741df">All comments received, regardless of place of origin, shall be considered
+by the technical committee, and responded to if requested. Such responses
+shall include reasons for deviations from relevant International Standards,
+regional standards, and other deliverables if requested.<note id="_f84e2840-3d61-809d-c964-e64cbf5c5b9e"><p id="_47b8c013-2181-736b-9f2b-2164c232a174">The minimum period of 60 calendar days may be shortened with appropriate rationale and action to proactively inform affected stakeholders. Appropriate rationale may involve where urgent problems of safety, health or environment arise or threaten to arise.</p>
+</note><note id="_8127bb8a-9fe1-0926-a21a-9bc14ae41054"><p id="_a2d2588c-3582-79c1-597b-0896fb3fe906">As per <xref target="sec_4.2.2"/>, the SDO has to provide a copy of the draft standard in question in either of Canada’s official languages, as requested by the interested party.</p>
+</note></p>
+
+
+
+
+
+<clause id="_358087fc-f59f-5ae1-a88e-36ed06ee67e4" anchor="sec_6.6.2.1" inline-header="false" obligation="normative">
+<title id="_6b018f21-79e5-c943-ca83-5e60fcac984e">Public Review — 45 Days</title>
+<p id="_46bda115-ee57-966f-aef6-e0c2b3baa983">The SDO shall determine if a 45-day public review period is appropriate when urgent problems of safety, health or environment arise or threaten to arise.</p>
+
+<p id="_8bf53067-bbb4-a603-e050-6ede54202f35">The SDO shall proactively notify affected stakeholders.</p>
+
+<p id="_12970756-9baa-e715-d826-3af38dfeb355">This notification shall include where the draft standard can be obtained and the public review period start and end dates.</p>
+
+<p id="_e239f58b-b2e8-2fb9-3bcb-04158e479d1b">The draft standard shall be available in an electronic format, deliverable
+within one day of a request.<note id="_3e3dd7b4-f3d3-2b08-b6de-6c9ea6baca76"><p id="_906ac174-74e1-170e-3677-afd2fa1bd6f3">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_e8474a05-5014-fea7-c534-bcbca9e99a2f" anchor="sec_6.6.3" inline-header="false" obligation="normative">
+<title id="_7dff1272-1961-712a-3774-cb96b9dd78f6">Notice of Completion</title>
+<p id="_f8cbeb3c-781e-03b1-882a-0efbb6561f12">The SDO shall notify the Canadian public that a standard has been completed.</p>
+
+<p id="_55137a32-98c7-d469-71b7-3d26029e0b3d">Published standards may be commented on at any time, and such comments
+shall be referred to the responsible technical committee for consideration,
+as appropriate.<note id="_128469de-dc90-1aac-f99a-5e9c7cc2a8da"><p id="_68ebd2f3-2037-c176-13ea-36ff10cc2249">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_d09299cc-29d4-5bd2-74ae-076d66ce7a99" anchor="sec_6.6.4" inline-header="false" obligation="normative">
+<title id="_0480ea5c-c145-343f-6a2c-05ecc348f88d">Notice of Withdrawal</title>
+<p id="_695b8202-e101-a977-1411-2df37e2bc63f">The SDO shall notify the Canadian public and SCC when it has decided
+to withdraw a standard.<note id="_bddc37e7-8c56-525f-ba87-4ddc13a2c7c2"><p id="_9e778a5e-779d-01ed-39a9-c21d65f5c11f">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_5a0b16df-38a3-b45e-c8b1-dc985d3ed43b" anchor="sec_6.7" inline-header="false" obligation="normative">
+<title id="_5329473a-34b0-74de-7815-3a7184eed5ae">Technical Committee Approval Process</title>
+<p id="_9595881e-e7be-ca2c-aebe-e40ae01d00ed">The approval process shall be based on evidence of consensus reached by the technical committee.</p>
+
+<p id="_195644e8-6e05-8384-7f1c-ecb64de627db">The approval process shall not be used to block or obstruct the promulgation
+of standards.<note id="_12bdb65f-2929-2890-0fc5-eeb2a5977c0b"><p id="_193b35ef-7eed-5835-0343-7e746261ec71">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_d0f83a93-16ee-50d8-6de2-6c27dc1f360b" anchor="sec_6.7.1" inline-header="false" obligation="normative">
+<title id="_2384caeb-9662-e625-45fd-910c65ac9a86">Voting Rules</title>
+<ol id="_8e3ec69e-7181-0f64-5389-e6496744e8b2"><li><p id="_fe530240-bb69-a2c7-7781-0a7395630d5b">More than 50 % (simple majority) of the members who are eligible to vote cast affirmative votes; and</p>
+</li>
+<li><p id="_67afc780-52b9-4714-e044-7112090562f1">A minimum of 2/3 of the votes cast are affirmative.</p>
+</li>
+<note id="_2ec66919-ec38-3bc9-b066-6fa338472717"><p id="_a4754393-f781-743a-8dee-af14c4657ace">No guidance.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_c0d67d49-eca2-7a94-9a0b-d8ce8f5f5edb" anchor="sec_6.7.2" inline-header="false" obligation="normative">
+<title id="_8127b2e3-f298-4e0f-2a70-da46c4473f64">Negative votes</title>
+<p id="_87cdd56f-ba4a-a6c2-e617-cccbde9d12a8">The SDO shall address negative votes according to its policies and
+procedures. Negative votes without justification, abstentions without
+justification, as well as unreturned and blank ballots, shall be considered
+not cast.<note id="_442ebeb0-9721-985c-bc34-824899eeea5e"><p id="_bf8e86e2-afb8-9fbe-2c5f-01eec983c1e0">In addressing a negative vote, the technical committee should review the negative vote for technical merit. If accepted, the required adjustment(s) should be made to the applicable requirement(s). If not accepted, rationale should be provided. In either case, the comment provider should be informed of resolution and decision.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_c802f593-c0e7-65f8-df20-fd9f2af069ff" anchor="sec_6.8" inline-header="false" obligation="normative">
+<title id="_4a3de1f3-418e-2cce-0593-bde7a0e6b870">Second Level Review</title>
+<p id="_92df7723-d491-6fe6-2aed-8e18e6fc6067">The SDO’s procedures shall have at least one level of procedural review
+and approval beyond the final approval by the technical committee.
+The SDO shall retain evidence of the approval of the second level
+review.<note id="_bc9936f0-4720-c5c4-dcaf-4e9511800497"><p id="_a7846273-a983-b5ea-5fba-3deaa13fff79">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_2dd0fd3b-2359-e643-c6e6-07b706465e21" anchor="sec_6.9" inline-header="false" obligation="normative">
+<title id="_faa96ee8-4bae-4bb0-a203-b6c6a5f7d8d2">Publication Process</title>
+<p id="_e52d0838-7a4c-8a3b-53ad-a0af1945b5b5">Standards shall only be published in compliance with SCC’s R&amp;Gs for
+SDOs. They shall be published promptly, and be made available under
+reasonable terms and conditions. Any fees charged for this service
+shall, apart from the real costs of delivery, be the same for foreign
+and domestic parties.<note id="_9b6196f1-e42e-31f9-b4f5-88e9d94ad279"><p id="_2961da9a-f0aa-8d59-be0d-88d6b70e17aa">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_f85f9a39-0276-6f06-98fc-20f555a9b07c" anchor="sec_6.10" inline-header="false" obligation="normative">
+<title id="_60063cf2-28ad-d055-42d1-62c4ed2293d9">Maintenance of Standards</title>
+<p id="_14162ea4-2569-4c59-824f-9cec2796eaef">The SDO shall be responsive to stakeholder needs by keeping all standards current and technically relevant through periodic, continuous or stabilized maintenance.</p>
+
+<p id="_23b340fd-d7fd-f30c-5b27-88c117ddc6f5">The SDO shall establish when it is subject to a technical committee review.</p>
+
+<p id="_062a2b83-ee5f-5166-a674-af24f9b4bf85">The SDO shall initiate and complete the technical committee review
+of each standard within the established timeline.<note id="_c45e6e90-cb52-53fb-4dda-eb602b2ad235"><p id="_bf3d3595-a9fa-ef28-8dce-4fb467023c9e">A review may result in a new edition, revision, reaffirmation or withdrawal of the standard.</p>
+</note></p>
+
+
+
+<clause id="_fdfe0139-e07b-c133-0432-c540feea18e3" anchor="sec_6.10.1" inline-header="false" obligation="normative">
+<title id="_a6ee4811-4e6a-864b-e710-b468387dbd14">Periodic Maintenance</title>
+<p id="_9ebe2f28-cf34-908b-c921-27ef3dc47a70">Standards shall be kept current and relevant by technical committee
+review of the entire document and the outcome activity completion
+(publication or withdrawal) not to exceed five years from the date
+of publication.<note id="_625fe45f-7145-6d3d-c7e2-44f594223e77"><p id="_f6d33695-8a8a-58a4-667f-18b66b37acfa">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_dc774565-5925-2165-1ea5-92ace2594488" anchor="sec_6.10.2" inline-header="false" obligation="normative">
+<title id="_5e4e1067-3be9-f00d-499c-647e6fccf5f7">Continuous Maintenance</title>
+<p id="_075d1a0e-2ac5-082a-15cc-7d4f966969e4">When technical change is required, the SDO shall:</p>
+
+<ol id="_14697ae0-c0fe-61a9-7b31-8bcb6cfc1399"><li><p id="_4d7deabd-619b-5958-9c49-966a77c9761d">validate technical changes with the technical committee;</p>
+</li>
+<li><p id="_8fb7e591-b132-ed17-8208-01d849df2fa6">take appropriate action in order to address the issue(s); and</p>
+</li>
+<li><p id="_9a73dca3-1634-c936-167a-c44bd08850cb">notify affected stakeholders/public.</p>
+</li>
+</ol>
+
+<p id="_47859ae1-3de4-192a-e62d-d74966eac3b5">In the event that no updates are issued for a period of four years
+from the date of publication, action to update (new edition or revision),
+reaffirm, or withdraw the standard shall be initiated in accordance
+with the SDOs procedures.<note id="_fd875edf-32f8-6951-5881-c02126f011bb"><p id="_6d2ad9f8-4e72-af1a-3fd1-651133db15a4">Standards developed in areas related to health and safety should be kept current under continuous maintenance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_93aae700-c928-55a3-f4c7-bbb3a0457a35" anchor="sec_6.10.3" inline-header="false" obligation="normative">
+<title id="_75e605f2-98f7-226d-2ce3-64702cb08c25">Stabilized Maintenance</title>
+<p id="_37c9b128-c152-7a94-6ab5-5eb3258ff833">A standard under stabilized maintenance shall meet the following:</p>
+
+<ol id="_65358041-cc4a-ee66-748e-c4299eaa6507"><li><p id="_52768bb6-17d0-68cc-ac3b-3b0f22191ab5">addresses mature technology/practices;</p>
+</li>
+<li><p id="_da7c942e-a7ad-113b-a0c4-63a35238ce33">is not health or safety related; and</p>
+</li>
+<li><p id="_eb14af4e-691c-ce8f-df22-fb812c836b3e">is a published standard, reaffirmed at least once.</p>
+</li>
+<note id="_8ede4032-530e-b701-99da-3f40ac27e060"><p id="_08bfa797-a730-8882-d603-4f42b39dc81a">No guidance.</p>
+</note></ol>
+
+
+</clause>
+</clause>
+
+<clause id="_44e516f2-2449-aa60-5b79-af539d1857a5" anchor="sec_6.11" inline-header="false" obligation="normative">
+<title id="_ec16beb7-605d-5914-55b1-2f972ade59d0">Maintenance Outcomes</title>
+<p id="_82f4b49f-364b-5b75-0d28-9b6717b1b18e">The outcome of the SDO maintenance shall be one of the following sub-clauses.<note id="_c4850c03-f6b6-e09a-68c8-6205ea914c43"><p id="_9335cb6d-77f5-5c25-ce43-ec9330d7fd49">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_40725ed9-93c3-e523-26c7-f66f6a01fad1" anchor="sec_6.11.1" inline-header="false" obligation="normative">
+<title id="_63f3e386-8035-4e89-f7d3-92351ba90ec6">New Edition</title>
+<p id="_9a8ea36a-b9c1-6444-6643-a657ee0515b4">When the SDO develops a new edition of an existing standard, it shall
+comply with SCC’s R&amp;Gs for SDOs.<note id="_8d3baba8-4c42-2353-945e-e07e1dc43043"><p id="_e0e8e7d7-f3fb-3056-3910-65010ec8258f">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_5d77841f-0eef-f666-a789-0df427a2de14" anchor="sec_6.11.2" inline-header="false" obligation="normative">
+<title id="_1db56072-2552-0d00-c5e3-40b655a3a3c1">Revision</title>
+<p id="_ba4708de-6487-8f7c-8238-81093b93e07d">When the SDO conducts technical changes, it shall comply with the following:</p>
+
+<ol id="_0c4b20c6-cb14-a488-62c7-349834f03842"><li><p id="_279b4ae9-0ae6-f78e-62e7-b4e783ff7db7">Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests,  <xref target="sec_6.3"/>;</p>
+</li>
+<li><p id="_516d5f90-b922-f834-b8a5-78aa7a5eb292">Balance of Interests, <xref target="sec_6.4"/>;</p>
+</li>
+<li><p id="_66e37e0c-f8a0-6b32-0084-5cfee695b780">Availability in Both Official Languages, <xref target="sec_4.2.2"/>;</p>
+</li>
+<li><p id="_08a696c0-b53c-688f-82fb-fc228737e2ad">Geographical Representation, <xref target="sec_4.2.3"/>;</p>
+</li>
+<li><p id="_1766208a-a49c-472d-e997-222cb5ce7c80">Avoiding Duplication, <xref target="sec_4.3"/>;</p>
+</li>
+<li><p id="_26687912-bd76-6783-ce24-958b2fed57d9">Notice of Intent, <xref target="sec_6.6.1"/>;</p>
+</li>
+<li><p id="_c29d17ae-a618-3853-1fa1-51696ec57978">Work Program, <xref target="sec_4.4"/>;</p>
+</li>
+<li><p id="_04719391-c83b-f791-15a6-8a763d593654">Technical Committee Approval, <xref target="sec_6.7"/>;</p>
+</li>
+<li><p id="_0f0184cb-dfc3-5a95-6dc7-21676a6b34f6">Number and Title, <xref target="sec_7.4"/>;</p>
+</li>
+<li><p id="_4532a7b5-9776-17b0-385e-77d51df19b5d">Front Cover Page, <xref target="sec_7.5"/>; and</p>
+</li>
+<li><p id="_766a5483-25a7-d37b-ff62-a74784561493">Introductory Pages, <xref target="sec_7.6"/>.</p>
+</li>
+<note id="_9f3b597b-dbaf-efe0-73cb-9ab5ac1658ed"><p id="_9796b304-f199-143f-f300-325a9a628bf6">Note, the term amendment is equivalent to revision.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_321afb71-e80c-da98-0051-3e877a36eba6" anchor="sec_6.11.3" inline-header="false" obligation="normative">
+<title id="_2ccce350-70ec-e57a-1f76-ccdf2f87ec22">Reaffirmation</title>
+<p id="_b9c1e345-4e2e-95c6-5097-7572f6ea34c0">A reaffirmation shall comply with the following:</p>
+
+<ol id="_acbd405d-7d8e-0fa4-787e-cdd020655f28"><li><p id="_f25c06fd-8838-eb51-c2ae-70e640021e75">Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests,  <xref target="sec_6.3"/>;</p>
+</li>
+<li><p id="_40ccdc45-902f-0d7c-3613-d9603a555d73">Balance of Interests, <xref target="sec_6.4"/>;</p>
+</li>
+<li><p id="_71fc9cf4-2f40-251e-5f51-a12d2475d6db">Availability in Both Official Languages, <xref target="sec_4.2.2"/>;</p>
+</li>
+<li><p id="_cc3f89cd-ef1c-3d89-2207-4b4ebdec3ce2">Geographical Representation, <xref target="sec_4.2.3"/>;</p>
+</li>
+<li><p id="_b6c3e90a-2bca-e446-64a5-91f65e80cfd5">Avoiding Duplication, <xref target="sec_4.3"/>;</p>
+</li>
+<li><p id="_50d1e1f9-69e3-ad8a-3311-fef3a8653c45">Notice of Intent, <xref target="sec_6.6.1"/>;</p>
+</li>
+<li><p id="_58bdd9ab-a3eb-5ee7-19ca-ad1ffc5fe4ac">Work Program, <xref target="sec_4.4"/>;</p>
+</li>
+<li><p id="_6978ae56-1b81-2694-d195-7af5736e8430">Technical Committee Approval, <xref target="sec_6.7"/>;</p>
+</li>
+<li><p id="_8ae28579-8420-da57-2e21-369de5659a31">Number and Title, <xref target="sec_7.4"/>;</p>
+</li>
+<li><p id="_dd2a2fbc-0f74-fe7f-4784-f0b8cfd9d1c5">Front Cover Page, <xref target="sec_7.5"/>; and</p>
+</li>
+<li><p id="_f579fbd4-5a3e-c1a2-f48d-320e25a0c82a">Introductory Pages, <xref target="sec_7.6"/>.</p>
+</li>
+<note id="_196b9437-2762-8be3-6852-0ba5783b1c89"><p id="_4f9055b0-3906-9373-f0e9-f7250d2874ec">Normative content in a standard may include the sections starting at the scope and ending at the last normative annex.</p>
+</note><note id="_cf12df0a-8f59-9409-c428-ec600cd6e94c"><p id="_63dbc385-1534-a088-f347-6d93084708b3">Informative content includes any other sections, such as introductory pages.</p>
+</note><note id="_97498a4d-33ff-75d0-914b-d67879b36628"><p id="_760e0f36-3f5e-6996-7943-558ada226e19">The SDO may determine how to conduct the update of the document to be reaffirmed.</p>
+</note></ol>
+
+
+
+
+
+
+</clause>
+
+<clause id="_1c38ea79-7903-2027-483c-788a763e63b1" anchor="sec_6.11.4" inline-header="false" obligation="normative">
+<title id="_d2029988-da85-dbb6-a7ed-3c2c14b950f1">Withdrawal</title>
+<p id="_5a316a82-fa8a-b27f-8f6b-59b0d8a6b548">When considering the withdrawal of a standard, the SDO shall consider the impact on Canadian legislation, in particular where a standard may be referenced.</p>
+
+<p id="_6b4ebce8-c524-2162-7154-053173743312">If a withdrawn standard is included in the listings of standards for sale, it shall be clearly identified as withdrawn. If it is sold, the withdrawn status shall be included on the cover of the standard itself.</p>
+
+<p id="_5c78bb65-5716-3e73-158c-73291a6669f3">When a standard fails to meet SCC’s R&amp;Gs for SDOs, the SDO shall withdraw
+the standard.<note id="_9c9f36c2-6bc3-7c42-3a12-ef87c6bf07f8"><p id="_10e47c48-4dbf-4d0b-ed34-12cf55c40f4f">The SDO should notify the impacted government department(s) in a timely manner when a standard referenced in Canadian Legislation is withdrawn.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_819663ef-8978-55cc-c3e8-bde7c0a145ff" anchor="sec_6.12" inline-header="false" obligation="normative">
+<title id="_253457c4-9315-7086-cd16-1d4ee0005fe1">International Inquiries on Code of Good Practice</title>
+<p id="_51d3b3f7-cfdd-fe7c-d985-b0f009727ac3">The SDO shall address, in a timely manner, inquiries and complaints
+from another SDO that has accepted the WTO/TBT Annex 3 Code of Good
+Practice for the Preparation, Adoption and Application of Standards.<note id="_2b12c661-7d6a-61de-f9a7-994721a04e58"><p id="_e689287a-7589-4f82-9089-215a23bc84b0">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_1de3e357-e822-96bd-857c-40285a820564" anchor="sec_6.13" inline-header="false" obligation="normative">
+<title id="_5af62c7e-90b2-2dc6-6cc8-ab5c56447964">Information Requests</title>
+<p id="_98fa95f9-1047-bf0b-3050-79ca4b988ae0">The SDO shall provide standards development-related information on
+request, within the limits of applicable privacy legislation.<note id="_0cbe5424-68f0-217b-e149-96e938d937b8"><p id="_44279e86-45e2-f4a8-9f6d-76a252edaddd">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_987720d4-c44f-302f-ee1e-123ccbc8af02" anchor="sec_6.14" inline-header="false" obligation="normative">
+<title id="_9c3d1247-927d-81e9-670e-3abcbd282120">Complaints and Appeals Mechanism</title>
+<p id="_782abbcf-c291-6359-a187-5c1ff984d877">The SDO shall have documented procedures for dealing with complaints and appeals.</p>
+
+<p id="_7467c6f7-3e76-3fbe-8551-0cd086f9e1b1">These procedures shall:</p>
+
+<ol id="_657e8b30-c11f-2f24-2fbd-eff742e8d5af"><li><p id="_126dd601-9840-9ee3-5a80-815d41bae1e6">provide impartial treatment;</p>
+</li>
+<li><p id="_67610163-0312-c4e3-a9b1-3513092152dc">deal with complaints and appeals promptly;</p>
+</li>
+<li><p id="_e48ff341-ed45-1972-0820-3ba4eaced3dd">provide accessibility to the process; and</p>
+</li>
+<li><p id="_c01c0779-a71a-6227-e325-619ac7cc3378">identify SCC’s role in the appeal process.</p>
+</li>
+<note id="_b29b5713-58d3-4f1e-14e8-5baff61693e5"><p id="_ff869d47-09b9-ad42-02f9-d51c36cadc1d">Complaints may be either of a technical or procedural nature.</p>
+</note><note id="_b5df864b-794a-5bde-9b0a-3bc91b7f5a3a"><p id="_135c6a06-6f6f-4c2c-e6a4-68fdda25ae5b">An appeal against the final SDO decision may be escalated by registering an official complaint following the process described in  <em>SCC’s Accreditation Services — Accreditation Program Overview</em> document.</p>
+</note></ol>
+
+
+
+
+</clause>
+
+<clause id="_2298bd9e-9cf5-4477-5a4a-efed810f0995" anchor="sec_6.15" inline-header="false" obligation="normative">
+<title id="_52c5d0ea-2319-e062-eb90-ee997c981b4d">Notification of Suits or Claims</title>
+<p id="_330b2ea1-ce8e-bffb-5180-83906368614c">The SDO shall promptly notify SCC of any suit or claim made against
+the SDO arising from a standard designated as an NSC, and provide
+periodic updates to SCC of the status of any such suit or claim.<note id="_b4590f0d-2256-b0dc-399b-5699101a17ab"><p id="_9ea440fe-a5c5-39ce-9ae2-33e6793b5c3b">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_a14e363b-3ae5-def1-232a-6515bbf6ede2" inline-header="false" obligation="normative">
+<title id="_bda0c414-2f52-4c55-e1a7-19d0b5168c93">Format Requirements</title>
+<clause id="_eca67833-14eb-40c9-e235-efb17e7a980b" anchor="sec_7.1" inline-header="false" obligation="normative">
+<title id="_a8ab4f77-7de6-42fb-261d-515d2ee88410">Normative Content</title>
+<p id="_bbcec464-7dc0-c8d1-bd18-1f5436516055">The normative section of the standard shall include the scope, normative
+references, technical requirements, and if applicable, normative annexes,
+and terms and definitions. If annexes are included they shall be identified
+“normative” or  “informative”.<note id="_90eac187-ff7e-edf0-c4b6-a094b2d5d4b1"><p id="_3d798806-d824-8a84-793f-2257a868c0f0">The informative content may include, but is not limited to, foreword, preface, introduction and informative annexes.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_c4dec085-b5fa-9b1f-5a09-84a6f48cc2e9" anchor="sec_7.2" inline-header="false" obligation="normative">
+<title id="_ea948826-88c4-96f5-bde1-bee2967f06c3">Units of Measurement</title>
+<p id="_3fdf12a1-478e-0104-0b02-13527d44de61">The SDO shall include in the standard the international system of units (SI), and if applicable, equivalent Imperial/U.S. units or other units of measurement.</p>
+
+<p id="_e2e276cc-53ce-644c-8a57-4be69bae67a8">ISO 80000 series of standards shall be used to ensure clear and concise application of SI units, including conversions to and from other systems of measurement.</p>
+
+<p id="_7fcd9747-7380-b30a-77ec-88e57666ce23">It is the responsibility of the user of the standard to determine
+the unit of measurement appropriate for the user’s needs.<note id="_bc9d0147-b803-4908-38b9-42f03e85c2b4"><p id="_404bee69-2bd4-4521-1a64-1dd600594d9e">Conversions expressed in the standard should be approved by the technical committee.</p>
+</note><note id="_913fac22-6e4a-d1d0-edf8-796b341fba0c"><p id="_545e1e77-34c8-53d8-87e5-d22aa70a21dc">When no SI unit equivalent exists, such as trade sizes used in Canada, the trade size unit may be used.</p>
+</note></p>
+
+
+
+
+</clause>
+
+<clause id="_1daf872c-cd76-5de9-9e2d-460575f9aa7c" anchor="sec_7.3" inline-header="false" obligation="normative">
+<title id="_9426872b-cb3a-aafc-0997-e5428fb942a9">Date and Time</title>
+<p id="_d78de7a9-ace1-5dfa-3137-137c5dab0dcf">All-numeric date and time units shall comply with ISO 8601.<note id="_b41aab59-dfba-145f-f4b2-340febb30d76"><p id="_69a38e36-2d43-8ca4-0f86-2d505da8dbf1">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_0b768e60-f717-44ad-d761-48f9c457f59c" anchor="sec_7.4" inline-header="false" obligation="normative">
+<title id="_1a693e91-ca0e-7c46-04f5-24eaab5836f1">Number and Title</title>
+<p id="_3a122c3e-6a56-71f9-81bd-aed4cfb1e403">The SDO shall use the  “CAN” descriptor preceding the standard designation,
+based on the identified strategic need in <xref target="sec_4.2.1"/>.<note id="_39f326b0-303f-343d-b9ec-9d27741227d9"><p id="_f020c8cc-74c1-479c-56b3-e38460bf13ab">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_7c2d82f7-f35b-9a93-48de-e7ebd363924b" anchor="sec_7.5" inline-header="false" obligation="normative">
+<title id="_a627dcec-dae8-ab8c-4a50-b0d8804c6f60">Front Cover Page</title>
+<p id="_a672f743-0eb9-c2fd-fbaa-1cfbae16248b">The following items shall be included on the front cover page of the NSC:</p>
+
+<ol id="_4e040e65-e309-add3-a377-45f0c2a76415"><li><p id="_3720b53d-cc03-4243-231f-5dabe6d04252">The bilingual SCC logo, placed with other organizational logos, if any, or at the bottom of the page; and</p>
+</li>
+<li><p id="_85be1f07-d21a-dbd6-d40c-01ec34c277d5">The bilingual National Standard of Canada Symbol (NSC Symbol) placed with other identifying symbols, if any, or near the top of the page.</p>
+</li>
+<note id="_89d76efa-9cf3-4a99-6f7c-fb277c4561ba"><p id="_362510f7-20ea-6f3a-cb21-ebb193ae14bc">No guidance.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_9e43d8d0-6bb8-7f6a-d0cd-1474b71f03fe" anchor="sec_7.6" inline-header="false" obligation="normative">
+<title id="_a7f92048-8b73-e9be-0461-2d0e0d0e2b1e">Introductory Pages</title>
+<p id="_872ab4e5-2f76-9825-6953-06d751f28d39">The NSC shall have introductory pages with the following content in the language(s) appropriate to the standard:</p>
+
+<ol id="_5956a5f1-eee1-e0b5-3892-8cfeae72703e"><li><p id="_28a74213-37a5-a953-ce4c-9353f308950f">the established timeline for review of the standard;</p>
+</li>
+<li><p id="_2b382641-4db8-d243-a9e7-23505e988db3">SCC foreword (CSD — POV, Annex A);</p>
+</li>
+<li><p id="_eab778d7-ae4a-6272-4e38-99af3a3852c1">statement indicating the standard was developed in compliance with SCC’s R&amp;Gs for SDOs;</p>
+</li>
+<li><p id="_e276d1dd-1bd9-9d95-1e31-c395534883d5">the names of the technical committee members or the number of technical committee members representing the interest categories described in the R&amp;G —SDO Accreditation, clause 6.4;</p>
+</li>
+<li><p id="_42c86dc9-d4d0-88cb-1656-ace4d3608f6e">statement of availability of the NSC, English text in the French version, French text in the English version (CSD — POV, Annex B);</p>
+</li>
+<li><p id="_6bfa9c3b-eb78-5555-0570-8c5c0fcf5207">statement indicating it is the responsibility of the user of the standard to judge the suitability of the NSC for the user’s purpose; and</p>
+</li>
+<li><p id="_aab24dd6-1b82-16fa-dd10-ff5bf87b09fe">ICS code(s).</p>
+</li>
+<note id="_a2922845-2f3b-9796-7f28-69223c53076d"><p id="_b008b4c9-c161-ae5e-0954-3f9fa557caa2">No guidance.</p>
+</note></ol>
+
+
+</clause>
+</clause>
+
+<clause id="_2cf5910d-4cd0-70ae-61a1-63436f2e71cd" inline-header="false" obligation="normative">
+<title id="_a8fe06dc-4e8c-8736-56c5-403836f4def5">Maintenance of Accreditation</title>
+<clause id="_764a26a2-af5c-3a78-3974-3e22b2b749fb" anchor="sec_8.1" inline-header="false" obligation="normative">
+<title id="_24894727-d5b5-e463-590e-83bd766eb461">Maintenance of Accreditation</title>
+<p id="_80793678-70c6-f36a-ed26-9110647452a7">In order to maintain accreditation by SCC, an SDO shall continue to maintain procedures complying with the Requirements &amp; Guidance for SDOs for the publication and withdrawal of standards contained herein.</p>
+
+<p id="_f5110a39-77e0-7fe2-221d-b8d18f0a9ed1">If an SDO does not maintain one or more approved NSCs within the accreditation
+cycle, the SDO shall submit written justification from the head of
+the SDO at the reaccreditation as to why they have not submitted any
+NSCs to SCC for approval and why their accreditation remains relevant.<note id="_50b6982e-2adc-9ba0-8bf0-5ad883509a77"><p id="_58043fdb-e0a3-24ab-5502-75f459875239">If written justification is not provided or is otherwise unsatisfactory, the Accreditation Services Branch may suspend or withdraw the accreditation.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_8e09162b-0cf8-a671-e667-8d164b79f39b" anchor="sec_8.2" inline-header="false" obligation="normative">
+<title id="_8080223c-8b8e-7dc4-7d42-f0fd24267fad">Assessments</title>
+<p id="_708970db-abf4-849a-b580-2acd73341023">SCC’s Accreditation Services Branch shall arrange for assessments
+of accredited SDOs at selected intervals or due to special circumstances
+to confirm adherence to the Requirements &amp; Guidance for SDOs and to
+confirm that the procedures and practices of the accredited SDO continue
+to be consistent with those which formed the basis for accreditation.<note id="_9a465731-a6f2-08f4-8616-06169b00b913"><p id="_17d91405-5c69-dd7d-86b3-bad5dc20927d">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_539f1c4d-448b-e9b2-4edc-e6fe14a89761" anchor="sec_8.3" inline-header="false" obligation="normative">
+<title id="_de7e4b05-8bb0-daec-7025-18f571a9d802">SCC Requirements Updates</title>
+<p id="_50d9ef86-8c57-2c79-bd91-d1d8375dd25e">SDOs shall submit to a regular assessment in accordance with the Accreditation
+Policy and SDO Accreditation Agreement. When SCC issues revised or
+additional Requirements &amp; Guidance for SDOs, the accredited SDO shall
+comply with them within a reasonable time period designated by the
+SCC’s Accreditation Services Branch in order to maintain accreditation.<note id="_47ef77d9-14a9-4547-0f73-ff0c75b73bf9"><p id="_ec390ee3-b77e-e4b3-ac0a-d01378095c61">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_f320a9fc-8119-e64b-49d2-b7afaedf6ae0" inline-header="false" obligation="normative">
+<title id="_a5e70672-3dd9-63ab-f7e2-adbae19107ec">Self-Declaration</title>
+<clause id="_32b5e1ed-df76-e693-c726-740a34126bdf" anchor="sec_9.1" inline-header="false" obligation="normative">
+<title id="_3be40d56-3058-9853-7682-5ed57b36962a">Eligibility for Self-Declaration Status</title>
+<p id="_185c033c-76d7-1f6b-88ee-d915d61426f4">Before an SCC-accredited SDO can be considered for self-declaration status, the organization shall:</p>
+
+<ol id="_87243803-2c59-43b0-cc13-e11a28bbf250"><li><p id="_56a53b4c-380d-4917-74ec-beee6821a52c">Complete an application for self-declaration and submit it to SCC with associated fee;</p>
+</li>
+<li><p id="_34e99a6b-c28d-a6b2-4834-783e46255211">Have participated in accreditation assessments for a minimum of one accreditation cycle (3 years) before applying; and</p>
+</li>
+<li><p id="_8f4fc317-443d-76f4-2ddd-5df2953f7474">The SDO has been assessed within the last 12 months.</p>
+</li>
+<note id="_4191a2fb-f214-5756-7ee5-592bca803979"><p id="_1a55842c-0626-0188-46d8-4b73466ebc5e">Self-declaration status is voluntary and dependent on an SDO achieving the criteria outlined in  <xref target="sec_9.2"/>.</p>
+</note></ol>
+
+
+</clause>
+
+<clause id="_f50bc0ae-ef2f-da0e-362f-618d6bc39ce7" anchor="sec_9.2" inline-header="false" obligation="normative">
+<title id="_6514ca8c-5999-2208-3b3b-f4501cd78a00">Criteria for Approval of SDO Self-Declaration Status</title>
+<p id="_1f891240-5b28-b78d-0232-adaab5a58192">The following shall be satisfied by the SDO:<note id="_b6572d32-88b0-518a-9bfa-f053ed897290"><p id="_47e639ec-2416-72e2-0c98-4c4d3c2b1d1d">No guidance.</p>
+</note></p>
+
+
+
+<clause id="_d436fa60-a7a4-7802-edbe-e67c66a11b5c" anchor="sec_9.2.1" inline-header="false" obligation="normative"><p id="_4d37b83b-77fe-7014-118b-564deba115a7">SCC has approved at least five distinct standards as NSCs.<note id="_1c9a6c6b-03bf-38ab-9cae-098e72a0727f"><p id="_0d20d88c-df5e-1f64-1d93-85ae139e8e80">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_b075e685-9c85-f4c5-09fc-a2ee7b06c9fe" anchor="sec_9.2.2" inline-header="false" obligation="normative"><p id="_629165a1-071e-18d7-248a-be6932b2ce5d">The NSCs shall be representative of the SDOs scope of work.<note id="_9f3be965-041f-3a7e-1ea2-ad9c66a2f7b8"><p id="_11c7aec9-2ef4-8f8e-7c0e-7d02de315325">The five distinct standards should be representative of the technical work areas where the SDO normally conducts its standards development.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_90294e92-a737-9051-57e9-7ff30b2b65d9" anchor="sec_9.2.3" inline-header="false" obligation="normative"><p id="_f609e3fa-267d-636a-3590-76526e2f5d6e">No standard submitted by the SDO during the three year period was
+denied the NSC designation by SCC, due to a failure to comply with
+the Requirements &amp; Guidance for SDOs.<note id="_2f6d0b7a-2eff-e312-d6cf-6f50d31981a5"><p id="_c9d17e4f-b16c-4a91-8291-1d974c6fdcb4">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_b5815ab3-856f-96f3-67a2-18dac1095e63" anchor="sec_9.2.4" inline-header="false" obligation="normative"><p id="_3dda290f-6287-f83f-de36-90952dcd0904">The SDO is not in arrears with respect to any fees invoiced.<note id="_78cc7754-00c3-4b38-23d9-e348fa860e52"><p id="_0b0c04a2-11e9-90af-61a3-5ca3f6310639">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_3cb156f4-1199-22b5-34ae-1104e6e4267a" anchor="sec_9.2.5" inline-header="false" obligation="normative"><p id="_24e1ac70-8fc6-fa2c-8fe0-76ccb1bcc22f">The SDO does not have any open non-conformities from the last assessment
+activity.<note id="_af125f56-501c-e37c-a37f-124c42c91c41"><p id="_79306c88-42f4-df3b-393a-25ce73214c64">No guidance.</p>
+</note></p>
+
+
+</clause>
+
+<clause id="_228fc542-00c6-18f8-6773-2a5df139f950" anchor="sec_9.2.6" inline-header="false" obligation="normative"><p id="_a05800e0-bcc8-8d15-0151-d6363b626b39">The SDO does not have any open complaint (whether expressed as a
+complaint or appeal) against any NSC.<note id="_87a90808-6434-887d-5346-6721b1806980"><p id="_520b3b40-d396-24b2-8f0e-dd4a491469c5">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+
+<clause id="_cf20a473-87ea-0e24-50de-44f620dd45cd" anchor="sec_9.3" inline-header="false" obligation="normative">
+<title id="_6f44397a-fa01-3a9f-4326-ccbc7206905b">Maintenance of Self-Declaration Status</title>
+<note id="_e5a8fa62-f832-e73a-4d1b-ebe09be12d22"><p id="_c12f5e51-d12a-9797-60a1-2b47c00e6bb2">No guidance.</p>
+</note>
+
+<clause id="_847c3082-37a5-1670-c8ce-24105a02162b" anchor="sec_9.3.1" inline-header="false" obligation="normative">
+<title id="_17abe29f-c752-6298-ccd7-25857b406477">Self-Declaration Agreement</title>
+<p id="_5eaf6a89-7a26-24fa-5aae-7443e8e12899">Upon decision to grant self-declaration status, the SDO shall enter into a written agreement with SCC, which shall include commitments by the SDO to meet the requirements listed in the sub-clause below:</p>
+
+<ol id="_22f8f7ee-e230-4afd-8707-6b052be2ec25"><li><p id="_f415c63d-c659-d2ae-6f7c-17d6d99d43b3">The agreement shall be for a term aligned with the accreditation cycle; and</p>
+</li>
+<li><p id="_68199fce-2f1d-89d9-cab7-9533f3cac42f">Any additional terms included in the agreement may be modified as circumstances require with prior approval of SCC and the SDO (as long as such additional term(s) do not conflict with any of SCC’s existing policies and procedures).</p>
+</li>
+<note id="_d291c69f-6f80-cfbb-0d6b-0e463164d9c7"><p id="_7337c0c0-3678-88a5-debf-68fdd3ae92bf">No guidance.</p>
+</note></ol>
+
+
+</clause>
+</clause>
+
+<clause id="_33e0a4c9-f242-64ba-9f23-8735ccd5a025" anchor="sec_9.4" inline-header="false" obligation="normative">
+<title id="_6bb8ebce-ae66-9a0d-f3c3-abe7c6fb5187">Suspension of Self-Declaration Status</title>
+<note id="_57c4c25f-9d7c-a37a-dc48-3247864160d0"><p id="_028039f0-e6bd-03b6-0ba2-e0dfa792d8ca">No guidance.</p>
+</note>
+
+<clause id="_51f72f17-bdb3-2ee4-fa68-cc4979c7c22c" anchor="sec_9.4.1" inline-header="false" obligation="normative"><p id="_3d0b1727-ce6e-675e-9f35-51b8f8057f0d">The SDO shall immediately cease to apply the NSC designation to
+any standard without obtaining SCC approval after the SDO has been
+notified by SCC that its self-declaration status has been suspended
+and/or withdrawn.<note id="_22e7fec5-f5ee-ea85-6acc-29687a5ed3a5"><p id="_5acbefd8-1da8-7853-b9f4-d3ab6f32eafd">No guidance.</p>
+</note></p>
+
+
+</clause>
+</clause>
+</clause>
+</sections><bibliography><references id="_e849648c-e103-0bed-0ea2-a6fea1cd5d12" normative="true" obligation="informative">
+<title id="_461cd77a-5cfe-f57e-70ab-04e5c4142c2b">Normative references</title><p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+<bibitem anchor="csd_pov" id="_8f06fce9-fafc-b601-cb47-c45bf27b5408"><formattedref format="application/x-isodoc+xml">Canadian Standards Development — Program Overview (CSD — POV)</formattedref><docidentifier>CSD — POV</docidentifier><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="ICS_2015" id="_a1105d36-89cf-86fa-20a1-98729217946d"><formattedref format="application/x-isodoc+xml">International Classification for Standards, 2015</formattedref><docidentifier>ICS_2015</docidentifier><docnumber>2015</docnumber><language>en</language><script>Latn</script></bibitem>
+<bibitem anchor="codes" id="_7f26753b-3827-790d-d359-8e1a3f98c0a4"><formattedref format="application/x-isodoc+xml">International harmonized stage codes</formattedref><docidentifier>codes</docidentifier><language>en</language><script>Latn</script></bibitem>
+<bibitem id="_76ab0bbb-d22a-2ea9-dc75-fbb50f9f1ecb" type="standard" schema-version="v1.5.6" anchor="ISO_8601_2004">
+  <fetched>2026-07-07</fetched>
+  
+<title language="en" script="Latn" type="title-intro">Data elements and interchange formats</title>
+
+  
+<title language="en" script="Latn" type="title-main">Information interchange</title>
+
+  
+<title language="en" script="Latn" type="title-part">Representation of dates and times</title>
+
+  
+<title language="en" script="Latn" type="main">Data elements and interchange formats — Information interchange — Representation of dates and times</title>
+
+  
+<title language="fr" script="Latn" type="title-intro">Éléments de données et formats d’échange</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Échange d’information</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Représentation de la date et de l’heure</title>
+
+  
+<title language="fr" script="Latn" type="main">Éléments de données et formats d’échange — Échange d’information — Représentation de la date et de l’heure</title>
+
+  <uri type="src">https://www.iso.org/standard/40874.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:40874:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/08/40874.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 8601:2004</docidentifier>
+  <docidentifier type="iso-reference">ISO 8601:2004(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:8601:stage-95.99</docidentifier>
+  <docnumber>8601</docnumber>
+  <date type="published">
+    <on>2004-12-03</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Processes, data elements and documents in commerce, industry and administration</name>
+
+        <identifier>ISO/TC 154</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <note type="Unpublished-Status"><p id="_396890fb-8435-0a98-c5ed-46dd828add83">Withdrawn.</p></note><language>en</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO 8601:2004 is applicable whenever representation of dates in the Gregorian calendar, times in the 24-hour timekeeping system, time intervals and recurring time intervals or of the formats of these representations are included in information interchange. It includes calendar dates expressed in terms of calendar year, calendar month and calendar day of the month;ordinal dates expressed in terms of calendar year and calendar day of the year;week dates expressed in terms of calendar year, calendar week number and calendar day of the week;local time based upon the 24-hour timekeeping system;Coordinated Universal Time of day;local time and the difference from Coordinated Universal Time;combination of date and time of day;time intervals;recurring time intervals. ISO 8601:2004 does not cover dates and times where words are used in the representation and dates and times where characters are not used in the representation. ISO 8601:2004 does not assign any particular meaning or interpretation to any data element that uses representations in accordance with ISO 8601:2004. Such meaning will be determined by the context of the application.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 8601:2000</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8601:2000</docidentifier>
+      <date type="published">
+        <on>2000-12-21</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO 8601-1:2019</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8601-1:2019</docidentifier>
+      <date type="published">
+        <on>2019-02-25</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO 8601-2:2019</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 8601-2:2019</docidentifier>
+      <date type="published">
+        <on>2019-02-25</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem>
+<bibitem id="_030ac01c-b2ab-537e-97f7-9147685af048" type="standard" schema-version="v1.5.6" anchor="ISO_80000-1_2009">
+  <fetched>2026-07-07</fetched>
+  
+<title language="en" script="Latn" type="title-main">Quantities and units</title>
+
+  
+<title language="en" script="Latn" type="title-part">Part 1: General</title>
+
+  
+<title language="en" script="Latn" type="main">Quantities and units — Part 1: General</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Grandeurs et unités</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 1: Généralités</title>
+
+  
+<title language="fr" script="Latn" type="main">Grandeurs et unités — Partie 1: Généralités</title>
+
+  <uri type="src">https://www.iso.org/standard/30669.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:30669:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/06/30669.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 80000-1:2009</docidentifier>
+  <docidentifier type="iso-reference">ISO 80000-1:2009(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:80000:-1:stage-95.99</docidentifier>
+  <docnumber>80000</docnumber>
+  <date type="published">
+    <on>2009-11-17</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TC">
+        
+<name>Quantities and units</name>
+
+        <identifier>ISO/TC 12</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <note type="Unpublished-Status"><p id="_abbaf604-0155-144a-8e4c-11343446dad1">Withdrawn.</p></note><language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO 80000-1:2009 gives general information and definitions concerning quantities, systems of quantities, units, quantity and unit symbols, and coherent unit systems, especially the International System of Quantities, ISQ, and the International System of Units, SI. The principles laid down in ISO 80000-1:2009 are intended for general use within the various fields of science and technology and as an introduction to other parts of the Quantities and units series. Ordinal quantities and nominal properties are outside the scope of ISO 80000-1:2009.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31-0:1992/Amd 1:1998</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 31-0:1992/Amd 1:1998</docidentifier>
+      <date type="published">
+        <on>1998-12-20</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31-0:1992</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 31-0:1992</docidentifier>
+      <date type="published">
+        <on>1992-07-23</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 1000:1992/Amd 1:1998</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 1000:1992/Amd 1:1998</docidentifier>
+      <date type="published">
+        <on>1998-11-19</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 31-0:1992/Amd 2:2005</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 31-0:1992/Amd 2:2005</docidentifier>
+      <date type="published">
+        <on>2005-10-05</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO 1000:1992</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 1000:1992</docidentifier>
+      <date type="published">
+        <on>1992-11-12</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/DIS 80000-1</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/DIS 80000-1</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="updatedBy">
+    <bibitem>
+      <formattedref>ISO 80000-1:2009/Cor 1:2011</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 80000-1:2009/Cor 1:2011</docidentifier>
+      <date type="published">
+        <on>2011-09-22</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem>
+<bibitem id="_32ce44d9-6678-ef46-f4c2-839836262468" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_21-1_2005">
+  <fetched>2026-07-07</fetched>
+  
+<title language="en" script="Latn" type="title-main">Regional or national adoption of International Standards and other International Deliverables</title>
+
+  
+<title language="en" script="Latn" type="title-part">Part 1: Adoption of International Standards</title>
+
+  
+<title language="en" script="Latn" type="main">Regional or national adoption of International Standards and other International Deliverables — Part 1: Adoption of International Standards</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 1: Adoption de Normes internationales</title>
+
+  
+<title language="fr" script="Latn" type="main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif — Partie 1: Adoption de Normes internationales</title>
+
+  <uri type="src">https://www.iso.org/standard/39799.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:39799:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/97/39799.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC Guide 21-1:2005</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC Guide 21-1:2005(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:guide:21:-1:stage-90.93</docidentifier>
+  <docnumber>21</docnumber>
+  <date type="published">
+    <on>2005-05-12</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO/IEC Guide 21-1:2005 provides methods for: determination of the degree of correspondence between regional or national standards and relevant International Standards; adoption of International Standards as regional or national standards; indication of technical deviations which would facilitate immediate recognition of any deviation; numbering of regional or national standards that are identical adoptions of International Standards; indication of the degree of correspondence between the regional or national standard and the International Standard. ISO/IEC Guide 21-1:2005 does not contain any rules for the use of an International Standard in production, trade, legislation or similar activities. It also does not deal with: the adoption of regional or national standards as International Standards; adoption of regional or national standards as other regional or national standards; adoption of regional standards as national standards; or adoption in or of technical regulations.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC Guide 21:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC Guide 21:1999</docidentifier>
+      <date type="published">
+        <on>1999-02-11</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem>
+<bibitem id="_7f530dd1-f3ee-2aa1-b4dc-f50882c4a990" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_21-2_2005">
+  <fetched>2026-07-07</fetched>
+  
+<title language="en" script="Latn" type="title-main">Regional or national adoption of International Standards and other International Deliverables</title>
+
+  
+<title language="en" script="Latn" type="title-part">Part 2: Adoption of International Deliverables other than International Standards</title>
+
+  
+<title language="en" script="Latn" type="main">Regional or national adoption of International Standards and other International Deliverables — Part 2: Adoption of International Deliverables other than International Standards</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif</title>
+
+  
+<title language="fr" script="Latn" type="title-part">Partie 2: Adoption de documents internationaux autres que les Normes internationales</title>
+
+  
+<title language="fr" script="Latn" type="main">Adoption, sur les plans régional et national, de Normes internationales et d’autres documents internationaux à caractère normatif — Partie 2: Adoption de documents internationaux autres que les Normes internationales</title>
+
+  <uri type="src">https://www.iso.org/standard/39800.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:39800:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/98/39800.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC Guide 21-2:2005</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC Guide 21-2:2005(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:guide:21:-2:stage-90.93</docidentifier>
+  <docnumber>21</docnumber>
+  <date type="published">
+    <on>2005-05-12</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">ISO/IEC Guide 21-2:2005 provides methods for the following: the adoption of International Deliverables other than International Standards as regional or national deliverables; numbering of regional or national deliverables that are adoptions of International Deliverables other than International Standards.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC Guide 21:1999</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC Guide 21:1999</docidentifier>
+      <date type="published">
+        <on>1999-02-11</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem>
+<bibitem id="_7c837dbe-4c26-c65e-aed8-06e41644cb40" type="standard" schema-version="v1.5.6" anchor="ISO_IEC_Guide_59_1994">
+  <fetched>2026-07-07</fetched>
+  
+<title language="en" script="Latn" type="title-main">Code of good practice for standardization</title>
+
+  
+<title language="en" script="Latn" type="main">Code of good practice for standardization</title>
+
+  
+<title language="fr" script="Latn" type="title-main">Code de bonne pratique pour la normalisation</title>
+
+  
+<title language="fr" script="Latn" type="main">Code de bonne pratique pour la normalisation</title>
+
+  <uri type="src">https://www.iso.org/standard/23390.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/en/#!iso:std:23390:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/33/23390.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO/IEC Guide 59:1994</docidentifier>
+  <docidentifier type="iso-reference">ISO/IEC Guide 59:1994(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso-iec:guide:59:stage-95.99</docidentifier>
+  <docnumber>59</docnumber>
+  <date type="published">
+    <on>1994-02-17</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Electrotechnical Commission</name>
+
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <subdivision type="technical-committee" subtype="TMBG">
+        
+<name>ISO/TMBG</name>
+
+        <identifier>ISO/TMBG</identifier>
+      </subdivision>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <note type="Unpublished-Status"><p id="_b20db9ea-23de-2884-2a95-6974eff8c23c">Withdrawn.</p></note><language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract language="en" script="Latn">Standards are developed by many bodies at national and international levels, which in general prepare their documents by consensus processes. Alongside the growth of international trade and technological cooperation, standardizing bodies have developed procedures and modes of cooperation which are commonly considered to constitute good practices for standard development at all levels. These practices are set out in the form of a code, applicable to governmental and non-governmental consensus bodies. The guide deals with procedures for the development of standards, advancement of international trade, participation in the standards development process, coordination and information.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1994</from>
+    <owner>
+      <organization>
+        
+<name>ISO/IEC</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletedBy">
+    <bibitem>
+      <formattedref>ISO/IEC Guide 59:2019</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/IEC Guide 59:2019</docidentifier>
+      <date type="published">
+        <on>2019-08-19</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem>
+<bibitem anchor="WTO_TBT" id="_4809497a-7337-6b0e-9a18-85166e58c1c6"><formattedref format="application/x-isodoc+xml">World Trade Organization/Technical Barriers to Trade (WTO/TBT), Annex 3 — Code of Good Practice for the Preparation, Adoption and Application of Standards</formattedref><docidentifier>WTO_TBT</docidentifier><language>en</language><script>Latn</script></bibitem>
+</references></bibliography>
+</metanorma>

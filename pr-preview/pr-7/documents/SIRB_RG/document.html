@@ -1,0 +1,3184 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+    0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Cambria",serif;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Courier New",monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: 0.8em;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cambria",serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Cambria",serif;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: "Cambria",serif;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: -internal-root-color;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body main {
+  margin: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.3;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: "";
+  content: none;
+}
+
+/* New CSS */
+body {
+  margin-left: 298px;
+  margin-right: 2em;
+}
+
+main {
+  padding-left: 4em;
+  padding-right: 2em;
+}
+
+.title-section, .prefatory-section {
+  padding-left: 4em;
+  padding-top: 2em;
+}
+
+.coverpage_docnumber, .coverpage_techcommittee {
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 0.5em;
+}
+
+.doctitle-en, .doctitle-fr {
+  margin-top: 2em;
+  text-align: left;
+}
+
+.doctitle-en {
+  padding-left: 3em;
+  margin-left: -3em;
+  /*padding-top: 2em;*/
+  padding-bottom: 2em;
+}
+
+.doctitle-en span {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.doctitle-fr span {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  font-style: italic;
+}
+
+.doctitle-part {
+  margin-top: 1em;
+}
+
+span.title, span.subtitle, span.part {
+  font-weight: 800;
+}
+
+span.partlabel {
+  display: block;
+}
+
+.coverpage_docstage {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.coverpage_warning {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-bottom: 1em;
+}
+
+.boilerplate-copyright p {
+  margin-top: 1em;
+  display: block;
+  font-size: 0.9em;
+}
+
+/* TYPOGRAPHY */
+h1, .h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2, .h2 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2;
+}
+
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.zzSTDTitle1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+p.zzSTDTitle2 {
+  font-size: 1.5em;
+}
+
+span.obligation {
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li > p:first-child::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+}
+
+li p {
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+p.AltTerms {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  margin-top: 0em;
+}
+
+/* Navigation*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: black;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #f7f7f7;
+  box-shadow: inset -5px 0px 10px -5px #f7f7f7 !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: black;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: "Cambria",serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  box-shadow: 0px 1px 0px 0px black !important;
+  background: none;
+}
+#toc li::before, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li::before {
+  content: " ";
+  display: none;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 278px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 20px;
+    background-color: #f7f7f7;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+nav {
+  line-height: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #f7f7f7;
+    color: black !important;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    z-index: 103;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+#toggle {
+  border-right: solid black 1px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 2em;
+  }
+  main {
+    padding: 0;
+  }
+  .title-section, .prefatory-section {
+    padding-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+}
+figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em;
+}
+
+figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure > img, figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 210px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+  writing-mode: vertical-rl;
+}
+
+#governance-band p.document-type {
+  font-weight: 400;
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#governance {
+  border-bottom: solid 3px #750697;
+}
+
+#governance-band {
+  background-color: #750697;
+}
+
+#guide {
+  border-bottom: solid 3px #48a0e7;
+}
+
+#guide-band {
+  background-color: #48a0e7;
+}
+
+.coverpage-maturity {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+#working-draft {
+  border-bottom: solid 3px #fda706;
+}
+
+#working-draft-band {
+  background-color: #fda706;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #fd06fd;
+}
+
+#committee-draft-band {
+  background-color: #fd06fd;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #fdf906;
+}
+
+#standard {
+  border-bottom: solid 3px #0ac442;
+}
+
+#standard-band {
+  background-color: #0ac442;
+}
+
+#obsolete {
+  border-bottom: solid 3px #7e0d13;
+}
+
+#obsolete-band {
+  background-color: #7e0d13;
+}
+
+/* 3 Other styles */
+/*
+  3.2 Links
+*/
+a {
+  color: black;
+  text-decoration-color: black;
+}
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 2em;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list ol li {
+  list-style-type: none;
+}
+
+/* https://github.com/metanorma/metanorma-iso/issues/319 : force a) parentheses for ordered lists */
+ol[class=alphabet] {
+  counter-reset: alphabet;
+}
+
+ol[class=arabic] {
+  counter-reset: arabic;
+}
+
+ol[class=roman] {
+  counter-reset: roman;
+}
+
+ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper;
+}
+
+ol[class=roman_upper] {
+  counter-reset: roman_upper;
+}
+
+ol[class=alphabet] ol[class=alphabet] {
+  counter-reset: alphabet2;
+}
+
+ol[class=arabic] ol[class=arabic] {
+  counter-reset: arabic2;
+}
+
+ol[class=roman] ol[class=roman] {
+  counter-reset: roman2;
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] {
+  counter-reset: alphabet_upper2;
+}
+
+ol[class=roman_upper] ol[class=roman_upper] {
+  counter-reset: roman_upper2;
+}
+
+ol {
+  counter-reset: alphabet;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li::before {
+  position: absolute;
+  left: -1.4em;
+}
+
+ol[class=roman] > li::before {
+  left: -2em;
+}
+
+ol[class=roman_upper] > li::before {
+  left: -2.3em;
+}
+
+ol[class=alphabet] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=arabic] > li::before {
+  counter-increment: arabic;
+  content: counter(arabic, decimal) ") ";
+}
+
+ol[class=roman] > li::before {
+  counter-increment: roman;
+  content: counter(roman, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper;
+  content: counter(alphabet_upper, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper;
+  content: counter(roman_upper, upper-roman) ") ";
+}
+
+ol > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+}
+
+ol[class=alphabet] ol[class=alphabet] > li::before {
+  counter-increment: alphabet2;
+  content: counter(alphabet2, lower-alpha) ") ";
+}
+
+ol[class=arabic] ol[class=arabic] > li::before {
+  counter-increment: arabic2;
+  content: counter(arabic2, decimal) ") ";
+}
+
+ol[class=roman] ol[class=roman] > li::before {
+  counter-increment: roman2;
+  content: counter(roman2, lower-roman) ") ";
+}
+
+ol[class=alphabet_upper] ol[class=alphabet_upper] > li::before {
+  counter-increment: alphabet_upper2;
+  content: counter(alphabet_upper2, upper-alpha) ") ";
+}
+
+ol[class=roman_upper] ol[class=roman_upper] > li::before {
+  counter-increment: roman_upper2;
+  content: counter(roman_upper2, upper-roman) ") ";
+}
+
+/*
+3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0;
+}
+
+/*
+3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef, div.Biblio, div.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.Biblio.note, .Biblio.Note, .NormRef.note, .NormRef.Note {
+  margin-left: 3.5em;
+}
+
+/*
+3.6 Source Code + figures
+*/
+figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-size: 1.0em;
+}
+
+pre {
+  font-family: "Courier New",monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+figcaption, .SourceTitle, .AdmonitionTitle, .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+3.7 Notes
+*/
+.Note, .note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Note p, .note p {
+  margin: 0;
+}
+
+.Admonition {
+  background-color: #ffcccc;
+  color: #47430c;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p {
+  margin: 0;
+}
+
+div.Admonition.AdmonitionEditorial {
+  color: green;
+  background-color: white;
+}
+
+/*
+3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example {
+  color: black;
+  padding-left: 0.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+td,
+th {
+  padding: 1em !important;
+}
+
+table.rouge-line-table td, table.rouge-line-table th {
+  padding: 0em !important;
+}
+
+td > p:first-child, th > p:first-child {
+  margin-top: 0em;
+}
+
+td > p:last-child, th > p:last-child {
+  margin-bottom: 0em;
+}
+
+table > caption {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.TableFootnote {
+  text-align: left !important;
+}
+
+/*
+table.modspec {
+  @include table($border: none !important);
+  text-align: left;
+
+  color: #010d16;
+
+  tr:nth-child(even) {
+    background: #ffffff
+  }
+  tr:nth-child(odd) {
+    background: #ffffff
+  }
+
+  thead tr th {
+    background-color: #5d99d6;
+  }
+
+  td, th {
+    padding: 1em;
+  }
+
+  td.header {
+    font-weight: 400;
+  }
+}
+*/
+/*
+3.10 Footnotes
+*/
+a.footnote-number, a.TableFootnoteRef, span.TableFootnoteRef {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+sup {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+#footnote_box {
+  font-size: 0.9em;
+  background: white;
+  padding: 0 10px;
+  margin: 10px;
+  border: 1px solid #888;
+  -moz-box-shadow: 0px 0px 5px #888;
+  -webkit-box-shadow: 0px 0px 5px #888;
+  box-shadow: 0px 0px 5px #888;
+}
+
+ol.footnotes-list, aside.footnote {
+  margin-left: 1em;
+}
+
+ol.footnotes-list li, aside.footnote {
+  font-size: 0.9em;
+  vertical-align: top;
+  list-style: decimal;
+  margin-bottom: 1em;
+}
+
+ol.footnotes-list:first-child {
+  margin-top: 2em;
+}
+
+ol.footnotes-list p, aside.footnote p {
+  display: inline;
+}
+
+ol > li > p::before {
+  content: "";
+  display: none;
+}
+
+/*
+3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Quote .Quote {
+  margin-top: 0px;
+}
+
+.Quote .h1,
+.Quote .h2,
+.Quote .h3,
+.Quote .h4,
+.Quote .h5,
+.Quote .h6 {
+  margin-top: 0px;
+}
+
+/*
+3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.formula_dl {
+  background-color: #f7f7f7;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*
+Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  /* color: #47430c;*/
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left;
+}
+
+.Admonition p, .admonition p {
+  margin: 0;
+}
+
+/* Collapse TOC */
+.collapse-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.collapse-button {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
+}
+
+.collapse {
+  display: none;
+}
+
+.expand {
+  transform: rotateZ(-180deg);
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>Requirements &#x26; Guidance — Accreditation of Standards Development Organizations</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="en" xml:lang="en"><div class="title-section"><div id="toggle"> <span>•</span> </div>
+
+<p class="coverpage_docnumber">ISO  </p>
+    
+
+
+<p class="coverpage_docnumber">Fourth edition</p>
+
+
+
+
+
+
+
+
+<p class="coverpage_techcommittee"></p>
+
+
+<p class="coverpage_techcommittee"><a name="CVP_Secretariat_Loca" id="CVP_Secretariat_Loca">Secretariat</a>: CANADIAN STANDARDS DEVELOPMENT</p>
+
+
+<div class="doctitle-en"><div><span class="title">Requirements &#x26; Guidance — </span><span class="subtitle">Accreditation of Standards Development Organizations</span>
+  
+  
+</div>
+
+
+
+
+
+</div>
+
+<div class="doctitle-fr"><div><span class="title">Exigences et lignes directrices — </span><span class="subtitle">Accréditation des organismes d’élaboration de normes</span>
+  
+  
+</div>
+
+
+
+</div>
+
+<div class="coverpage_docstage">
+  
+</div>
+
+
+<div class="coverpage_warning">
+  <div id="boilerplate-license-destination"></div>
+</div>
+
+
+
+
+
+
+
+
+
+</div><br /><div class="prefatory-section"><div class="boilerplate-copyright">
+
+<div id="boilerplate-copyright-default"><h1 class="IntroTitle"><a class="anchor" href="#boilerplate-copyright-default"></a><a class="header" href="#boilerplate-copyright-default">COPYRIGHT PROTECTED DOCUMENT</a></h1>
+
+<p id="boilerplate-year">© <span class="std_publisher">ISO </span><span class="date">2019</span></p>
+
+<p id="boilerplate-message">All rights reserved. Unless otherwise specified, or required in the context of its implementation, no part of this publication may be reproduced or utilized otherwise in any form or by any means, electronic or mechanical, including photocopying, or posting on the internet or an intranet, without prior written permission. Permission can be requested from either ISO at the address below or ISO’s member body in the country of the requester.</p>
+
+<p id="boilerplate-address" style="text-align:left;">ISO copyright office<br /> CP 401 • Ch. de Blandonnet 8<br /> CH-1214 Vernier, Geneva<br /> Phone: +41 22 749 01 11<br /> Email:  <a href="mailto:copyright@iso.org">copyright@iso.org</a><br /> Website: www.iso.org</p>
+
+<p id="boilerplate-place">Published in Switzerland</p>
+</div>
+</div>
+
+<nav>
+
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_13d7055e-30fc-845a-c60e-8972faf092d9"></a><a class="header" href="#_13d7055e-30fc-845a-c60e-8972faf092d9">Contents</a></h1><ul><li class="h1"><a href="#_3574c1ab-e705-40ca-8048-fd7ca1907287">      
+  
+  Introduction
+</a></li>
+<li class="h1"><a href="#_00bdfd5d-4369-4526-b97d-b92af138c670">      1  Normative references</a></li>
+<li class="h1"><a href="#_15919ed5-afd8-4a61-b72d-bdd5562ff94b">      
+  
+  2  Terms and definitions
+</a></li>
+<li class="h1"><div class="collapse-group"><a href="#_844d866c-760a-4453-a8e7-e66c688e078d">
+  
+  3  General Requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_e6306110-bb91-4925-b54e-c17e0a604738">      
+  
+  3.1  Consensus Process
+</a>
+</li><li class="h2"><a href="#_5ed2b17b-5ee2-4ca3-86f6-deabe1c17c53">      
+  
+  3.2  Identification of Canadian Interest &#x26; Need
+</a></li><li class="h2"><a href="#_118e114c-e481-4cec-ab74-cfbeaa7862a6">      
+  
+  3.3  Avoiding Duplication
+</a></li><li class="h2"><a href="#_10ad5865-ccaa-415c-b002-b97e2e00f3fa">      
+  
+  3.4  Work Program
+</a></li><li class="h2"><a href="#_1c7d4f4f-cc94-4502-8b01-ff06568b99a6">      
+  
+  3.5  International/Regional/National Harmonization
+</a></li><li class="h2"><a href="#_b0e2d73b-2639-4857-968f-dad0a1faf6e5">      
+  
+  3.6  Standards Harmonization With International Community — SDO Participation
+</a></li><li class="h2"><a href="#_6040dc07-0854-4681-847d-c063cf1a9d09">      
+  
+  3.7  National Adoption of International/Regional Standards and Other Deliverables
+</a></li><li class="h2"><a href="#_29a9c719-394f-47e5-9cd0-bf4d5ab1fe49">      
+  
+  3.8  Performance Based Standards
+</a></li><li class="h2"><a href="#_50eb5959-211a-4ccd-b69c-323b95362b74">      
+  
+  3.9  Trade
+</a></li><li class="h2"><a href="#_de739d08-e9f0-4408-acd7-ffd4a13c7aec">      
+  
+  3.10  Place of Origin
+</a></li><li class="h2"><a href="#_79e666d8-1246-4a7d-89b8-de75793bc1d9">      
+  
+  3.11  Price Fixing
+</a></li><li class="h2"><a href="#_0d270bab-f805-4db7-8519-6da71557fded">      
+  
+  3.12  Protection Against Misleading Standards
+</a></li><li class="h2"><a href="#_d0b07683-8320-421a-a6a0-16fc45f8be6b">      
+  
+  3.13  Patents
+</a></li><li class="h2"><a href="#_28431f31-294c-48fa-a73c-58324e1084ca">      
+  
+  3.14  References to Certification or Administrative Requirements
+</a></li><li class="h2"><a href="#_0eaffb80-f0a1-4b8d-9c44-3a789a97e09b">      
+  
+  3.15  Standards for Conformity Assessment
+</a></li><li class="h2"><a href="#_6446f0de-ec2b-47be-82a0-d31b8eba69b3">      
+  
+  3.16  Safety Markings
+</a></li><li class="h2"><a href="#_ad917fbb-b03d-4db3-b380-ed7295fc2943">      
+  
+  3.17  Conflict of Interest
+</a></li><li class="h2"><a href="#_e36b3799-768f-429c-94b1-dc1379bd2903">      
+  
+  3.18  Declaration of Compliance with Accreditation Requirements
+</a></li><li class="h2"><a href="#_7d96392b-f1c3-4ab3-98e2-4ffae2a5ae98">      
+  
+  3.19  Provision of Published Standards
+</a></li></ul></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_2a9fad1b-7d2d-430e-99a7-719a6f049b1f">
+  
+  4  Structural and Resource Requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_dc1fb63f-da07-4551-9b8c-1aebfc22288f">      
+  
+  4.1  Canadian Relevance
+</a>
+</li><li class="h2"><a href="#_36b03fa2-06a2-44ac-81b0-1cdb3f4e6256">      
+  
+  4.2  Legal Responsibility
+</a></li><li class="h2"><a href="#_56fd6db7-41ea-49b6-bef4-68b0333b9fa2">      
+  
+  4.3  Separation of Management Activities
+</a></li><li class="h2"><a href="#_383738ac-4da9-42bf-a319-746a5bbe5f31">      
+  
+  4.4  Continuity of Operations
+</a></li><li class="h2"><a href="#_ccb7e9ab-186b-435b-be9a-3205eee1bcd2">      
+  
+  4.5  Staff Competence
+</a></li><li class="h2"><a href="#_f06f6c91-6e1d-4fc6-bf18-d45aff354b27">      
+  
+  4.6  Facilities
+</a></li><li class="h2"><a href="#_89f6d3fd-9bdf-462e-b708-70e19e8e3a08">      
+  
+  4.7  Record Keeping
+</a></li></ul></li>
+
+
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_893c5243-c827-471b-a7ff-d4ecd9da29fb">
+  
+  5  Consensus Requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_b7dc8c0d-3ee8-462e-bc01-bb087c718068">      
+  
+  5.1  Documented Processes Based on Consensus
+</a>
+</li><li class="h2"><a href="#_44c48a28-8d9c-4fe3-9eb7-a5247a55f269">      
+  
+  5.2  Proposals for Development of Standards
+</a></li><li class="h2"><a href="#_f759b2a1-5dc5-417c-b68a-c9e04304ae83">      
+  
+  5.3  Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests
+</a></li><li class="h2"><a href="#_28cb8d34-f948-4231-a4e9-0f3cfa320b49">      
+  
+  5.4  Balance of Interests
+</a></li><li class="h2"><a href="#_6666972d-a8ca-44ed-a5d3-b8e304f8777f">      
+  
+  5.5  Use of ISONET: International harmonized stage codes and International Classification for Standards
+</a></li><li class="h2"><a href="#_92524ae2-19d5-438a-9c17-14ff723120ed">      
+  
+  5.6  Notification Requirements
+</a></li><li class="h2"><a href="#_bd337346-55e9-491c-9ef7-1ef8322dcdaf">      
+  
+  5.7  Technical Committee Approval Process
+</a></li><li class="h2"><a href="#_72a65102-ea88-4a04-a620-b834536de8e4">      
+  
+  5.8  Second Level Review
+</a></li><li class="h2"><a href="#_abb7000e-21ba-4891-b263-50bbf7100f06">      
+  
+  5.9  Publication Process
+</a></li><li class="h2"><a href="#_7df6d469-0acc-498e-a069-06f62494f601">      
+  
+  5.10  Maintenance of Standards
+</a></li><li class="h2"><a href="#_98f0f572-cd69-420f-b560-e8a4630e039c">      
+  
+  5.11  Maintenance Outcomes
+</a></li><li class="h2"><a href="#_4e166591-233e-4b06-9bcc-fc5e7915cb2b">      
+  
+  5.12  International Inquiries on Code of Good Practice
+</a></li><li class="h2"><a href="#_382d73a4-7564-482b-99df-c49bd32472e5">      
+  
+  5.13  Information Requests
+</a></li><li class="h2"><a href="#_2fa2432a-bfd1-45de-a02d-20f002eecbeb">      
+  
+  5.14  Complaints and Appeals Mechanism
+</a></li><li class="h2"><a href="#_2b4302a5-9a24-497a-b6fa-53209228122b">      
+  
+  5.15  Notification of Suits or Claims
+</a></li></ul></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_144d1780-574a-435f-904f-07164abd7e3f">
+  
+  6  Format Requirements
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_4fd5fb33-2673-4428-bfc6-95e51154cc6d">      
+  
+  6.1  Normative Content
+</a>
+</li><li class="h2"><a href="#_1e2e2d67-6bd4-434c-a703-9c32b0566a26">      
+  
+  6.2  Units of Measurement
+</a></li><li class="h2"><a href="#_09d6a1e5-0730-4d87-80c8-51eaf5b4685b">      
+  
+  6.3  Date and Time
+</a></li><li class="h2"><a href="#_12f24c38-e321-49b8-b00f-f5d35af8d70f">      
+  
+  6.4  Number and Title
+</a></li><li class="h2"><a href="#_7f649d48-2b61-4c23-9e9c-cc2f2557e8ff">      
+  
+  6.5  Front Cover Page
+</a></li><li class="h2"><a href="#_e22ac2fe-3002-40ed-be00-7d0ba76cfec7">      
+  
+  6.6  Introductory Pages
+</a></li></ul></li>
+
+
+
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_e1590d70-d7db-4635-977b-bcd0b24edb48">
+  
+  7  Maintenance of Accreditation
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_267bfb2b-3705-4835-8645-d1859a235971">      
+  
+  7.1  Maintenance of Accreditation
+</a>
+</li><li class="h2"><a href="#_1a7b8eeb-0650-483d-ba4b-00fe09bc8ef6">      
+  
+  7.2  Assessments
+</a></li><li class="h2"><a href="#_90eb9895-7b99-4f3a-8d9c-180df4514518">      
+  
+  7.3  SCC Requirements Updates
+</a></li></ul></li>
+
+
+
+
+<li class="h1"><div class="collapse-group"><a href="#_83f6f40c-bbcd-4fa3-8276-1e49c5ac3719">
+  
+  8  Self-Declaration
+</a>
+<div class="collapse-button"></div></div><ul class="content collapse"><li class="h2">
+  <a href="#_9bd4e45b-b2af-421a-9a0b-3dd34ef8bea2">      
+  
+  8.1  Eligibility for Self-Declaration Status
+</a>
+</li><li class="h2"><a href="#_735cc549-334f-4fc7-8de5-0e33ae82709a">      
+  
+  8.2  Criteria for Approval of SDO Self-Declaration Status
+</a></li><li class="h2"><a href="#_f9539148-b023-4f33-902c-557a105f2fe9">      
+  
+  8.3  Maintenance of Self-Declaration Status
+</a></li><li class="h2"><a href="#_478e79ff-d649-415c-a5bd-9fa2bdb04d48">      
+  
+  8.4  Suspension of Self-Declaration Status
+</a></li></ul></li>
+
+
+
+
+</ul></div>
+
+</nav>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+</div><br /><br /><div class="Section3" id="_94050038-8849-bf30-9ccd-30a75baa5786"><h1 class="IntroTitle" id="_3574c1ab-e705-40ca-8048-fd7ca1907287"><a class="anchor" href="#_94050038-8849-bf30-9ccd-30a75baa5786"></a><a class="header" href="#_94050038-8849-bf30-9ccd-30a75baa5786">Introduction</a></h1><p id="_8138aee4-8a20-d330-8d2b-ca2cd10adc34">This document specifies the requirements and guidance for the accreditation of Standards Development Organizations (SDOs). For the purposes of expediency, the acronym R&#x26;G — SDO Accreditation will be used.</p><p id="_bf4bfcbf-c700-8456-fea7-dfebe0bad238">The SDO accreditation requirements are in line with accepted international standards best practices derived from the World Trade Organization, Technical Barriers to Trade (WTO/TBT), Annex 3 provisions, ISO/IEC Guide 59  <i>Code of good practice for standardization</i>, and the following Canadian principles: consensus; equal access and effective participation by concerned interests; respect for diverse interests and identification of those who should be afforded access to provide the needed balance of interests; mechanism for duplication resolution; openness and transparency; open access by interested parties to the procedures guiding the standards development process; clarity with respect to the processes; safeguarding Canadian interest as the basis for the development of standards by SDOs; and avoiding duplication of standards or overlap with the work of other SDOs or with the work of relevant international or regional SDOs.</p><p id="_e4b4bed8-4aad-31fb-cba9-4a295c448561">SCC accreditation of an SDO grants the responsibility for the development, publication, and maintenance of National Standards of Canada and adoptions in compliance with SCC’s Requirements &#x26; Guidance for SDOs (R&#x26;Gs for SDOs which are described in two documents: the R&#x26;G — SDO Accreditation, and the  <i>Requirements &#x26; Guidance — National Adoptions of International/Regional Standards and Other Deliverables</i>). Note that Consensus SDO Standards published by SDOs which are compliant to SCC requirements are expected to be transitioned under the NSC branding utilizing their established maintenance cycles.</p><p id="_1565cb33-764f-bc96-a1e4-a6a4f85d62eb">A new clause 8 is included outlining the requirements and guidance to maintain SCC accreditation. This section includes direction to ensure SDOs transition to SCC’s requirements as they are updated and that they align their procedures to remain compliant. It highlights the assessment process used by SCC to verify compliance. As well, that the accredited SDO process delivers published NSCs.</p><p id="_4d4e2b0b-0808-1eae-95dd-518d79a05af3">A new clause 9 is included outlining the requirements and guidance to obtain self-declaration status. This section includes specific criteria for SDOs to meet to successfully achieve and maintain this status. SCC’s evaluation of compliance to these criteria may involve specific assessments of affected SDO processes, which may be in addition to the normal accreditation assessments. Non-compliance of the self-declaration criteria may lead to withdrawal of the self-declaration status. Note that self-declaration status is voluntary and an SCC-accredited SDO may remain in good accreditation standing without having achieved self-declaration status or if this status is withdrawn.</p><p id="_b621646b-c4f6-6cf6-56b9-8f27335f37bc">This document was prepared for, and approved by, the Governing Council of the Standards Council of Canada (SCC) on 2019-06-13. It replaces the 2017 edition of the  <i>Requirements &#x26; Guidance — Accreditation of Standards Development Organizations</i>.</p></div><div><h1 id="_00bdfd5d-4369-4526-b97d-b92af138c670">1  Normative references</h1>
+<p id="_02b1c060-f2f9-4bc4-035d-e49887f749e3">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+<p id="csd_pov" class="NormRef"><span class="stdpublisher">CSD — POV</span>, Canadian Standards Development — Program Overview (CSD — POV)</p>
+<p id="ICS_2015" class="NormRef">ICS_<span class="stddocNumber">2015</span>, International Classification for Standards, 2015</p>
+<p id="codes" class="NormRef"><span class="stdpublisher">codes</span>, International harmonized stage codes</p>
+<p id="ISO_8601_2004" class="NormRef"><span class="stdpublisher">ISO</span> <span class="stddocNumber">8601</span>:<span class="stdyear">2004</span><a class="FootnoteRef" href="#fn:_9546dc35-8be5-b702-93df-2776e1f1d228" id="fnref:1"><sup>1)</sup></a>
+, <i><span class="stddocTitle">Data elements and interchange formats — Information interchange — Representation of dates and times</span></i></p>
+<p id="ISO_80000-1_2009" class="NormRef"><span class="stdpublisher">ISO</span> <span class="stddocNumber">80000</span>-<span class="stddocPartNumber">1</span>:<span class="stdyear">2009</span><a class="FootnoteRef" href="#fn:_8f072c00-9315-0eab-e6a7-2aad4944d511" id="fnref:2"><sup>2)</sup></a>
+, <i><span class="stddocTitle">Quantities and units — Part 1: General</span></i></p>
+<p id="ISO_IEC_Guide_21-1_2005" class="NormRef"><span class="stdpublisher">ISO/IEC</span> Guide <span class="stddocNumber">21</span>-<span class="stddocPartNumber">1</span>:<span class="stdyear">2005</span>, <i><span class="stddocTitle">Regional or national adoption of International Standards and other International Deliverables — Part 1: Adoption of International Standards</span></i></p>
+<p id="ISO_IEC_Guide_21-2_2005" class="NormRef"><span class="stdpublisher">ISO/IEC</span> Guide <span class="stddocNumber">21</span>-<span class="stddocPartNumber">2</span>:<span class="stdyear">2005</span>, <i><span class="stddocTitle">Regional or national adoption of International Standards and other International Deliverables — Part 2: Adoption of International Deliverables other than International Standards</span></i></p>
+<p id="ISO_IEC_Guide_59_1994" class="NormRef"><span class="stdpublisher">ISO/IEC</span> Guide <span class="stddocNumber">59</span>:<span class="stdyear">1994</span><a class="FootnoteRef" href="#fn:_072f25b1-b633-4218-cdfb-e995e4142cc4" id="fnref:3"><sup>3)</sup></a>
+, <i><span class="stddocTitle">Code of good practice for standardization</span></i></p>
+<p id="WTO_TBT" class="NormRef"><span class="stdpublisher">WTO_TBT</span>, World Trade Organization/Technical Barriers to Trade (WTO/TBT), Annex 3 — Code of Good Practice for the Preparation, Adoption and Application of Standards</p>
+</div><p class="zzSTDTitle1"><span class="boldtitle">Requirements &#x26; Guidance — Accreditation of Standards Development Organizations</span></p><div id="_5591e887-14c7-86c5-27bb-e68224b6e5d5"><h1 id="_15919ed5-afd8-4a61-b72d-bdd5562ff94b"><a class="anchor" href="#_5591e887-14c7-86c5-27bb-e68224b6e5d5"></a><a class="header" href="#_5591e887-14c7-86c5-27bb-e68224b6e5d5">2  Terms and definitions</a></h1><p id="_dcc01114-4d03-3550-1347-4ba901bda94c">For the purposes of this document, the following terms and definitions apply.</p><p id="_1df4aedb-297d-0c69-967f-f6a60db009d2">ISO and IEC maintain terminology databases for use in standardization at the following addresses:</p><div class="ul_wrap"><ul id="_e6ddc246-88cc-2222-8452-b939a5cefa0e"><li id="_ff1456b0-3824-0cd8-657d-f17cf7f4c512"><p id="_93880b15-0e52-9141-f887-d290dce89ffd">ISO Online browsing platform: available at <a href="https://www.iso.org/obp">https://www.iso.org/obp</a></p>
+</li>
+<li id="_b6fc7459-1bee-2313-8854-babbb5bb2d52"><p id="_8a7ecb99-412c-1138-ae9d-76c4ac7b7d43">IEC Electropedia: available at <a href="https://www.electropedia.org">https://www.electropedia.org</a></p>
+</li>
+</ul></div><div id="term-Accreditation"><h2 class="TermNum" id="_a21ac5d1-dd0f-4998-9010-b33d5c0c5d66"><a class="anchor" href="#term-Accreditation"></a><a class="header" href="#term-Accreditation">2.1</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Accreditation</dfn></b></p>
+<p id="_a7b5d845-b8a7-3881-5ac7-61cd7bc52725">The formal recognition of the competence of an organization to carry out specific functions in accordance with established criteria. When such accreditation has been accorded by SCC, the SDO is a component of Canada’s standardization network.</p>
+ <div id="term-Action-Plan"><h2 class="TermNum" id="_09343526-6f46-4e1e-99c2-a4521fdf1dba"><a class="anchor" href="#term-Action-Plan"></a><a class="header" href="#term-Action-Plan">2.2</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Action Plan</dfn></b></p>
+<p id="_fc4ecf22-28cc-ac8b-7058-b328b79c4e23">Next steps and timelines to be followed as a result of SCC’s Duplication Resolution Mechanism (DRM) decision.</p>
+ <div id="term-Balanced-representation"><h2 class="TermNum" id="_1a307434-69da-4052-84c4-3534b6c126d3"><a class="anchor" href="#term-Balanced-representation"></a><a class="header" href="#term-Balanced-representation">2.3</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Balanced representation</dfn></b></p>
+<p id="_eda689ab-bcc0-c228-d9d8-a2d83a8fb1fd">A representation of interest groups in a technical committee such that no single category of interest can dominate the voting procedures. Commonly used interest categories may include, but are not limited to, general interest, producers, regulators and users.</p>
+ <div id="term-Canada_s-standardization-network"><h2 class="TermNum" id="_a769fca0-d24e-47a8-85be-94e715b6a55e"><a class="anchor" href="#term-Canada_s-standardization-network"></a><a class="header" href="#term-Canada_s-standardization-network">2.4</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Canada’s standardization network</dfn></b></p>
+<p id="_84dc45ea-557f-d854-ff42-9f1203a176dc">The people and organizations involved in the development, promotion and implementation of standards.</p>
+ <div id="term-Centralized-Notification-System-_CNS_"><h2 class="TermNum" id="_70517694-305f-4b01-ae5b-755029802962"><a class="anchor" href="#term-Centralized-Notification-System-_CNS_"></a><a class="header" href="#term-Centralized-Notification-System-_CNS_">2.5</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Centralized Notification System (CNS)</dfn></b></p>
+<p id="_4d45509c-bef8-abd9-d234-394f50f28feb">Public notice portal on SCC’s corporate website of SDO Notices of Intent (NOI) to develop or adopt a new standard or other deliverable; new edition; amendment; revision; reaffirmation or withdrawal of an already published standard; Work Program; and a listing of published standards under SCC’s accreditation.</p>
+ <div id="term-Complaint"><h2 class="TermNum" id="_a47a2af5-0f78-48c9-8824-eca7e4e5ebe3"><a class="anchor" href="#term-Complaint"></a><a class="header" href="#term-Complaint">2.6</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Complaint</dfn></b></p>
+<p id="_fad897fa-afc2-f99d-9049-5c99841dbc08">Expression of dissatisfaction, other than an appeal, by any person or organization, against SCC, SCC’s Service Delivery Partner or an accredited or applicant organization, when a response is expected.</p>
+ <div id="term-Conflict-of-interest"><h2 class="TermNum" id="_68127eb2-e823-4f60-a56e-6bdf568e8609"><a class="anchor" href="#term-Conflict-of-interest"></a><a class="header" href="#term-Conflict-of-interest">2.7</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Conflict of interest</dfn></b></p>
+<p id="_133a8e89-3ab1-bbd8-0b47-fb45980860ae">Is a situation in which a person or organization is involved in multiple interests (financial or otherwise), one of which could possibly corrupt the motivation of the individual or organization.</p>
+ <div id="term-Conformity-assessment"><h2 class="TermNum" id="_685bf9c3-252b-4bb4-be9e-3a4d7a546eac"><a class="anchor" href="#term-Conformity-assessment"></a><a class="header" href="#term-Conformity-assessment">2.8</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Conformity assessment</dfn></b></p>
+<p id="_e9e83ae1-0edd-2ff6-4f9f-70f66be99d3d">Demonstration that specified requirements of a particular standard relating to a product, service, process, system, person or body are fulfilled.</p>
+ <div id="term-Consensus"><h2 class="TermNum" id="_ac3e6b33-49ed-4e8e-b477-8d1b85397d2a"><a class="anchor" href="#term-Consensus"></a><a class="header" href="#term-Consensus">2.9</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Consensus</dfn></b></p>
+<p id="_f982272a-0b62-a1c9-5f3f-607f6a289c6b">General agreement characterized by the absence of sustained opposition to substantial issues by a concerned interest, and by a process that takes into account the views of all parties concerned, and reconciles any conflicting arguments.</p>
+ <div id="term-Duplication-Resolution-Mechanism-_DRM_"><h2 class="TermNum" id="_5d58e954-a314-4a7a-a7a5-8848c8633272"><a class="anchor" href="#term-Duplication-Resolution-Mechanism-_DRM_"></a><a class="header" href="#term-Duplication-Resolution-Mechanism-_DRM_">2.10</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Duplication Resolution Mechanism (DRM)</dfn></b></p>
+<p id="_ba215271-fdbb-e126-501c-8d4a2ba4eea4">SCC’s process to manage duplications of standards and effort that have been raised. This involves an SCC-facilitated discussion between affected SDOs to reach a timely outcome that is responsive to Canadian stakeholder needs.</p>
+ <div id="term-General-interest"><h2 class="TermNum" id="_b2174907-8b24-4162-b340-a456d537c6c8"><a class="anchor" href="#term-General-interest"></a><a class="header" href="#term-General-interest">2.11</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>General interest</dfn></b></p>
+<p id="_da8a35e6-0f9d-fd6c-b324-2464c2d27f91">An interest category of those on a technical committee with a demonstrated interest and relevant expertise not associated with the production, distribution, direct use, or regulation of the product(s), material(s) or service(s).</p>
+ <div id="term-Harmonization"><h2 class="TermNum" id="_45d3c198-5959-4dc7-8fa9-fced82e4f712"><a class="anchor" href="#term-Harmonization"></a><a class="header" href="#term-Harmonization">2.12</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Harmonization</dfn></b></p>
+<p id="_a42c65ad-7a3f-3221-7b74-3b341ecac17e">The integration of work related to standards development involving the preparation of standards, regional standards, and International Standards with the objective of achieving the greatest practicable degree of commonality in accordance with policies and procedures of SCC and the applicable SDO.</p>
+ <div id="term-International-Electrotechnical-Commission-_IEC_"><h2 class="TermNum" id="_60612bd3-5551-4c61-983c-ca1b55ae8b87"><a class="anchor" href="#term-International-Electrotechnical-Commission-_IEC_"></a><a class="header" href="#term-International-Electrotechnical-Commission-_IEC_">2.13</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>International Electrotechnical Commission (IEC)</dfn></b></p>
+<p id="_1c1fdf0f-607d-5ac0-4dfb-356cfaf27621">A non-governmental organization whose membership is composed of National Committees and which is responsible for preparing and publishing International Standards for the electrical, electronic and related technologies.</p>
+ <div id="term-International-Organization-for-Standardization-_ISO_"><h2 class="TermNum" id="_0d4d56b1-38e2-454b-b278-b452bcb52836"><a class="anchor" href="#term-International-Organization-for-Standardization-_ISO_"></a><a class="header" href="#term-International-Organization-for-Standardization-_ISO_">2.14</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>International Organization for Standardization (ISO)</dfn></b></p>
+<p id="_95209fa6-a5b2-02ca-2557-4a0d0ac0e47b">A non-governmental organization whose membership is composed of national standards bodies and which is responsible for preparing and publishing International Standards in fields other than electrical, electronic and telecommunication.</p>
+ <div id="term-international-standard"><h2 class="TermNum" id="_86d097d3-60f1-4ba0-a293-7ac4b0c6c28e"><a class="anchor" href="#term-international-standard"></a><a class="header" href="#term-international-standard">2.15</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>international standard</dfn></b></p>
+<p id="_f03b7089-164e-a4ce-0430-81ddf94f023e">An international standard published by any international standardizing/standards organization and made available to the public.</p>
+ <div id="term-International-Standard"><h2 class="TermNum" id="_570ec519-92f1-4843-b5e3-965a7e37d1b5"><a class="anchor" href="#term-International-Standard"></a><a class="header" href="#term-International-Standard">2.16</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>International Standard</dfn></b></p>
+<p id="_949d5c47-dbd3-6b09-ef80-f121401bcac4">An International Standard published by ISO or IEC.</p>
+ <div id="term-International-standardizing_standards-development-organization"><h2 class="TermNum" id="_7db9d9a3-24a0-4328-90f2-60d6a9b46ce5"><a class="anchor" href="#term-International-standardizing_standards-development-organization"></a><a class="header" href="#term-International-standardizing_standards-development-organization">2.17</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>International standardizing/standards development organization</dfn></b></p>
+<p id="_eb359e7f-03bd-e1ed-2f2d-ec3876554059">An organization that develops consensus standards through a process that adheres to a set of globally accepted principles for standards development including Transparency, Openness, Impartiality, Effectiveness and Relevance, Consensus, Performance Based, Coherence, Due Process and Technical Assistance.</p>
+ <div id="term-ISONET"><h2 class="TermNum" id="_47566dff-808f-4c46-8fba-2d92abbe774c"><a class="anchor" href="#term-ISONET"></a><a class="header" href="#term-ISONET">2.18</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>ISONET</dfn></b></p>
+<p id="_3d920261-2ddc-ca3f-19ea-d07c34b5a7cd">The ISO Information Network is an agreement between standardizing bodies to combine their efforts in order to make information on standards, technical regulations and related matters readily available whenever it is required.</p>
+ <div id="term-Maintenance"><h2 class="TermNum" id="_fc627ee3-8a09-4f26-8e55-81986ebf4475"><a class="anchor" href="#term-Maintenance"></a><a class="header" href="#term-Maintenance">2.19</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Maintenance</dfn></b></p>
+<p id="_0b27d5dd-1478-8456-73ff-29471e86e3c4">The action by the technical committee of reviewing a National Standard of Canada and adoptions; International Standard, regional standard, or other international/regional deliverable which results in its revision/amendment, reaffirmation, publication as a new edition, or withdrawal.</p>
+ <div id="term-National-Standard-of-Canada-_NSC_"><h2 class="TermNum" id="_1d2713da-01c5-46f4-be36-140333921c9a"><a class="anchor" href="#term-National-Standard-of-Canada-_NSC_"></a><a class="header" href="#term-National-Standard-of-Canada-_NSC_">2.20</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>National Standard of Canada (NSC)</dfn></b></p>
+<p id="_59b2563d-4b28-29fa-3d16-9621cb5d78aa">A standard developed by an SDO compliant to SCC’s Requirements &#x26; Guidance for a) accreditation of SDOs and for b) adoptions.</p>
+ <div id="term-New-edition"><h2 class="TermNum" id="_dbb5f8d7-ab07-401d-bc59-bbae2dbb9dd3"><a class="anchor" href="#term-New-edition"></a><a class="header" href="#term-New-edition">2.21</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>New edition</dfn></b></p>
+<p id="_3c34392e-f293-83c6-c0ba-8fe86f9574e3">A standard that has been revised and is issued with the same designation number as its predecessor, but with a new publication date, and incorporates previous revisions and other changes.</p>
+ <div id="term-Performance-requirements"><h2 class="TermNum" id="_8d80b61e-6934-428d-90a1-fdc76ffd4bd8"><a class="anchor" href="#term-Performance-requirements"></a><a class="header" href="#term-Performance-requirements">2.22</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Performance requirements</dfn></b></p>
+<p id="_c93dd606-ba0a-5094-9260-93a4154b6513">Requirements that concern the behaviour of a product, process or service in or related to use.</p>
+ <div id="term-Producer"><h2 class="TermNum" id="_feeffa73-810c-4816-8ca3-e1c2f4b7da41"><a class="anchor" href="#term-Producer"></a><a class="header" href="#term-Producer">2.23</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Producer</dfn></b></p>
+<p id="_d4300329-41cc-a466-5bd4-1ab5487052cc">An interest category of those on a technical committee who are predominantly involved in production (i.e., manufacture), promotion, retailing, or distribution of the subject product(s), material(s) or service(s).</p>
+ <div id="term-Public-review"><h2 class="TermNum" id="_76e9fc00-e43e-4411-8f20-5c4380a1f5bd"><a class="anchor" href="#term-Public-review"></a><a class="header" href="#term-Public-review">2.24</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Public review</dfn></b></p>
+<p id="_a87838f4-0adb-14e1-37d4-5594f1b770a9">An opportunity for the public to comment on a draft standard before final approval by the technical committee.</p>
+ <div id="term-Reaffirmation"><h2 class="TermNum" id="_01dbe70f-570f-4691-8477-ffcd438361ce"><a class="anchor" href="#term-Reaffirmation"></a><a class="header" href="#term-Reaffirmation">2.25</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Reaffirmation</dfn></b></p>
+<p id="_d39fa8bf-c61b-8c0c-8ce4-6acb7f3b7076">The declaration by the SDO that the technical committee confirms that the standard continues to be valid without necessitating any technical change and that it is still in conformance with applicable requirements.</p>
+ <div id="term-Regional-standard"><h2 class="TermNum" id="_c40bffb0-0549-42e6-bd59-1e55e6f530d4"><a class="anchor" href="#term-Regional-standard"></a><a class="header" href="#term-Regional-standard">2.26</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Regional standard</dfn></b></p>
+<p id="_a922e06e-1eaf-bdc0-37bc-6885bec42637">A standard that is developed or adopted by a regional SDO and made available to the public.</p>
+ <div id="term-Regional-standards-development-organization"><h2 class="TermNum" id="_b6a0c945-ee41-411e-8ee1-9be1c3453c69"><a class="anchor" href="#term-Regional-standards-development-organization"></a><a class="header" href="#term-Regional-standards-development-organization">2.27</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Regional standards development organization</dfn></b></p>
+<p id="_bd0962ad-3128-e7d2-161c-755e3f89f479">An organization whose membership is open to the relevant national standards body from each country within one geographical, political or economic area.</p>
+ <div id="term-Regulation"><h2 class="TermNum" id="_afff01eb-46d0-40e6-bd01-949958349830"><a class="anchor" href="#term-Regulation"></a><a class="header" href="#term-Regulation">2.28</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Regulation</dfn></b></p>
+<p id="_72fd363e-2ab2-1e70-02ee-6f8fe569044c">A document specifying mandatory rules created by an authority having jurisdiction (AHJ).</p>
+ <div id="term-Regulator"><h2 class="TermNum" id="_c61bbd04-f30a-4bfe-8871-f087a3ffc08d"><a class="anchor" href="#term-Regulator"></a><a class="header" href="#term-Regulator">2.29</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Regulator</dfn></b></p>
+<p id="_2db0dc72-163c-bb25-f674-6808716a7ac9">An interest category of those on a technical committee representing any federal, provincial, municipal, other government body, or body/authority designated by a government responsible for regulating the acceptability, sale or use of the subject product(s), material(s) or service(s), and those bodies that enforce these rules and regulations.</p>
+ <div id="term-Safety-marking"><h2 class="TermNum" id="_7c37db1c-bff8-4c1a-a8bd-65ecab2984dc"><a class="anchor" href="#term-Safety-marking"></a><a class="header" href="#term-Safety-marking">2.30</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Safety marking</dfn></b></p>
+<p id="_e94b7c89-97eb-2b02-10df-d6726be4097a">Text or graphical symbol instruction on a product designed to prevent unacceptable risk.</p>
+ <div id="term-SCC-Mirror-Committee-_SMC_"><h2 class="TermNum" id="_3eda4123-e257-4637-b154-691bae880af2"><a class="anchor" href="#term-SCC-Mirror-Committee-_SMC_"></a><a class="header" href="#term-SCC-Mirror-Committee-_SMC_">2.31</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>SCC Mirror Committee (SMC)</dfn></b></p>
+<p id="_a7c3748e-b2cd-cb63-a943-b8b80d3f2c73">A national technical committee established by SCC which mirrors an international committee that facilitates Canadian participation within international standardization activities.</p>
+ <div id="term-Second-level-review"><h2 class="TermNum" id="_3131f506-719a-4f0c-85cf-bff18f5ec424"><a class="anchor" href="#term-Second-level-review"></a><a class="header" href="#term-Second-level-review">2.32</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Second level review</dfn></b></p>
+<p id="_e03056ae-b078-10f4-040a-8ab924f9f965">Verification conducted by the SDO at the end of the technical approval stage to ensure compliance with SCC’s Requirements &#x26; Guidance for SDOs.</p>
+ <div id="term-Self-declaration-status"><h2 class="TermNum" id="_31d42258-23ee-41bb-a3d5-2be0dafd22d9"><a class="anchor" href="#term-Self-declaration-status"></a><a class="header" href="#term-Self-declaration-status">2.33</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Self-declaration status</dfn></b></p>
+<p id="_fa25f9b5-958c-5118-eac0-69018b37d0cd">The status granted to an SCC-accredited SDO, allowing them the ability to declare compliance with SCC’s Requirements &#x26; Guidance for SDOs for the publication of their NSCs.</p>
+ <div id="term-Stakeholder"><h2 class="TermNum" id="_8a24d29f-6ab6-4bbe-9ad5-9c9258f25413"><a class="anchor" href="#term-Stakeholder"></a><a class="header" href="#term-Stakeholder">2.34</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Stakeholder</dfn></b></p>
+<p id="_93c56abc-9efa-9a10-e6cd-9488a9f6d7a5">A party that has an interest in a standard, and can either affect or be affected by the standard. Commonly identified Canadian stakeholders may include, but are not limited to: key company/market leaders, industry associations, regulatory bodies, governments, associations, NGOs, academics, and/or consumers expressing the need for the standard.</p>
+ <div id="term-Standard"><h2 class="TermNum" id="_b151479a-5038-4860-a677-6dc33fbd9359"><a class="anchor" href="#term-Standard"></a><a class="header" href="#term-Standard">2.35</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Standard</dfn></b></p>
+<p id="_0e7595a9-b06c-30ea-bdc4-7146f0032138">A document, established by consensus and approved by a recognized body that provides for common and repeated use, rules, guidelines or characteristics for activities or their results, aimed at achievement of the optimum degree of order in a given context. For the purpose of this document this includes, National Standards of Canada, adoptions and Consensus SDO Standards.</p>
+ <div id="term-Standardization"><h2 class="TermNum" id="_934984b0-171d-4208-adb3-2434cdbcf73a"><a class="anchor" href="#term-Standardization"></a><a class="header" href="#term-Standardization">2.36</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Standardization</dfn></b></p>
+<p id="_cdfb2592-0f75-2a00-0e67-cf87b0206207">The processes of formulating, issuing, and implementing standards to establish provisions for common and repeated use, aimed at the achievement of the optimum degree of order in a given context to address actual or potential needs.</p>
+ <div id="term-Standards-development"><h2 class="TermNum" id="_7c43e478-789c-4354-80c1-21db648ac0ce"><a class="anchor" href="#term-Standards-development"></a><a class="header" href="#term-Standards-development">2.37</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Standards development</dfn></b></p>
+<p id="_77191bed-8eab-c1db-3420-2271cd5a8a9a">Process based on the requirements of the Canadian standards development system which includes the policies and procedures of an SCC-accredited SDO for the preparation, self-declaration of compliance with SCC’s Requirements &#x26; Guidance for SDOs, publication and maintenance of standards.</p>
+ <div id="term-Standards-Development-Organization-_SDO_"><h2 class="TermNum" id="_96eb0767-4b93-45fa-ba1f-a6e411db29cf"><a class="anchor" href="#term-Standards-Development-Organization-_SDO_"></a><a class="header" href="#term-Standards-Development-Organization-_SDO_">2.38</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Standards Development Organization (SDO)</dfn></b></p>
+<p id="_97de0c3e-82ef-abba-5ffb-fba9a2c9c258">An organization, or part thereof, accredited by SCC, that accepts responsibility for the development, self-declaration of compliance with SCC’s Requirements &#x26; Guidance for SDOs, publication and maintenance of standards.</p>
+ <div id="term-Technical-committee"><h2 class="TermNum" id="_e09e7e02-c13b-43e7-923f-d19f2712ff46"><a class="anchor" href="#term-Technical-committee"></a><a class="header" href="#term-Technical-committee">2.39</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Technical committee</dfn></b></p>
+<p id="_8005987a-250e-038f-65b8-66cf95f7a212">A committee responsible for developing, approving and maintaining the technical content of a draft or published standard in accordance with the policies and procedures of the SDO.</p>
+ <div id="term-Technical-regulation"><h2 class="TermNum" id="_a7900d7c-3006-401c-a445-3b042cfc3197"><a class="anchor" href="#term-Technical-regulation"></a><a class="header" href="#term-Technical-regulation">2.40</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Technical regulation</dfn></b></p>
+<p id="_4df5536e-27f8-e377-0098-118b10c67cb2">A regulation that provides technical requirements, either directly or by referring to or incorporating the content of a standard, technical specification or code of practice. The technical regulation may be supplemented by technical guidance that outlines some means of compliance with the requirements of the regulation (i.e., deemed-to-satisfy provision).</p>
+ <div id="term-User"><h2 class="TermNum" id="_768a1407-eba2-40c0-88ad-48a4a4ed66e7"><a class="anchor" href="#term-User"></a><a class="header" href="#term-User">2.41</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>User</dfn></b></p>
+<p id="_919b9a2e-c46b-b1e6-7239-90319de6e9e5">An interest category of those on a technical committee who predominantly represent end users of the subject product(s), material(s), or service(s) and who are not involved in any way in production and/or distribution of the subject product(s), material(s) or service(s). Consumers are one type of end user, and may be defined as, individual members of the general public, or consumer organizations, purchasing or using property, products or services for private purposes.</p>
+ <div id="term-Withdrawn-standard"><h2 class="TermNum" id="_fe2557ce-4bb0-4900-9711-3318534b189b"><a class="anchor" href="#term-Withdrawn-standard"></a><a class="header" href="#term-Withdrawn-standard">2.42</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Withdrawn standard</dfn></b></p>
+<p id="_2bf8ce03-0336-e72d-3822-970744f0c081">A standard discontinued by an SDO and its responsible technical committee as it is no longer valid, and/or no longer represents the most current, reliable, and/or available information.</p>
+ <div id="term-Work-Program"><h2 class="TermNum" id="_b457d320-1314-4297-81ed-9043afdce273"><a class="anchor" href="#term-Work-Program"></a><a class="header" href="#term-Work-Program">2.43</a></h2></div><p class="Terms" style="text-align:left;"><b><dfn>Work Program</dfn></b></p>
+<p id="_4afaca76-2f91-7d4f-904d-9ade455a50e0">A document that meets the requirements of the WTO/TBT <i>Code of Good Practice for the Preparation, Adoption and Application of Standards</i>. The Work Program is published by the SDO. Requirements for the content and notice of the existence of the Work Program are included in the WTO/TBT Annex 3.</p>
+ </div><div id="_a72a947a-c01d-e05f-991b-cdeaa278dd24"><h1 id="_844d866c-760a-4453-a8e7-e66c688e078d"><a class="anchor" href="#_a72a947a-c01d-e05f-991b-cdeaa278dd24"></a><a class="header" href="#_a72a947a-c01d-e05f-991b-cdeaa278dd24">3  General Requirements</a></h1><div id="sec_4.1"><h2 id="_e6306110-bb91-4925-b54e-c17e0a604738"><a class="anchor" href="#sec_4.1"></a><a class="header" href="#sec_4.1">3.1  Consensus Process</a></h2>
+
+<p id="_b4bc6a2c-6fc8-eb1a-2273-8f9c66af8246">The SDO shall provide a process to achieve consensus in the development
+of its standards under SCC’s accreditation.</p><div id="_1f9f3656-dc1a-f27d-fc5a-171951a7c966" class="Note"><p><span class="note_label">NOTE 1  </span>Consensus does not imply unanimity.</p></div><div id="_92d2738c-f7cf-5648-9c0e-064b96081f5d" class="Note"><p><span class="note_label">NOTE 2  </span>Sustained opposition is not intended to provide a  “veto” to any one stakeholder.</p></div>
+
+
+
+
+</div><div id="sec_4.2"><h2 id="_5ed2b17b-5ee2-4ca3-86f6-deabe1c17c53"><a class="anchor" href="#sec_4.2"></a><a class="header" href="#sec_4.2">3.2  Identification of Canadian Interest &#x26; Need</a></h2>
+
+<p id="_ef878de2-47ec-3e0f-3eb3-1251dfee5fab">The SDO shall consider the following sub-clauses at the beginning
+of the development process of a standard, prior to the publication
+of the Notice of Intent (NOI) for a new standard or new edition.</p><div id="_df89fa30-0b56-d534-0192-ef7ee7040ef1" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_4.2.1"><h3><a class="anchor" href="#sec_4.2.1"></a><a class="header" href="#sec_4.2.1">3.2.1  Strategic Need</a></h3>
+
+<p id="_ab77c9b0-c096-bb8e-86ef-89db9d778d4a">Identify the strategic need of key stakeholders and confirmation expressing the need (e.g. Authority Having Jurisdiction [AHJ], industry, government, consumers).</p>
+
+<p id="_86a70165-f796-9370-8116-b116ae7369ae">This includes:</p>
+
+<div class="ol_wrap"><ol type="a" id="_6c193ada-e30d-c581-68a3-860d9deabe31" class="alphabet"><li id="_6f6ae9f4-bd5b-94fd-e6bc-2186a8e80103"><p id="_54a618fd-818a-f8d4-afa1-683854978ad6">strategic need of key stakeholder (e.g. legislator, industry, government, consumers);</p>
+</li>
+<li id="_ed7feaf2-0c72-aee1-8d7e-4e815a4d4d26"><p id="_79b79d19-e8a6-3ca5-fd0d-3297f3482456">type of standard (international, regional, domestic standards and harmonization need);</p>
+</li>
+<li id="_36ef1e50-fcc7-aa3c-36ab-fbd76a83be19"><p id="_fb02bc53-d869-4323-7da7-680dd62a1fce">up-to-date vs outdated standard to ensure latest innovative/technology/safety features available for businesses;</p>
+</li>
+<li id="_7380ba7c-5cf9-bfd0-ffff-7a016cbaba42"><p id="_159d1e10-d5a4-9fed-0573-a18f0de5d3a3">intended to support national/regional/international certification programs;</p>
+</li>
+<li id="_090f8a86-9532-f978-71c1-2890cc4954a1"><p id="_28d562e4-6734-7911-89da-69111420a672">stakeholder intention to transition to different standard;</p>
+</li>
+<li id="_223ae6a3-a22c-0353-a028-bde0e8191df8"><p id="_132e1b10-4d47-db45-f62e-aec905ecec3c">type of maintenance (periodic, continuous, stabilized, best before date); and</p>
+</li>
+<li id="_3e1f854c-1e2f-8208-261d-2b6d41638ec7"><p id="_69c57c5f-672d-743e-e49c-4c20711720f1">use of  “CAN” descriptor.</p>
+<div id="_08afce90-f5ab-fc71-803c-cf6e7c160d6d" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div>
+
+<div id="sec_4.2.2"><h3><a class="anchor" href="#sec_4.2.2"></a><a class="header" href="#sec_4.2.2">3.2.2  Availability in Both Official Languages</a></h3>
+
+<p id="_eaf3ed62-4e2e-aa5d-4a62-49626a7b18a2">The SDO shall publish the standard in both of Canada’s official languages. The following criteria shall be applied to determine when a bilingual standard is not required:</p>
+
+<div class="ol_wrap"><ol type="a" id="_1b4048c3-fd3d-791e-48d0-184c6a00991e" class="alphabet"><li id="_4fc62b30-6066-652d-fe69-7bc4d9913381"><p id="_549a895b-f1b3-91e5-6fb7-b5dd567797eb">no stakeholders’ need;</p>
+</li>
+<li id="_d24844fa-2940-15ac-c0a3-e8d8eb2ffb80"><p id="_ea7af593-0556-58cf-92df-e91c20a9d208">no user base need;</p>
+</li>
+<li id="_e37b1165-16f3-ddb5-49b2-e874853e6eff"><p id="_163cf589-bdb3-0caf-57be-9bc5af795057">no AHJ need; and</p>
+</li>
+<li id="_ef6497c1-cb8a-56fa-3abe-782b7f0fd69d"><p id="_823555a5-2f4e-830b-0ccb-86c3cb59d48b">no health and safety related needs.</p>
+</li>
+</ol></div>
+
+<p id="_843bd8e0-e48a-109a-09d1-bb748cf31c04">The SDO shall apply the above criteria (a-d) at any point, when the need is identified.</p>
+
+<p id="_a454a057-9205-1436-ba29-740417cc94a4">For ISO/IEC adoptions where a Canadian need has been identified for
+bilingual publications, SDOs shall use the available ISO/IEC translations.
+Where no French translation is available, SDOs shall conduct a national
+translation and publish the ISO/IEC adopted NSC, with the French translation
+as non official, in alignment with ISO/IEC language policy.</p><div id="_c7c1d9f7-7d78-b75f-98a9-1432bfaa3bce" class="Note"><p><span class="note_label">NOTE  </span>When a stakeholder does not require a bilingual standard and no French translation of ISO/IEC is available the English-only adoption is permitted.</p></div>
+
+
+</div>
+
+<div id="sec_4.2.3"><h3><a class="anchor" href="#sec_4.2.3"></a><a class="header" href="#sec_4.2.3">3.2.3  Geographical Representation</a></h3>
+
+<p id="_b551d771-7bb7-e9da-11dd-43f0ce8e337d">The SDO’s technical committee shall include Canadian representation
+appropriate to the subject area covered by the standard.</p><div id="_b2a6e04c-9f6c-6007-bef1-9808974a8ea3" class="Note"><p><span class="note_label">NOTE  </span>Geographic representation may consider factors such as industry location (e.g. petroleum in petroleum producing provinces), reference in regulation (if a regulation exists in a province), commodity characteristics and social impact (e.g. heating oil for northern climates).</p></div>
+
+
+</div>
+</div><div id="sec_4.3"><h2 id="_118e114c-e481-4cec-ab74-cfbeaa7862a6"><a class="anchor" href="#sec_4.3"></a><a class="header" href="#sec_4.3">3.3  Avoiding Duplication</a></h2>
+
+<p id="_381e2ff1-57c9-743f-7b49-5bbdd9365005">SDOs shall make every effort to address the need of the Canadian stakeholder(s)
+and to not duplicate or overlap with the work of other SCC-accredited
+SDOs, or relevant international or regional SDOs.</p><div id="_90631484-0055-2c3c-aa7e-eac8a2aee12f" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_4.3.1"><h3><a class="anchor" href="#sec_4.3.1"></a><a class="header" href="#sec_4.3.1">3.3.1  Identification of Duplication</a></h3>
+
+<p id="_cebe5948-ce49-1a8f-2a70-e78b5a601114">The SDO shall monitor the Centralized Notification System (CNS) platform.
+When a duplication complaint is raised, the SDO shall use the Duplication
+Resolution Mechanism (DRM), as described in the CSD — POV.</p><div id="_9316eb20-d627-a3e4-c87a-d8ec74e13eb0" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_4.3.2"><h3><a class="anchor" href="#sec_4.3.2"></a><a class="header" href="#sec_4.3.2">3.3.2  Action Plan — Decision Impact</a></h3>
+
+<p id="_de4885d8-d437-10ad-e763-e842880d8993">The SDO shall comply with the Action Plan resulting from the DRM process,
+defined under the CSD-POV.</p><div id="_05f9c048-e69e-5c44-3803-869f73748772" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div><div id="sec_4.4"><h2 id="_10ad5865-ccaa-415c-b002-b97e2e00f3fa"><a class="anchor" href="#sec_4.4"></a><a class="header" href="#sec_4.4">3.4  Work Program</a></h2>
+
+<p id="_22c47f93-d1aa-fc8a-4b90-d11356f4a5e9">The SDO shall provide the Work Program content to SCC to be published
+on SCC’s CNS platform.</p><div id="_9c1045d3-6266-b171-4e52-b3945396ab00" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_4.4.1"><h3><a class="anchor" href="#sec_4.4.1"></a><a class="header" href="#sec_4.4.1">3.4.1  Frequency of Publication</a></h3>
+
+<p id="_109466bc-6059-58b3-5ef5-391877fa0b30">The SDO shall publish their Work Program at least once every six months.</p><div id="_4840205a-5e8a-9751-06c7-0b7a5a1d3650" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_4.4.2"><h3><a class="anchor" href="#sec_4.4.2"></a><a class="header" href="#sec_4.4.2">3.4.2  Content</a></h3>
+
+<p id="_2c49e233-02df-e20f-0c36-83f9ae998646">The Work Program shall include:</p>
+
+<div class="ol_wrap"><ol type="a" id="_3e55cc39-ba8d-d37b-a433-77632c737fd8" class="alphabet"><li id="_56064239-ad17-0216-b72e-00815232b1c8"><p id="_3061962f-b3bd-3706-3c3e-378a7cb0c4bc">the standards the SDO is currently preparing;</p>
+</li>
+<li id="_2780a77a-d0f6-ef35-2598-f43424ee5aca"><p id="_b170cc5b-94f8-7a97-fb89-7480d9be8a5c">the standards the SDO has published in the preceding period;</p>
+</li>
+<li id="_fa8df37c-68d4-6e42-61d7-35094f7cd5eb"><p id="_f57d9f4d-c9eb-086d-b116-14599b3429f5">the classification relevant to the subject matter of the standard using the International Classification for Standards,  “ICS” code(s);</p>
+</li>
+<li id="_3a3b1b49-6bf6-ec5d-5dc5-feb43b58e9ab"><p id="_b40c2e69-9bf9-33ac-8050-eb40e9305fec">the development-stage code and start date, based on the ISO International harmonized stage codes;</p>
+</li>
+<li id="_0d644ec9-4cfc-089c-1b1b-384542faf04e"><p id="_0a035b6b-9665-f40c-a1f6-d7263db3c22b">the public review comment period start and end dates; and</p>
+</li>
+<li id="_dec329e5-5ea3-68a3-1101-7c415b9766f5"><p id="_2fbfb37a-e035-5e8c-d925-663c9445d06b">references to any International Standards taken as a basis.</p>
+</li>
+</ol></div>
+
+<p id="_2c12b15a-8009-b20f-8f9c-211be54de64b">The notice shall contain:</p>
+
+<div class="ol_wrap"><ol type="a" id="_1c559892-1ab4-70c1-2083-54b3bfa5b70e" class="alphabet"><li id="_521fa294-020b-1c0e-dc02-470c84b621ef"><p id="_48a34885-e353-7e19-5efc-23b362d6b146">the name and address of the SDO;</p>
+</li>
+<li id="_41045ca4-e2b9-f2b2-b5ff-18a5c382e72e"><p id="_be0ad1ce-0c4e-6a6a-78a6-cd624fb9e1ee">the name and issue of the publication in which the Work Program is published;</p>
+</li>
+<li id="_782ea9c5-c887-9d60-84fd-29cd44fbe3d2"><p id="_8e2fa6d8-29c3-d0fc-9bc7-80166b7d1d91">the period to which the Work Program applies;</p>
+</li>
+<li id="_a7bd76aa-5510-d3be-8787-838e461232d7"><p id="_bfe7d5b9-5656-eb58-b031-b4fe19400267">the price of the publication (if any); and</p>
+</li>
+<li id="_d0452a6b-d614-45c2-6e7e-fab7eae5ea9b"><p id="_88fde335-ae89-5073-cdac-a211f6fee548">how and where the Work Program can be obtained.</p>
+<div id="_f6d25b9a-70bc-965e-f03b-19b90714e1d6" class="Note"><p><span class="note_label">NOTE 1  </span>The Work Program content may be submitted in either of Canada’s official languages.</p></div><div id="_a1bc4d8c-0cd1-5723-6790-624fb4e00b35" class="Note"><p><span class="note_label">NOTE 2  </span>The targeted publication date of standards should be included in the Work Program content.</p></div></li>
+</ol></div>
+
+
+
+
+</div>
+
+<div id="sec_4.4.3"><h3><a class="anchor" href="#sec_4.4.3"></a><a class="header" href="#sec_4.4.3">3.4.3  Availability</a></h3>
+
+<p id="_311ee21d-eb09-0aed-e51a-0d8c4bf233aa">The SDO shall make the Work Program publicly available. The SDO shall
+promptly provide or arrange to provide a copy of its most recent Work
+Program upon request. Any fees charged for this service shall, apart
+from the real costs of delivery, be the same for foreign and domestic
+parties.</p><div id="_09a65083-3c85-381e-1e76-00883a1b9094" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div><div id="sec_4.5"><h2 id="_1c7d4f4f-cc94-4502-8b01-ff06568b99a6"><a class="anchor" href="#sec_4.5"></a><a class="header" href="#sec_4.5">3.5  International/Regional/National Harmonization</a></h2>
+
+<p id="_bbe6d862-e462-4eaf-eed5-72db2f9d7492">When international/regional standards exist or their completion is
+imminent, they, or their relevant parts, shall be used as the basis
+for corresponding standards developed by SDOs. The SDO shall identify
+and create a list of the standards considered.</p><div id="_9bfc2d81-b0af-a1d3-0a4e-16c35ad88a41" class="Note"><p><span class="note_label">NOTE  </span>Except, if the international/regional standard, or relevant parts, are determined to be ineffective or inappropriate; this may include an insufficient level of protection, fundamental climatic, geographical factors or fundamental technological problems.</p></div>
+
+
+</div><div id="sec_4.6"><h2 id="_b0e2d73b-2639-4857-968f-dad0a1faf6e5"><a class="anchor" href="#sec_4.6"></a><a class="header" href="#sec_4.6">3.6  Standards Harmonization With International Community — SDO Participation</a></h2>
+
+<p id="_07d67192-bf05-ff82-7011-b44c088b559a">The SDO shall give priority to participate, within the limits of its
+resources, in the preparation of international and regional standards
+which it expects to develop or adopt.</p><div id="_feed19a5-f0e8-6b82-5fa7-a0a2ff4dc0d3" class="Note"><p><span class="note_label">NOTE  </span>Harmonization of ISO/IEC SCC Mirror Committees with the technical committee of an SDO is done in accordance with SCC’s policy on harmonization.</p></div>
+
+
+</div><div id="sec_4.7"><h2 id="_6040dc07-0854-4681-847d-c063cf1a9d09"><a class="anchor" href="#sec_4.7"></a><a class="header" href="#sec_4.7">3.7  National Adoption of International/Regional Standards and Other Deliverables</a></h2>
+
+<p id="_274988b0-f83f-29dd-509b-5c806efef376">In addition to the R&#x26;G — SDO Accreditation, the SDO shall comply with
+the <i>Requirements &#x26; Guidance — National Adoptions of International/Regional
+Standards and Other Deliverables</i> when adopting an ISO, IEC, or regional
+standard as a NSC.</p><div id="_70597801-29e0-de74-fece-4321cbb75b7b" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_4.8"><h2 id="_29a9c719-394f-47e5-9cd0-bf4d5ab1fe49"><a class="anchor" href="#sec_4.8"></a><a class="header" href="#sec_4.8">3.8  Performance Based Standards</a></h2>
+
+<p id="_dae44b85-c4b4-636f-1e38-6a175043b4a3">The requirements of standards shall be expressed in terms of performance
+rather than design or descriptive characteristics, whenever possible.</p><div id="_e54258b0-6eee-f66a-7f81-cba524cc11fe" class="Note"><p><span class="note_label">NOTE  </span>When an SDO determines that it is not possible to express the requirements in terms of performance, a rationale should be identified.</p></div>
+
+
+</div><div id="sec_4.9"><h2 id="_50eb5959-211a-4ccd-b69c-323b95362b74"><a class="anchor" href="#sec_4.9"></a><a class="header" href="#sec_4.9">3.9  Trade</a></h2>
+
+<p id="_4646a94e-2bf8-6eb7-35be-9fd4dae5c984">The SDO shall ensure that standards developed do not create unnecessary obstacles to international and/or inter-provincial trade.</p>
+
+<p id="_1fb21dcc-b1d6-32ed-5c9d-2e62fa9e01b0">The SDO shall take action to resolve identified impediments or inhibitions
+to trade.</p><div id="_7010aa32-79fc-d2f5-5b42-42d7b490aaed" class="Note"><p><span class="note_label">NOTE 1  </span>Standards should be developed to meet the needs of the marketplace and should contribute to advancing trade in the broadest possible geographical and economic contexts.</p></div><div id="_07170b71-fd3c-f8a8-f882-ec5c70e8e75a" class="Note"><p><span class="note_label">NOTE 2  </span>Standards should not include requirements for third party certification or requirements from authorities having jurisdiction. This type of content may be provided as informative material.</p></div>
+
+
+
+
+</div><div id="sec_4.10"><h2 id="_de739d08-e9f0-4408-acd7-ffd4a13c7aec"><a class="anchor" href="#sec_4.10"></a><a class="header" href="#sec_4.10">3.10  Place of Origin</a></h2>
+
+<p id="_70c0774a-24ef-5955-f5ca-905bc025d0d3">The SDO shall ensure that standards are not developed to discriminate among products on the basis of the place of origin.</p>
+
+<p id="_c3bfca1f-9a6c-00b8-0177-b77c07fd21c0">The SDO shall take action to resolve identified instances of unjustified
+discrimination, and remove the potential for future instances.</p><div id="_5cef49e2-196b-e2f1-4162-b2aa5e8921e8" class="Note"><p><span class="note_label">NOTE  </span>In drafting the requirements of the standard, the SDO should safeguard that the source of the materials for the product of the standard is not prescriptive as to specify one location where they may be obtained.</p></div>
+
+
+</div><div id="sec_4.11"><h2 id="_79e666d8-1246-4a7d-89b8-de75793bc1d9"><a class="anchor" href="#sec_4.11"></a><a class="header" href="#sec_4.11">3.11  Price Fixing</a></h2>
+
+<p id="_fd8c67e1-ffc5-86f5-8b5a-c19a9cf56837">The SDO shall ensure that standards are not developed as a means to
+fix prices, exclude competition, or otherwise inhibit commerce beyond
+what is necessary to meet requirements of relevant technical regulations,
+or other legitimate sectoral or local requirements for compatibility,
+environmental protection, health and safety.</p><div id="_71a21205-666d-b07d-999b-247e8d2a7b52" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_4.12"><h2 id="_0d270bab-f805-4db7-8519-6da71557fded"><a class="anchor" href="#sec_4.12"></a><a class="header" href="#sec_4.12">3.12  Protection Against Misleading Standards</a></h2>
+
+<p id="_912a1c17-fbf1-859b-ba43-b59badc8b039">The SDO shall ensure that the process to develop standards minimizes the possibility that the standards may be used to mislead consumers and other users of a product, process or service addressed by the standard.</p>
+
+<p id="_aa87e3d1-f26d-2d19-db5f-29de153a4a65">The SDO shall take action to resolve identified instances of standards
+being used to mislead.</p><div id="_10efa8da-7cf5-0029-f9f0-da399c2aaa99" class="Note"><p><span class="note_label">NOTE  </span>In drafting the requirements of the standard, the SDO should safeguard that the end product addresses the intended purpose. For example, that it contains current and accurate technical information.</p></div>
+
+
+</div><div id="sec_4.13"><h2 id="_d0b07683-8320-421a-a6a0-16fc45f8be6b"><a class="anchor" href="#sec_4.13"></a><a class="header" href="#sec_4.13">3.13  Patents</a></h2>
+
+<p id="_f0d309eb-cb5b-606e-a536-95595968bc56">The SDO shall have a patent policy that restricts the inclusion of
+patented items in a standard, unless justifiable for technical reasons,
+and the holder of the rights agrees to negotiate licenses.</p><div id="_9370069c-784a-8cfa-a589-bc378efd5e8c" class="Note"><p><span class="note_label">NOTE  </span>For additional guidance refer to the ISO/IEC Directives, Part 1, — <i>Consolidated ISO Supplement — Procedures specific to ISO, 2019</i>, clause 2.14 and Annex I, Reference to patented items.</p></div>
+
+
+</div><div id="sec_4.14"><h2 id="_28431f31-294c-48fa-a73c-58324e1084ca"><a class="anchor" href="#sec_4.14"></a><a class="header" href="#sec_4.14">3.14  References to Certification or Administrative Requirements</a></h2>
+
+<p id="_17ff3f08-a79e-7c81-50ed-1e32bcdb223c">No requirement.</p><div id="_9ee2ffa1-db90-1855-18b4-d8e1b4a57700" class="Note"><p><span class="note_label">NOTE  </span>Administrative requirements relating to conformity assessment, marks of conformity, or other non-technical issues should be presented separately from technical requirements.</p></div>
+
+
+</div><div id="sec_4.15"><h2 id="_0eaffb80-f0a1-4b8d-9c44-3a789a97e09b"><a class="anchor" href="#sec_4.15"></a><a class="header" href="#sec_4.15">3.15  Standards for Conformity Assessment</a></h2>
+
+<p id="_90b27d3a-9d95-5645-8631-eaf90217379a">Standards intended for conformity assessment shall contain a clear statement to that effect in the introductory pages.</p>
+
+<p id="_c6c4b464-d8cb-e206-7de4-5f8dea722d2d">Standards requirements shall be based on requirements that are stated,
+to the extent possible, in measurable terms, and the rationale for
+such requirements shall be provided.</p><div id="_daf911c1-5974-7487-0d49-550b73dcca10" class="Note"><p><span class="note_label">NOTE 1  </span>In this context conformity assessment refers to third party certification.</p></div><div id="_32960ddc-1dbd-dc3b-247f-e19e6eae6de4" class="Note"><p><span class="note_label">NOTE 2  </span>Standards should not include requirements for third party certification or requirements from authorities having jurisdiction. This type of content may be provided as informative material.</p></div>
+
+
+
+
+</div><div id="sec_4.16"><h2 id="_6446f0de-ec2b-47be-82a0-d31b8eba69b3"><a class="anchor" href="#sec_4.16"></a><a class="header" href="#sec_4.16">3.16  Safety Markings</a></h2>
+
+<p id="_d6ebeb9b-1373-abec-6584-462a96826870">When the technical committee requires the inclusion of safety markings
+to address safety issues, the appropriate cautionary text shall be
+provided in both of Canada’s official languages.</p><div id="_7c5c9217-1c71-cec7-c3ba-ff551997c228" class="Note"><p><span class="note_label">NOTE  </span>A safety marking depicting a graphical symbol without supplementary text is acceptable, such as the symbols provided in the International Standards series ISO 3864.</p></div>
+
+
+</div><div id="sec_4.17"><h2 id="_ad917fbb-b03d-4db3-b380-ed7295fc2943"><a class="anchor" href="#sec_4.17"></a><a class="header" href="#sec_4.17">3.17  Conflict of Interest</a></h2>
+
+<p id="_30b0b8d0-ef2c-0f68-1dae-f077f147a1f2">The SDO shall ensure that technical committee members and SDO staff
+involved in standards development have no conflict of interest in
+carrying out their roles and responsibilities on the technical committee.</p><div id="_fe37799c-1ef4-0de1-5940-65af4250a9ae" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_4.18"><h2 id="_e36b3799-768f-429c-94b1-dc1379bd2903"><a class="anchor" href="#sec_4.18"></a><a class="header" href="#sec_4.18">3.18  Declaration of Compliance with Accreditation Requirements</a></h2>
+
+<p id="_9c39adcc-be5d-2cb3-c58b-05c0be90c8e2">The SDO shall include a statement in the introductory pages of a standard
+indicating the standard was developed in compliance with SCC’s R&#x26;Gs
+for SDOs.</p><div id="_b89dea49-4e89-56f9-53e4-f647a4fe730a" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_4.19"><h2 id="_7d96392b-f1c3-4ab3-98e2-4ffae2a5ae98"><a class="anchor" href="#sec_4.19"></a><a class="header" href="#sec_4.19">3.19  Provision of Published Standards</a></h2>
+
+<p id="_feaf5fb1-aef0-e0c5-8426-dd643dfc71f9">Upon publication, the SDO shall submit to SCC electronic copies of
+new standards, new editions, revisions, reaffirmations and the underlying
+metadata.</p><div id="_294cf0e3-2e0c-947f-39f1-f84bde7686ce" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div></div><div id="_7719c97c-1406-6136-11cc-a396d65d863c"><h1 id="_2a9fad1b-7d2d-430e-99a7-719a6f049b1f"><a class="anchor" href="#_7719c97c-1406-6136-11cc-a396d65d863c"></a><a class="header" href="#_7719c97c-1406-6136-11cc-a396d65d863c">4  Structural and Resource Requirements</a></h1><div id="sec_5.1"><h2 id="_dc1fb63f-da07-4551-9b8c-1aebfc22288f"><a class="anchor" href="#sec_5.1"></a><a class="header" href="#sec_5.1">4.1  Canadian Relevance</a></h2>
+
+<p id="_29176b94-43f3-8028-ec8f-bd094293a569">The SDO shall be actively developing and maintaining standards, in a timely manner, and demonstrate a standards interest of relevance to Canada.</p>
+
+<p id="_9b936cdf-2859-733e-8499-7cc90c9c7edd">The SDO shall provide the following evidence to demonstrate Canadian relevance:</p>
+
+<div class="ol_wrap"><ol type="a" id="_4f1b8167-5307-f0ca-64d3-f616fb7d3f38" class="alphabet"><li id="_75da6478-ea1c-f74a-f51d-ba18ea70525d"><p id="_b7482283-27e5-0e16-0cf1-53db536ed0f3">appropriate participation of Canadian experts in technical committees; and</p>
+</li>
+<li id="_ff736f4f-d614-780d-7637-7a1ce3565188"><p id="_b4dc58bd-7e43-8dd4-7901-43e1895eb3fd">facilities in Canada with sufficient resources to meet requirements relevant to its standards development activities.</p>
+<div id="_083e5500-85c3-0878-77a7-ceed420c8dec" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div><div id="sec_5.2"><h2 id="_36b03fa2-06a2-44ac-81b0-1cdb3f4e6256"><a class="anchor" href="#sec_5.2"></a><a class="header" href="#sec_5.2">4.2  Legal Responsibility</a></h2>
+
+<p id="_5d4c9017-3ff3-90d3-ae84-fb2936027deb">The SDO shall be a legal entity, or a defined part of a legal entity,
+such that it can be held legally responsible for all its standards
+development activities.</p><div id="_1a4ed022-b66f-8758-4e6f-f71a181e6422" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_5.3"><h2 id="_56fd6db7-41ea-49b6-bef4-68b0333b9fa2"><a class="anchor" href="#sec_5.3"></a><a class="header" href="#sec_5.3">4.3  Separation of Management Activities</a></h2>
+
+<p id="_60b86a0f-4035-882c-0e15-b451037a8a60">The SDO, if corporately linked to a certification body, quality system registrar or similar activities, shall demonstrate a clear separation of the management and policy-making functions of such activities from those of standards development.</p>
+
+<p id="_4fccb5f0-8ca0-f6b0-fbdb-5514836e1c33">The SDO shall demonstrate compliance by reference to their policy,
+organizational structure and procedural documents.</p><div id="_8ccdb630-28b1-54e3-b071-0db0977b03e7" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_5.4"><h2 id="_383738ac-4da9-42bf-a319-746a5bbe5f31"><a class="anchor" href="#sec_5.4"></a><a class="header" href="#sec_5.4">4.4  Continuity of Operations</a></h2>
+
+<p id="_53e207e8-986c-917f-2017-161628439726">The SDO shall:</p>
+
+<div class="ol_wrap"><ol type="a" id="_f2248c7a-ec08-df8c-15a5-b48134cf28e8" class="alphabet"><li id="_a02022ba-c897-c605-1cbd-febf98a9f188"><p id="_a0144ee2-ddbd-6733-9cc3-445c9e8aef19">have a structure and available resources providing assurance on the stability and continuity of its operations;</p>
+</li>
+<li id="_8f8e774f-0283-971b-eb47-33e378eb926e"><p id="_d46d6a0a-3172-29ef-3429-54e42b772b21">have available information on its future plans regarding the development and maintenance of standards; and</p>
+</li>
+<li id="_000c9eb2-6166-7a93-32c5-0e6ce74f4ff5"><p id="_388874d3-b42a-fb10-f288-f4b49a02eed2">maintain expertise for the development and the maintenance of standards.</p>
+<div id="_c338d247-af0b-e57d-7f91-ad0dd49e157e" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div><div id="sec_5.5"><h2 id="_ccb7e9ab-186b-435b-be9a-3205eee1bcd2"><a class="anchor" href="#sec_5.5"></a><a class="header" href="#sec_5.5">4.5  Staff Competence</a></h2>
+
+<p id="_ef96ad46-8ad8-be27-f944-b7c4bd4f2f00">The SDO shall have sufficient and competent staff to manage its standardization
+program and activities. Staff shall be knowledgeable about standardization,
+including related matters of principles, policies and techniques.</p><div id="_22f536d8-d4f6-461c-5ef8-8aa3b9df8692" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_5.6"><h2 id="_f06f6c91-6e1d-4fc6-bf18-d45aff354b27"><a class="anchor" href="#sec_5.6"></a><a class="header" href="#sec_5.6">4.6  Facilities</a></h2>
+
+<p id="_2c2fa3ed-e05e-b996-cbec-0a50ca5bcb3f">The SDO shall have appropriate facilities in Canada with sufficient
+resources to meet the requirements relevant to its standards development
+activities.</p><div id="_e06afdf5-ea82-2692-5026-bc4a2d1309d8" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_5.7"><h2 id="_89f6d3fd-9bdf-462e-b708-70e19e8e3a08"><a class="anchor" href="#sec_5.7"></a><a class="header" href="#sec_5.7">4.7  Record Keeping</a></h2>
+
+<p id="_96e0c076-00d0-99a0-6b41-0273f0128f4c">The SDO shall prepare and maintain adequate records of its standards
+development activities.</p><div id="_7d79a778-9462-5a72-94c3-96f1122ab8d9" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div></div><div id="_c8044f03-6e17-ace0-17ca-5d7b2360edf2"><h1 id="_893c5243-c827-471b-a7ff-d4ecd9da29fb"><a class="anchor" href="#_c8044f03-6e17-ace0-17ca-5d7b2360edf2"></a><a class="header" href="#_c8044f03-6e17-ace0-17ca-5d7b2360edf2">5  Consensus Requirements</a></h1><div id="sec_6.1"><h2 id="_b7dc8c0d-3ee8-462e-bc01-bb087c718068"><a class="anchor" href="#sec_6.1"></a><a class="header" href="#sec_6.1">5.1  Documented Processes Based on Consensus</a></h2>
+
+<p id="_1ef9912b-d9a1-d91c-6b23-1e42be6a475b">The SDO shall have documented policies and procedures for the development, publication, distribution, and maintenance of its standards. Upon request, copies of policies and procedures shall be available to interested parties in a timely manner.</p>
+
+<p id="_30f63c2d-cf6b-a2ea-928a-32da9362998d">The SDO shall inform SCC when their policies and procedures have been
+changed.</p><div id="_8cdd1d8c-cf04-aa3d-3758-1928748c52eb" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.2"><h2 id="_44c48a28-8d9c-4fe3-9eb7-a5247a55f269"><a class="anchor" href="#sec_6.2"></a><a class="header" href="#sec_6.2">5.2  Proposals for Development of Standards</a></h2>
+
+<p id="_31ed2410-d3c8-1367-95c1-2d92d55f412e">The SDO shall consider proposals for the development of new or revised
+standards following their established procedures and appropriate timelines.</p><div id="_805b5921-f5c3-f3ec-ad0c-6bbdbd9e4c99" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.3"><h2 id="_f759b2a1-5dc5-417c-b68a-c9e04304ae83"><a class="anchor" href="#sec_6.3"></a><a class="header" href="#sec_6.3">5.3  Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests</a></h2>
+
+<p id="_ab7c59a5-f022-b038-58c0-9f54cb886336">The SDO shall ensure that:</p>
+
+<div class="ol_wrap"><ol type="a" id="_7cecc799-f233-8e9b-8342-a36445ee88b2" class="alphabet"><li id="_fc857104-e706-8e09-b4b8-7f8bf5135994"><p id="_a670aec6-a650-0c2e-dbe4-37b765d7e103">participation in standards development is accessible to affected stakeholders; and</p>
+</li>
+<li id="_654006e0-0809-a33a-dbbe-d52ae3faafb4"><p id="_d17e4cba-9fb5-7537-8b26-7c97b470f4f3">there is appropriate Canadian participation on technical committees.</p>
+</li>
+</ol></div>
+
+<p id="_48ddf639-1ef3-50da-df07-1ace9c4a5242">The SDO shall provide evidence of best efforts to address the challenges
+of finding resources for participation.</p><div id="_8b8a2136-7995-e1da-527f-f40e7b1bcb6f" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.4"><h2 id="_28cb8d34-f948-4231-a4e9-0f3cfa320b49"><a class="anchor" href="#sec_6.4"></a><a class="header" href="#sec_6.4">5.4  Balance of Interests</a></h2>
+
+<p id="_21c51de5-3265-dc81-a078-90d80b9c64cf">The SDO shall provide for balanced representation of interest categories in the development of standards. This representation shall reflect the Canadian interest.</p>
+
+<p id="_89d1ef02-9799-741a-bced-9719ddd27d88">When consumer or public interest representation would provide the
+needed balance of interests, the SDO shall identify and make efforts
+to secure support for equal access and effective participation of
+such interests.</p><div id="_0881fd71-7a68-12ef-4ef8-e42ad9b2cd3b" class="Note"><p><span class="note_label">NOTE 1  </span>The commonly used interest categories may include, but are not limited to, general interest, producers, regulators and users.</p></div><div id="_38bf285b-d40b-b20f-6510-be59e994fb1d" class="Note"><p><span class="note_label">NOTE 2  </span>Securing support for consumer or public interest participation does not require the SDO to provide financial support from their operating budgets.</p></div>
+
+
+
+
+</div><div id="sec_6.5"><h2 id="_6666972d-a8ca-44ed-a5d3-b8e304f8777f"><a class="anchor" href="#sec_6.5"></a><a class="header" href="#sec_6.5">5.5  Use of ISONET: International harmonized stage codes and International Classification for Standards</a></h2>
+
+<p id="_681c6381-2b2c-38e7-cfbe-d95dd6304909">The SDO shall adhere to the requirements in the latest version of
+the International harmonized stage codes, and of the ICS codes.</p><div id="_f840555d-9bbf-f0ba-252a-09328e0e45ae" class="Note"><p><span class="note_label">NOTE  </span>For the stage code deliverables see the CSD — POV Annex C.</p></div>
+
+
+</div><div id="sec_6.6"><h2 id="_92524ae2-19d5-438a-9c17-14ff723120ed"><a class="anchor" href="#sec_6.6"></a><a class="header" href="#sec_6.6">5.6  Notification Requirements</a></h2>
+
+<p id="_70b2887d-826f-2c93-7f86-f4ea1f697503">The SDO shall notify the Canadian public at specific stages in the
+development process. These stages shall be completed following their
+established procedures and appropriate timelines.</p><div id="_839c8321-bd03-81b3-87c5-7db419684e08" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_6.6.1"><h3><a class="anchor" href="#sec_6.6.1"></a><a class="header" href="#sec_6.6.1">5.6.1  Notice of Intent (NOI)</a></h3>
+
+<p id="_f6bb16bb-0b9f-b916-3aea-d1291e3158a5">The SDO shall inform the Canadian public by providing their NOIs to the CNS platform when it has taken the decision to develop or adopt a new standard or other deliverable, new edition, revision, amendment, reaffirmation or withdrawal of an already published standard.</p>
+
+<p id="_69cafa08-f387-eeb6-2937-e4449a2c6075">The content of the NOI shall include:</p>
+
+<div class="ol_wrap"><ol type="a" id="_0144bfc9-1d70-23e6-560a-4769f7b02c8c" class="alphabet"><li id="_54e479bd-ca6d-4e5e-1284-1c55ab522396"><p id="_df53af90-e40a-5654-9c5e-d2c52c7e8584">designation number</p>
+</li>
+<li id="_87a35712-0db1-2c6d-a31e-dc6ddf194fd9"><p id="_ac1ee558-92c7-0fd9-6c91-fc4f47d9c1f2">title</p>
+</li>
+<li id="_a70be9bf-fddf-42e5-98b9-564416cb0293"><p id="_de5e5df5-2938-f307-ca3f-5c54e07a59fc">scope</p>
+</li>
+<li id="_25b716fa-24ac-fbf4-97d9-227fc1e0fa9e"><p id="_aaf887a9-0cdc-fe2c-a33f-f597ec57c144">project need</p>
+</li>
+<li id="_87492258-7e11-8890-302b-090d71ed9bd2"><p id="_37f19a8c-69e8-ac44-8f29-d593984b4ef3">contact information of the SDO</p>
+</li>
+<li id="_283454dc-262a-71bf-6ad6-d311df2c92e0"><p id="_8b439326-af27-9055-98e0-44fddc6b2a97">ICS code(s)</p>
+</li>
+</ol></div>
+
+<p id="_8ccd1aa2-8692-860c-648d-28f5e1e0a193">The SDO shall issue a new NOI when International harmonized stage code 10, Proposal stage, has not been met within a maximum timeframe of 12 months.</p>
+
+<p id="_b5554250-4f91-d688-5018-f42c79def3df">The SDO shall update the NOI if there are substantive alterations
+to the scope and title of the originally proposed NOI.</p><div id="_c57be581-7134-fcc3-9425-64cc12b15efd" class="Note"><p><span class="note_label">NOTE  </span>NOIs may be submitted in either of Canada’s official languages.</p></div>
+
+
+</div>
+
+<div id="sec_6.6.2"><h3><a class="anchor" href="#sec_6.6.2"></a><a class="header" href="#sec_6.6.2">5.6.2  Notice of Public Review</a></h3>
+
+<p id="_c99e30a9-9eb8-18bd-4cfe-9e1f8a0ae52e">The SDO shall notify the Canadian public of standards available for public review. The public review shall be a minimum period of 60 calendar days when a draft agreed by the technical committee is available, and shall be completed before final approval of the technical committee.</p>
+
+<p id="_5d43ebc4-28ac-459b-cb93-b8b146bae012">The notice shall include the start and end dates of the review period.</p>
+
+<p id="_4468afcd-89bb-9748-a2f0-d2ee37281029">The notice shall indicate how to obtain a copy of the draft standard. On the request of any interested party the SDO shall promptly provide, or arrange to provide, a copy of the draft standard in question. Any fees charged for this service shall, apart from the real cost of delivery, be the same for foreign and domestic parties.</p>
+
+<p id="_203a2d7d-17f2-370f-5af8-00b546f741df">All comments received, regardless of place of origin, shall be considered
+by the technical committee, and responded to if requested. Such responses
+shall include reasons for deviations from relevant International Standards,
+regional standards, and other deliverables if requested.</p><div id="_f84e2840-3d61-809d-c964-e64cbf5c5b9e" class="Note"><p><span class="note_label">NOTE 1  </span>The minimum period of 60 calendar days may be shortened with appropriate rationale and action to proactively inform affected stakeholders. Appropriate rationale may involve where urgent problems of safety, health or environment arise or threaten to arise.</p></div><div id="_8127bb8a-9fe1-0926-a21a-9bc14ae41054" class="Note"><p><span class="note_label">NOTE 2  </span>As per <a href="#sec_4.2.2"><span class="citesec">3.2.2</span></a>, the SDO has to provide a copy of the draft standard in question in either of Canada’s official languages, as requested by the interested party.</p></div>
+
+
+
+
+
+<div id="sec_6.6.2.1"><h4><a class="anchor" href="#sec_6.6.2.1"></a><a class="header" href="#sec_6.6.2.1">5.6.2.1  Public Review — 45 Days</a></h4>
+
+<p id="_46bda115-ee57-966f-aef6-e0c2b3baa983">The SDO shall determine if a 45-day public review period is appropriate when urgent problems of safety, health or environment arise or threaten to arise.</p>
+
+<p id="_8bf53067-bbb4-a603-e050-6ede54202f35">The SDO shall proactively notify affected stakeholders.</p>
+
+<p id="_12970756-9baa-e715-d826-3af38dfeb355">This notification shall include where the draft standard can be obtained and the public review period start and end dates.</p>
+
+<p id="_e239f58b-b2e8-2fb9-3bcb-04158e479d1b">The draft standard shall be available in an electronic format, deliverable
+within one day of a request.</p><div id="_3e3dd7b4-f3d3-2b08-b6de-6c9ea6baca76" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div>
+
+<div id="sec_6.6.3"><h3><a class="anchor" href="#sec_6.6.3"></a><a class="header" href="#sec_6.6.3">5.6.3  Notice of Completion</a></h3>
+
+<p id="_f8cbeb3c-781e-03b1-882a-0efbb6561f12">The SDO shall notify the Canadian public that a standard has been completed.</p>
+
+<p id="_55137a32-98c7-d469-71b7-3d26029e0b3d">Published standards may be commented on at any time, and such comments
+shall be referred to the responsible technical committee for consideration,
+as appropriate.</p><div id="_128469de-dc90-1aac-f99a-5e9c7cc2a8da" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_6.6.4"><h3><a class="anchor" href="#sec_6.6.4"></a><a class="header" href="#sec_6.6.4">5.6.4  Notice of Withdrawal</a></h3>
+
+<p id="_695b8202-e101-a977-1411-2df37e2bc63f">The SDO shall notify the Canadian public and SCC when it has decided
+to withdraw a standard.</p><div id="_bddc37e7-8c56-525f-ba87-4ddc13a2c7c2" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div><div id="sec_6.7"><h2 id="_bd337346-55e9-491c-9ef7-1ef8322dcdaf"><a class="anchor" href="#sec_6.7"></a><a class="header" href="#sec_6.7">5.7  Technical Committee Approval Process</a></h2>
+
+<p id="_9595881e-e7be-ca2c-aebe-e40ae01d00ed">The approval process shall be based on evidence of consensus reached by the technical committee.</p>
+
+<p id="_195644e8-6e05-8384-7f1c-ecb64de627db">The approval process shall not be used to block or obstruct the promulgation
+of standards.</p><div id="_12bdb65f-2929-2890-0fc5-eeb2a5977c0b" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_6.7.1"><h3><a class="anchor" href="#sec_6.7.1"></a><a class="header" href="#sec_6.7.1">5.7.1  Voting Rules</a></h3>
+
+<div class="ol_wrap"><ol type="a" id="_8e3ec69e-7181-0f64-5389-e6496744e8b2" class="alphabet"><li id="_f3b1f9af-ffbe-531a-dc79-bcd8b83828b8"><p id="_fe530240-bb69-a2c7-7781-0a7395630d5b">More than 50 % (simple majority) of the members who are eligible to vote cast affirmative votes; and</p>
+</li>
+<li id="_815a95b3-52c8-59ef-a387-2046f5889068"><p id="_67afc780-52b9-4714-e044-7112090562f1">A minimum of 2/3 of the votes cast are affirmative.</p>
+<div id="_2ec66919-ec38-3bc9-b066-6fa338472717" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div>
+
+<div id="sec_6.7.2"><h3><a class="anchor" href="#sec_6.7.2"></a><a class="header" href="#sec_6.7.2">5.7.2  Negative votes</a></h3>
+
+<p id="_87cdd56f-ba4a-a6c2-e617-cccbde9d12a8">The SDO shall address negative votes according to its policies and
+procedures. Negative votes without justification, abstentions without
+justification, as well as unreturned and blank ballots, shall be considered
+not cast.</p><div id="_442ebeb0-9721-985c-bc34-824899eeea5e" class="Note"><p><span class="note_label">NOTE  </span>In addressing a negative vote, the technical committee should review the negative vote for technical merit. If accepted, the required adjustment(s) should be made to the applicable requirement(s). If not accepted, rationale should be provided. In either case, the comment provider should be informed of resolution and decision.</p></div>
+
+
+</div>
+</div><div id="sec_6.8"><h2 id="_72a65102-ea88-4a04-a620-b834536de8e4"><a class="anchor" href="#sec_6.8"></a><a class="header" href="#sec_6.8">5.8  Second Level Review</a></h2>
+
+<p id="_92df7723-d491-6fe6-2aed-8e18e6fc6067">The SDO’s procedures shall have at least one level of procedural review
+and approval beyond the final approval by the technical committee.
+The SDO shall retain evidence of the approval of the second level
+review.</p><div id="_bc9936f0-4720-c5c4-dcaf-4e9511800497" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.9"><h2 id="_abb7000e-21ba-4891-b263-50bbf7100f06"><a class="anchor" href="#sec_6.9"></a><a class="header" href="#sec_6.9">5.9  Publication Process</a></h2>
+
+<p id="_e52d0838-7a4c-8a3b-53ad-a0af1945b5b5">Standards shall only be published in compliance with SCC’s R&#x26;Gs for
+SDOs. They shall be published promptly, and be made available under
+reasonable terms and conditions. Any fees charged for this service
+shall, apart from the real costs of delivery, be the same for foreign
+and domestic parties.</p><div id="_9b6196f1-e42e-31f9-b4f5-88e9d94ad279" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.10"><h2 id="_7df6d469-0acc-498e-a069-06f62494f601"><a class="anchor" href="#sec_6.10"></a><a class="header" href="#sec_6.10">5.10  Maintenance of Standards</a></h2>
+
+<p id="_14162ea4-2569-4c59-824f-9cec2796eaef">The SDO shall be responsive to stakeholder needs by keeping all standards current and technically relevant through periodic, continuous or stabilized maintenance.</p>
+
+<p id="_23b340fd-d7fd-f30c-5b27-88c117ddc6f5">The SDO shall establish when it is subject to a technical committee review.</p>
+
+<p id="_062a2b83-ee5f-5166-a674-af24f9b4bf85">The SDO shall initiate and complete the technical committee review
+of each standard within the established timeline.</p><div id="_c45e6e90-cb52-53fb-4dda-eb602b2ad235" class="Note"><p><span class="note_label">NOTE  </span>A review may result in a new edition, revision, reaffirmation or withdrawal of the standard.</p></div>
+
+
+
+<div id="sec_6.10.1"><h3><a class="anchor" href="#sec_6.10.1"></a><a class="header" href="#sec_6.10.1">5.10.1  Periodic Maintenance</a></h3>
+
+<p id="_9ebe2f28-cf34-908b-c921-27ef3dc47a70">Standards shall be kept current and relevant by technical committee
+review of the entire document and the outcome activity completion
+(publication or withdrawal) not to exceed five years from the date
+of publication.</p><div id="_625fe45f-7145-6d3d-c7e2-44f594223e77" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_6.10.2"><h3><a class="anchor" href="#sec_6.10.2"></a><a class="header" href="#sec_6.10.2">5.10.2  Continuous Maintenance</a></h3>
+
+<p id="_075d1a0e-2ac5-082a-15cc-7d4f966969e4">When technical change is required, the SDO shall:</p>
+
+<div class="ol_wrap"><ol type="a" id="_14697ae0-c0fe-61a9-7b31-8bcb6cfc1399" class="alphabet"><li id="_cac32950-1ded-b583-6d27-5cae625f8304"><p id="_4d7deabd-619b-5958-9c49-966a77c9761d">validate technical changes with the technical committee;</p>
+</li>
+<li id="_d1887f32-b6e7-faa9-72b9-4b683d061fdc"><p id="_8fb7e591-b132-ed17-8208-01d849df2fa6">take appropriate action in order to address the issue(s); and</p>
+</li>
+<li id="_65b6a91c-b1c4-3954-a2fe-2bcada21b9f0"><p id="_9a73dca3-1634-c936-167a-c44bd08850cb">notify affected stakeholders/public.</p>
+</li>
+</ol></div>
+
+<p id="_47859ae1-3de4-192a-e62d-d74966eac3b5">In the event that no updates are issued for a period of four years
+from the date of publication, action to update (new edition or revision),
+reaffirm, or withdraw the standard shall be initiated in accordance
+with the SDOs procedures.</p><div id="_fd875edf-32f8-6951-5881-c02126f011bb" class="Note"><p><span class="note_label">NOTE  </span>Standards developed in areas related to health and safety should be kept current under continuous maintenance.</p></div>
+
+
+</div>
+
+<div id="sec_6.10.3"><h3><a class="anchor" href="#sec_6.10.3"></a><a class="header" href="#sec_6.10.3">5.10.3  Stabilized Maintenance</a></h3>
+
+<p id="_37c9b128-c152-7a94-6ab5-5eb3258ff833">A standard under stabilized maintenance shall meet the following:</p>
+
+<div class="ol_wrap"><ol type="a" id="_65358041-cc4a-ee66-748e-c4299eaa6507" class="alphabet"><li id="_a2910e7c-1261-28f9-471e-ca5439cc432b"><p id="_52768bb6-17d0-68cc-ac3b-3b0f22191ab5">addresses mature technology/practices;</p>
+</li>
+<li id="_54ffa269-0b39-ccc7-4a98-eba4bc58faa2"><p id="_da7c942e-a7ad-113b-a0c4-63a35238ce33">is not health or safety related; and</p>
+</li>
+<li id="_e1146a73-c3e6-0608-d4f9-fbf293998bc0"><p id="_eb14af4e-691c-ce8f-df22-fb812c836b3e">is a published standard, reaffirmed at least once.</p>
+<div id="_8ede4032-530e-b701-99da-3f40ac27e060" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div>
+</div><div id="sec_6.11"><h2 id="_98f0f572-cd69-420f-b560-e8a4630e039c"><a class="anchor" href="#sec_6.11"></a><a class="header" href="#sec_6.11">5.11  Maintenance Outcomes</a></h2>
+
+<p id="_82f4b49f-364b-5b75-0d28-9b6717b1b18e">The outcome of the SDO maintenance shall be one of the following sub-clauses.</p><div id="_c4850c03-f6b6-e09a-68c8-6205ea914c43" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_6.11.1"><h3><a class="anchor" href="#sec_6.11.1"></a><a class="header" href="#sec_6.11.1">5.11.1  New Edition</a></h3>
+
+<p id="_9a8ea36a-b9c1-6444-6643-a657ee0515b4">When the SDO develops a new edition of an existing standard, it shall
+comply with SCC’s R&#x26;Gs for SDOs.</p><div id="_8d3baba8-4c42-2353-945e-e07e1dc43043" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_6.11.2"><h3><a class="anchor" href="#sec_6.11.2"></a><a class="header" href="#sec_6.11.2">5.11.2  Revision</a></h3>
+
+<p id="_ba4708de-6487-8f7c-8238-81093b93e07d">When the SDO conducts technical changes, it shall comply with the following:</p>
+
+<div class="ol_wrap"><ol type="a" id="_0c4b20c6-cb14-a488-62c7-349834f03842" class="alphabet"><li id="_87fd7b3f-a27e-454b-56b3-1199b5c1d023"><p id="_279b4ae9-0ae6-f78e-62e7-b4e783ff7db7">Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests,  <a href="#sec_6.3"><span class="citesec">5.3</span></a>;</p>
+</li>
+<li id="_1a50b8b9-96ac-90e2-f125-cd3ecf8881d1"><p id="_516d5f90-b922-f834-b8a5-78aa7a5eb292">Balance of Interests, <a href="#sec_6.4"><span class="citesec">5.4</span></a>;</p>
+</li>
+<li id="_0c91161f-324c-9501-15c1-c2ee145eb83d"><p id="_66e37e0c-f8a0-6b32-0084-5cfee695b780">Availability in Both Official Languages, <a href="#sec_4.2.2"><span class="citesec">3.2.2</span></a>;</p>
+</li>
+<li id="_2cfec415-acdc-63a6-e4b6-e92d28d40c46"><p id="_08a696c0-b53c-688f-82fb-fc228737e2ad">Geographical Representation, <a href="#sec_4.2.3"><span class="citesec">3.2.3</span></a>;</p>
+</li>
+<li id="_fd3aa050-c520-5a92-83d2-a2a0b86c724d"><p id="_1766208a-a49c-472d-e997-222cb5ce7c80">Avoiding Duplication, <a href="#sec_4.3"><span class="citesec">3.3</span></a>;</p>
+</li>
+<li id="_ff1fceec-7fc4-fe20-6de7-545fb93a5a5b"><p id="_26687912-bd76-6783-ce24-958b2fed57d9">Notice of Intent, <a href="#sec_6.6.1"><span class="citesec">5.6.1</span></a>;</p>
+</li>
+<li id="_2cdc19ce-c5fb-00ae-c2b7-0fe070da2d9b"><p id="_c29d17ae-a618-3853-1fa1-51696ec57978">Work Program, <a href="#sec_4.4"><span class="citesec">3.4</span></a>;</p>
+</li>
+<li id="_b47c78fd-bd20-83f3-b05e-a8af31056500"><p id="_04719391-c83b-f791-15a6-8a763d593654">Technical Committee Approval, <a href="#sec_6.7"><span class="citesec">5.7</span></a>;</p>
+</li>
+<li id="_f96b1fcc-150a-8ab0-8503-a54524a7424d"><p id="_0f0184cb-dfc3-5a95-6dc7-21676a6b34f6">Number and Title, <a href="#sec_7.4"><span class="citesec">6.4</span></a>;</p>
+</li>
+<li id="_88c37e82-1cb1-6129-53f3-1876e3d90455"><p id="_4532a7b5-9776-17b0-385e-77d51df19b5d">Front Cover Page, <a href="#sec_7.5"><span class="citesec">6.5</span></a>; and</p>
+</li>
+<li id="_65e98c8c-bfcf-c2ea-db00-bb87e953f149"><p id="_766a5483-25a7-d37b-ff62-a74784561493">Introductory Pages, <a href="#sec_7.6"><span class="citesec">6.6</span></a>.</p>
+<div id="_9f3b597b-dbaf-efe0-73cb-9ab5ac1658ed" class="Note"><p><span class="note_label">NOTE  </span>Note, the term amendment is equivalent to revision.</p></div></li>
+</ol></div>
+
+
+</div>
+
+<div id="sec_6.11.3"><h3><a class="anchor" href="#sec_6.11.3"></a><a class="header" href="#sec_6.11.3">5.11.3  Reaffirmation</a></h3>
+
+<p id="_b9c1e345-4e2e-95c6-5097-7572f6ea34c0">A reaffirmation shall comply with the following:</p>
+
+<div class="ol_wrap"><ol type="a" id="_acbd405d-7d8e-0fa4-787e-cdd020655f28" class="alphabet"><li id="_89793f31-95fd-ede8-6456-d72a219489c1"><p id="_f25c06fd-8838-eb51-c2ae-70e640021e75">Equal Access and Effective Canadian Participation to the Standards Development Process by Concerned Interests,  <a href="#sec_6.3"><span class="citesec">5.3</span></a>;</p>
+</li>
+<li id="_34b5512b-8801-03e4-bed7-1109aaa991e8"><p id="_40ccdc45-902f-0d7c-3613-d9603a555d73">Balance of Interests, <a href="#sec_6.4"><span class="citesec">5.4</span></a>;</p>
+</li>
+<li id="_4962bc28-50b7-0331-db48-a041a9a4d1a9"><p id="_71fc9cf4-2f40-251e-5f51-a12d2475d6db">Availability in Both Official Languages, <a href="#sec_4.2.2"><span class="citesec">3.2.2</span></a>;</p>
+</li>
+<li id="_484e5eda-e343-8a4c-0992-fd008926b078"><p id="_cc3f89cd-ef1c-3d89-2207-4b4ebdec3ce2">Geographical Representation, <a href="#sec_4.2.3"><span class="citesec">3.2.3</span></a>;</p>
+</li>
+<li id="_1722a3e9-d7fc-2250-f18b-9c1b09be2244"><p id="_b6c3e90a-2bca-e446-64a5-91f65e80cfd5">Avoiding Duplication, <a href="#sec_4.3"><span class="citesec">3.3</span></a>;</p>
+</li>
+<li id="_036e6328-7fd2-2e5a-c764-227f4812b24b"><p id="_50d1e1f9-69e3-ad8a-3311-fef3a8653c45">Notice of Intent, <a href="#sec_6.6.1"><span class="citesec">5.6.1</span></a>;</p>
+</li>
+<li id="_91db1fe4-a4ff-ba07-2f30-7ae84c54e38e"><p id="_58bdd9ab-a3eb-5ee7-19ca-ad1ffc5fe4ac">Work Program, <a href="#sec_4.4"><span class="citesec">3.4</span></a>;</p>
+</li>
+<li id="_369e1d64-6f88-5521-a7db-dd238bb9cab3"><p id="_6978ae56-1b81-2694-d195-7af5736e8430">Technical Committee Approval, <a href="#sec_6.7"><span class="citesec">5.7</span></a>;</p>
+</li>
+<li id="_a825a425-d740-7c52-771c-b15bebfad1bb"><p id="_8ae28579-8420-da57-2e21-369de5659a31">Number and Title, <a href="#sec_7.4"><span class="citesec">6.4</span></a>;</p>
+</li>
+<li id="_072a5508-509c-a162-e74d-74bf7f586ccf"><p id="_dd2a2fbc-0f74-fe7f-4784-f0b8cfd9d1c5">Front Cover Page, <a href="#sec_7.5"><span class="citesec">6.5</span></a>; and</p>
+</li>
+<li id="_b0848b96-0591-4df1-2454-770ee5ac817c"><p id="_f579fbd4-5a3e-c1a2-f48d-320e25a0c82a">Introductory Pages, <a href="#sec_7.6"><span class="citesec">6.6</span></a>.</p>
+<div id="_196b9437-2762-8be3-6852-0ba5783b1c89" class="Note"><p><span class="note_label">NOTE 1  </span>Normative content in a standard may include the sections starting at the scope and ending at the last normative annex.</p></div><div id="_cf12df0a-8f59-9409-c428-ec600cd6e94c" class="Note"><p><span class="note_label">NOTE 2  </span>Informative content includes any other sections, such as introductory pages.</p></div><div id="_97498a4d-33ff-75d0-914b-d67879b36628" class="Note"><p><span class="note_label">NOTE 3  </span>The SDO may determine how to conduct the update of the document to be reaffirmed.</p></div></li>
+</ol></div>
+
+
+
+
+
+
+</div>
+
+<div id="sec_6.11.4"><h3><a class="anchor" href="#sec_6.11.4"></a><a class="header" href="#sec_6.11.4">5.11.4  Withdrawal</a></h3>
+
+<p id="_5a316a82-fa8a-b27f-8f6b-59b0d8a6b548">When considering the withdrawal of a standard, the SDO shall consider the impact on Canadian legislation, in particular where a standard may be referenced.</p>
+
+<p id="_6b4ebce8-c524-2162-7154-053173743312">If a withdrawn standard is included in the listings of standards for sale, it shall be clearly identified as withdrawn. If it is sold, the withdrawn status shall be included on the cover of the standard itself.</p>
+
+<p id="_5c78bb65-5716-3e73-158c-73291a6669f3">When a standard fails to meet SCC’s R&#x26;Gs for SDOs, the SDO shall withdraw
+the standard.</p><div id="_9c9f36c2-6bc3-7c42-3a12-ef87c6bf07f8" class="Note"><p><span class="note_label">NOTE  </span>The SDO should notify the impacted government department(s) in a timely manner when a standard referenced in Canadian Legislation is withdrawn.</p></div>
+
+
+</div>
+</div><div id="sec_6.12"><h2 id="_4e166591-233e-4b06-9bcc-fc5e7915cb2b"><a class="anchor" href="#sec_6.12"></a><a class="header" href="#sec_6.12">5.12  International Inquiries on Code of Good Practice</a></h2>
+
+<p id="_51d3b3f7-cfdd-fe7c-d985-b0f009727ac3">The SDO shall address, in a timely manner, inquiries and complaints
+from another SDO that has accepted the WTO/TBT Annex 3 Code of Good
+Practice for the Preparation, Adoption and Application of Standards.</p><div id="_2b12c661-7d6a-61de-f9a7-994721a04e58" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.13"><h2 id="_382d73a4-7564-482b-99df-c49bd32472e5"><a class="anchor" href="#sec_6.13"></a><a class="header" href="#sec_6.13">5.13  Information Requests</a></h2>
+
+<p id="_98fa95f9-1047-bf0b-3050-79ca4b988ae0">The SDO shall provide standards development-related information on
+request, within the limits of applicable privacy legislation.</p><div id="_0cbe5424-68f0-217b-e149-96e938d937b8" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_6.14"><h2 id="_2fa2432a-bfd1-45de-a02d-20f002eecbeb"><a class="anchor" href="#sec_6.14"></a><a class="header" href="#sec_6.14">5.14  Complaints and Appeals Mechanism</a></h2>
+
+<p id="_782abbcf-c291-6359-a187-5c1ff984d877">The SDO shall have documented procedures for dealing with complaints and appeals.</p>
+
+<p id="_7467c6f7-3e76-3fbe-8551-0cd086f9e1b1">These procedures shall:</p>
+
+<div class="ol_wrap"><ol type="a" id="_657e8b30-c11f-2f24-2fbd-eff742e8d5af" class="alphabet"><li id="_77cb0de0-f8da-8dd6-54c3-ea48a21e7838"><p id="_126dd601-9840-9ee3-5a80-815d41bae1e6">provide impartial treatment;</p>
+</li>
+<li id="_ffb2b916-8861-1d80-e491-eb1999965fe4"><p id="_67610163-0312-c4e3-a9b1-3513092152dc">deal with complaints and appeals promptly;</p>
+</li>
+<li id="_0ea0b275-f0d6-8949-0cb0-1613a8b8fece"><p id="_e48ff341-ed45-1972-0820-3ba4eaced3dd">provide accessibility to the process; and</p>
+</li>
+<li id="_d56f60a3-7a88-ba94-311c-b800e53e94ac"><p id="_c01c0779-a71a-6227-e325-619ac7cc3378">identify SCC’s role in the appeal process.</p>
+<div id="_b29b5713-58d3-4f1e-14e8-5baff61693e5" class="Note"><p><span class="note_label">NOTE 1  </span>Complaints may be either of a technical or procedural nature.</p></div><div id="_b5df864b-794a-5bde-9b0a-3bc91b7f5a3a" class="Note"><p><span class="note_label">NOTE 2  </span>An appeal against the final SDO decision may be escalated by registering an official complaint following the process described in  <i>SCC’s Accreditation Services — Accreditation Program Overview</i> document.</p></div></li>
+</ol></div>
+
+
+
+
+</div><div id="sec_6.15"><h2 id="_2b4302a5-9a24-497a-b6fa-53209228122b"><a class="anchor" href="#sec_6.15"></a><a class="header" href="#sec_6.15">5.15  Notification of Suits or Claims</a></h2>
+
+<p id="_330b2ea1-ce8e-bffb-5180-83906368614c">The SDO shall promptly notify SCC of any suit or claim made against
+the SDO arising from a standard designated as an NSC, and provide
+periodic updates to SCC of the status of any such suit or claim.</p><div id="_b4590f0d-2256-b0dc-399b-5699101a17ab" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div></div><div id="_a14e363b-3ae5-def1-232a-6515bbf6ede2"><h1 id="_144d1780-574a-435f-904f-07164abd7e3f"><a class="anchor" href="#_a14e363b-3ae5-def1-232a-6515bbf6ede2"></a><a class="header" href="#_a14e363b-3ae5-def1-232a-6515bbf6ede2">6  Format Requirements</a></h1><div id="sec_7.1"><h2 id="_4fd5fb33-2673-4428-bfc6-95e51154cc6d"><a class="anchor" href="#sec_7.1"></a><a class="header" href="#sec_7.1">6.1  Normative Content</a></h2>
+
+<p id="_bbcec464-7dc0-c8d1-bd18-1f5436516055">The normative section of the standard shall include the scope, normative
+references, technical requirements, and if applicable, normative annexes,
+and terms and definitions. If annexes are included they shall be identified
+“normative” or  “informative”.</p><div id="_90eac187-ff7e-edf0-c4b6-a094b2d5d4b1" class="Note"><p><span class="note_label">NOTE  </span>The informative content may include, but is not limited to, foreword, preface, introduction and informative annexes.</p></div>
+
+
+</div><div id="sec_7.2"><h2 id="_1e2e2d67-6bd4-434c-a703-9c32b0566a26"><a class="anchor" href="#sec_7.2"></a><a class="header" href="#sec_7.2">6.2  Units of Measurement</a></h2>
+
+<p id="_3fdf12a1-478e-0104-0b02-13527d44de61">The SDO shall include in the standard the international system of units (SI), and if applicable, equivalent Imperial/U.S. units or other units of measurement.</p>
+
+<p id="_e2e276cc-53ce-644c-8a57-4be69bae67a8">ISO 80000 series of standards shall be used to ensure clear and concise application of SI units, including conversions to and from other systems of measurement.</p>
+
+<p id="_7fcd9747-7380-b30a-77ec-88e57666ce23">It is the responsibility of the user of the standard to determine
+the unit of measurement appropriate for the user’s needs.</p><div id="_bc9d0147-b803-4908-38b9-42f03e85c2b4" class="Note"><p><span class="note_label">NOTE 1  </span>Conversions expressed in the standard should be approved by the technical committee.</p></div><div id="_913fac22-6e4a-d1d0-edf8-796b341fba0c" class="Note"><p><span class="note_label">NOTE 2  </span>When no SI unit equivalent exists, such as trade sizes used in Canada, the trade size unit may be used.</p></div>
+
+
+
+
+</div><div id="sec_7.3"><h2 id="_09d6a1e5-0730-4d87-80c8-51eaf5b4685b"><a class="anchor" href="#sec_7.3"></a><a class="header" href="#sec_7.3">6.3  Date and Time</a></h2>
+
+<p id="_d78de7a9-ace1-5dfa-3137-137c5dab0dcf">All-numeric date and time units shall comply with ISO 8601.</p><div id="_b41aab59-dfba-145f-f4b2-340febb30d76" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_7.4"><h2 id="_12f24c38-e321-49b8-b00f-f5d35af8d70f"><a class="anchor" href="#sec_7.4"></a><a class="header" href="#sec_7.4">6.4  Number and Title</a></h2>
+
+<p id="_3a122c3e-6a56-71f9-81bd-aed4cfb1e403">The SDO shall use the  “CAN” descriptor preceding the standard designation,
+based on the identified strategic need in <a href="#sec_4.2.1"><span class="citesec">3.2.1</span></a>.</p><div id="_39f326b0-303f-343d-b9ec-9d27741227d9" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_7.5"><h2 id="_7f649d48-2b61-4c23-9e9c-cc2f2557e8ff"><a class="anchor" href="#sec_7.5"></a><a class="header" href="#sec_7.5">6.5  Front Cover Page</a></h2>
+
+<p id="_a672f743-0eb9-c2fd-fbaa-1cfbae16248b">The following items shall be included on the front cover page of the NSC:</p>
+
+<div class="ol_wrap"><ol type="a" id="_4e040e65-e309-add3-a377-45f0c2a76415" class="alphabet"><li id="_9f8c1620-3ebd-70d9-f06e-be357802a303"><p id="_3720b53d-cc03-4243-231f-5dabe6d04252">The bilingual SCC logo, placed with other organizational logos, if any, or at the bottom of the page; and</p>
+</li>
+<li id="_688602d9-7cab-d199-b5c3-f895e2adbba7"><p id="_85be1f07-d21a-dbd6-d40c-01ec34c277d5">The bilingual National Standard of Canada Symbol (NSC Symbol) placed with other identifying symbols, if any, or near the top of the page.</p>
+<div id="_89d76efa-9cf3-4a99-6f7c-fb277c4561ba" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div><div id="sec_7.6"><h2 id="_e22ac2fe-3002-40ed-be00-7d0ba76cfec7"><a class="anchor" href="#sec_7.6"></a><a class="header" href="#sec_7.6">6.6  Introductory Pages</a></h2>
+
+<p id="_872ab4e5-2f76-9825-6953-06d751f28d39">The NSC shall have introductory pages with the following content in the language(s) appropriate to the standard:</p>
+
+<div class="ol_wrap"><ol type="a" id="_5956a5f1-eee1-e0b5-3892-8cfeae72703e" class="alphabet"><li id="_6ba4b583-f0ca-1f99-d371-29dda7400d41"><p id="_28a74213-37a5-a953-ce4c-9353f308950f">the established timeline for review of the standard;</p>
+</li>
+<li id="_325120e5-4dbe-4743-9239-badfc9e4432d"><p id="_2b382641-4db8-d243-a9e7-23505e988db3">SCC foreword (CSD — POV, Annex A);</p>
+</li>
+<li id="_d315c91c-e0eb-d2cd-5040-29050fa7fe0d"><p id="_eab778d7-ae4a-6272-4e38-99af3a3852c1">statement indicating the standard was developed in compliance with SCC’s R&#x26;Gs for SDOs;</p>
+</li>
+<li id="_1606e8af-c704-9913-fa3f-a14aff4d5e71"><p id="_e276d1dd-1bd9-9d95-1e31-c395534883d5">the names of the technical committee members or the number of technical committee members representing the interest categories described in the R&#x26;G —SDO Accreditation, clause 6.4;</p>
+</li>
+<li id="_a1562513-c4a8-4fee-a908-cfb070108d06"><p id="_42c86dc9-d4d0-88cb-1656-ace4d3608f6e">statement of availability of the NSC, English text in the French version, French text in the English version (CSD — POV, Annex B);</p>
+</li>
+<li id="_380a971b-0c99-5c7c-37aa-da290d06c69f"><p id="_6bfa9c3b-eb78-5555-0570-8c5c0fcf5207">statement indicating it is the responsibility of the user of the standard to judge the suitability of the NSC for the user’s purpose; and</p>
+</li>
+<li id="_84c92b51-a9d4-a905-7bfd-1327c554c921"><p id="_aab24dd6-1b82-16fa-dd10-ff5bf87b09fe">ICS code(s).</p>
+<div id="_a2922845-2f3b-9796-7f28-69223c53076d" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div></div><div id="_2cf5910d-4cd0-70ae-61a1-63436f2e71cd"><h1 id="_e1590d70-d7db-4635-977b-bcd0b24edb48"><a class="anchor" href="#_2cf5910d-4cd0-70ae-61a1-63436f2e71cd"></a><a class="header" href="#_2cf5910d-4cd0-70ae-61a1-63436f2e71cd">7  Maintenance of Accreditation</a></h1><div id="sec_8.1"><h2 id="_267bfb2b-3705-4835-8645-d1859a235971"><a class="anchor" href="#sec_8.1"></a><a class="header" href="#sec_8.1">7.1  Maintenance of Accreditation</a></h2>
+
+<p id="_80793678-70c6-f36a-ed26-9110647452a7">In order to maintain accreditation by SCC, an SDO shall continue to maintain procedures complying with the Requirements &#x26; Guidance for SDOs for the publication and withdrawal of standards contained herein.</p>
+
+<p id="_f5110a39-77e0-7fe2-221d-b8d18f0a9ed1">If an SDO does not maintain one or more approved NSCs within the accreditation
+cycle, the SDO shall submit written justification from the head of
+the SDO at the reaccreditation as to why they have not submitted any
+NSCs to SCC for approval and why their accreditation remains relevant.</p><div id="_50b6982e-2adc-9ba0-8bf0-5ad883509a77" class="Note"><p><span class="note_label">NOTE  </span>If written justification is not provided or is otherwise unsatisfactory, the Accreditation Services Branch may suspend or withdraw the accreditation.</p></div>
+
+
+</div><div id="sec_8.2"><h2 id="_1a7b8eeb-0650-483d-ba4b-00fe09bc8ef6"><a class="anchor" href="#sec_8.2"></a><a class="header" href="#sec_8.2">7.2  Assessments</a></h2>
+
+<p id="_708970db-abf4-849a-b580-2acd73341023">SCC’s Accreditation Services Branch shall arrange for assessments
+of accredited SDOs at selected intervals or due to special circumstances
+to confirm adherence to the Requirements &#x26; Guidance for SDOs and to
+confirm that the procedures and practices of the accredited SDO continue
+to be consistent with those which formed the basis for accreditation.</p><div id="_9a465731-a6f2-08f4-8616-06169b00b913" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div><div id="sec_8.3"><h2 id="_90eb9895-7b99-4f3a-8d9c-180df4514518"><a class="anchor" href="#sec_8.3"></a><a class="header" href="#sec_8.3">7.3  SCC Requirements Updates</a></h2>
+
+<p id="_50d9ef86-8c57-2c79-bd91-d1d8375dd25e">SDOs shall submit to a regular assessment in accordance with the Accreditation
+Policy and SDO Accreditation Agreement. When SCC issues revised or
+additional Requirements &#x26; Guidance for SDOs, the accredited SDO shall
+comply with them within a reasonable time period designated by the
+SCC’s Accreditation Services Branch in order to maintain accreditation.</p><div id="_47ef77d9-14a9-4547-0f73-ff0c75b73bf9" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div></div><div id="_f320a9fc-8119-e64b-49d2-b7afaedf6ae0"><h1 id="_83f6f40c-bbcd-4fa3-8276-1e49c5ac3719"><a class="anchor" href="#_f320a9fc-8119-e64b-49d2-b7afaedf6ae0"></a><a class="header" href="#_f320a9fc-8119-e64b-49d2-b7afaedf6ae0">8  Self-Declaration</a></h1><div id="sec_9.1"><h2 id="_9bd4e45b-b2af-421a-9a0b-3dd34ef8bea2"><a class="anchor" href="#sec_9.1"></a><a class="header" href="#sec_9.1">8.1  Eligibility for Self-Declaration Status</a></h2>
+
+<p id="_185c033c-76d7-1f6b-88ee-d915d61426f4">Before an SCC-accredited SDO can be considered for self-declaration status, the organization shall:</p>
+
+<div class="ol_wrap"><ol type="a" id="_87243803-2c59-43b0-cc13-e11a28bbf250" class="alphabet"><li id="_7f14a15e-5ed8-e33d-f4ce-3195bb35b6c6"><p id="_56a53b4c-380d-4917-74ec-beee6821a52c">Complete an application for self-declaration and submit it to SCC with associated fee;</p>
+</li>
+<li id="_81a968a2-c93e-28e9-9279-46f8c2f9eeb0"><p id="_34e99a6b-c28d-a6b2-4834-783e46255211">Have participated in accreditation assessments for a minimum of one accreditation cycle (3 years) before applying; and</p>
+</li>
+<li id="_1be95ac5-9004-4a05-bb60-fb73dcbe25ff"><p id="_8f4fc317-443d-76f4-2ddd-5df2953f7474">The SDO has been assessed within the last 12 months.</p>
+<div id="_4191a2fb-f214-5756-7ee5-592bca803979" class="Note"><p><span class="note_label">NOTE  </span>Self-declaration status is voluntary and dependent on an SDO achieving the criteria outlined in  <a href="#sec_9.2"><span class="citesec">8.2</span></a>.</p></div></li>
+</ol></div>
+
+
+</div><div id="sec_9.2"><h2 id="_735cc549-334f-4fc7-8de5-0e33ae82709a"><a class="anchor" href="#sec_9.2"></a><a class="header" href="#sec_9.2">8.2  Criteria for Approval of SDO Self-Declaration Status</a></h2>
+
+<p id="_1f891240-5b28-b78d-0232-adaab5a58192">The following shall be satisfied by the SDO:</p><div id="_b6572d32-88b0-518a-9bfa-f053ed897290" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+
+<div id="sec_9.2.1"><span class="zzMoveToFollowing inline-header"><b>8.2.1  </b></span><p id="_4d37b83b-77fe-7014-118b-564deba115a7">SCC has approved at least five distinct standards as NSCs.</p><div id="_1c9a6c6b-03bf-38ab-9cae-098e72a0727f" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_9.2.2"><span class="zzMoveToFollowing inline-header"><b>8.2.2  </b></span><p id="_629165a1-071e-18d7-248a-be6932b2ce5d">The NSCs shall be representative of the SDOs scope of work.</p><div id="_9f3be965-041f-3a7e-1ea2-ad9c66a2f7b8" class="Note"><p><span class="note_label">NOTE  </span>The five distinct standards should be representative of the technical work areas where the SDO normally conducts its standards development.</p></div>
+
+
+</div>
+
+<div id="sec_9.2.3"><span class="zzMoveToFollowing inline-header"><b>8.2.3  </b></span><p id="_f609e3fa-267d-636a-3590-76526e2f5d6e">No standard submitted by the SDO during the three year period was
+denied the NSC designation by SCC, due to a failure to comply with
+the Requirements &#x26; Guidance for SDOs.</p><div id="_2f6d0b7a-2eff-e312-d6cf-6f50d31981a5" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_9.2.4"><span class="zzMoveToFollowing inline-header"><b>8.2.4  </b></span><p id="_3dda290f-6287-f83f-de36-90952dcd0904">The SDO is not in arrears with respect to any fees invoiced.</p><div id="_78cc7754-00c3-4b38-23d9-e348fa860e52" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_9.2.5"><span class="zzMoveToFollowing inline-header"><b>8.2.5  </b></span><p id="_24e1ac70-8fc6-fa2c-8fe0-76ccb1bcc22f">The SDO does not have any open non-conformities from the last assessment
+activity.</p><div id="_af125f56-501c-e37c-a37f-124c42c91c41" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+
+<div id="sec_9.2.6"><span class="zzMoveToFollowing inline-header"><b>8.2.6  </b></span><p id="_a05800e0-bcc8-8d15-0151-d6363b626b39">The SDO does not have any open complaint (whether expressed as a
+complaint or appeal) against any NSC.</p><div id="_87a90808-6434-887d-5346-6721b1806980" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div><div id="sec_9.3"><h2 id="_f9539148-b023-4f33-902c-557a105f2fe9"><a class="anchor" href="#sec_9.3"></a><a class="header" href="#sec_9.3">8.3  Maintenance of Self-Declaration Status</a></h2>
+
+<div id="_e5a8fa62-f832-e73a-4d1b-ebe09be12d22" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+<div id="sec_9.3.1"><h3><a class="anchor" href="#sec_9.3.1"></a><a class="header" href="#sec_9.3.1">8.3.1  Self-Declaration Agreement</a></h3>
+
+<p id="_5eaf6a89-7a26-24fa-5aae-7443e8e12899">Upon decision to grant self-declaration status, the SDO shall enter into a written agreement with SCC, which shall include commitments by the SDO to meet the requirements listed in the sub-clause below:</p>
+
+<div class="ol_wrap"><ol type="a" id="_22f8f7ee-e230-4afd-8707-6b052be2ec25" class="alphabet"><li id="_8b23bbec-40e8-c9d7-d0f6-517c1d97913a"><p id="_f415c63d-c659-d2ae-6f7c-17d6d99d43b3">The agreement shall be for a term aligned with the accreditation cycle; and</p>
+</li>
+<li id="_2140e7a0-8063-f0c9-7a93-098de0734732"><p id="_68199fce-2f1d-89d9-cab7-9533f3cac42f">Any additional terms included in the agreement may be modified as circumstances require with prior approval of SCC and the SDO (as long as such additional term(s) do not conflict with any of SCC’s existing policies and procedures).</p>
+<div id="_d291c69f-6f80-cfbb-0d6b-0e463164d9c7" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div></li>
+</ol></div>
+
+
+</div>
+</div><div id="sec_9.4"><h2 id="_478e79ff-d649-415c-a5bd-9fa2bdb04d48"><a class="anchor" href="#sec_9.4"></a><a class="header" href="#sec_9.4">8.4  Suspension of Self-Declaration Status</a></h2>
+
+<div id="_57c4c25f-9d7c-a37a-dc48-3247864160d0" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+<div id="sec_9.4.1"><span class="zzMoveToFollowing inline-header"><b>8.4.1  </b></span><p id="_3d0b1727-ce6e-675e-9f35-51b8f8057f0d">The SDO shall immediately cease to apply the NSC designation to
+any standard without obtaining SCC approval after the SDO has been
+notified by SCC that its self-declaration status has been suspended
+and/or withdrawn.</p><div id="_22e7fec5-f5ee-ea85-6acc-29687a5ed3a5" class="Note"><p><span class="note_label">NOTE  </span>No guidance.</p></div>
+
+
+</div>
+</div></div><aside id="fn:_9546dc35-8be5-b702-93df-2776e1f1d228" class="footnote"><p><a class="FootnoteRef" href="#fn:_9546dc35-8be5-b702-93df-2776e1f1d228"><sup>1)</sup></a>Withdrawn.</p><a href="#fnref:1">↩</a></aside><aside id="fn:_8f072c00-9315-0eab-e6a7-2aad4944d511" class="footnote"><p><a class="FootnoteRef" href="#fn:_8f072c00-9315-0eab-e6a7-2aad4944d511"><sup>2)</sup></a>Withdrawn.</p><a href="#fnref:2">↩</a></aside><aside id="fn:_072f25b1-b633-4218-cdfb-e995e4142cc4" class="footnote"><p><a class="FootnoteRef" href="#fn:_072f25b1-b633-4218-cdfb-e995e4142cc4"><sup>3)</sup></a>Withdrawn.</p><a href="#fnref:3">↩</a></aside></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      if(!jqNav.length || !jqToggle.length) {
+        return;
+      }
+
+      const navWidthExpanded = jqNav.outerWidth();
+      const bodyPaddingLeftExpanded =
+        parseFloat(jqBody.css('paddingLeft')) > 0 ?
+          jqBody.css('paddingLeft') : navWidthExpanded + 'px';
+      const expandedToggleLeft = navWidthExpanded + 'px';
+      let bandWidth = 0;
+
+      $('.document-stage-band:visible, .document-type-band:visible')
+        .each(function() {
+          const bounds = this.getBoundingClientRect();
+          bandWidth = Math.max(bandWidth, bounds.right);
+        });
+
+      const toggleWidth = jqToggle.outerWidth();
+      const collapsedToggleLeft = bandWidth + 'px';
+      const collapsedBodyPaddingLeft = bandWidth + toggleWidth + 'px';
+      jqToggle.css({
+        'left': jqNav.is(':visible') ? expandedToggleLeft : collapsedToggleLeft,
+        'top': '0px'
+      });
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const navLeft = isNavVisible ? '-' + navWidthExpanded + 'px' : '0px';
+        const bodyPaddingLeft =
+          isNavVisible ? collapsedBodyPaddingLeft : bodyPaddingLeftExpanded;
+        const toggleLeft =
+          isNavVisible ? collapsedToggleLeft : expandedToggleLeft;
+
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+        jqToggle.stop(true, true);
+
+        if(!isNavVisible) {
+          jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'paddingLeft': bodyPaddingLeft}, animationSpeed);
+        jqToggle.animate({'left': toggleLeft}, animationSpeed);
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div ></div>", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<script>
+$(".collapse-button").click(function () {
+$(this).toggleClass('expand'); // expand: the class to change the collapse button shape
+// collapse: the class to collapse/expand the li elements with the h2 class
+$(this).closest('li').children(".content").toggleClass('collapse');})
+</script>
+</body></html>
